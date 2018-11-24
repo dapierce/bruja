@@ -9,5 +9,17 @@ module.exports = {
         pathToConfigModule: `src/utils/typography.js`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Bruja Hair Salon",
+        short_name: "Bruja Salon",
+        start_url: "/",
+        background_color: "#000000",
+        theme_color: "#ffee8e",
+        display: "minimal-ui",
+        icon: "src/images/icon.png", // This path is relative to the root of the site.
+      },
+    },
   ]
 }

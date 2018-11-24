@@ -29,7 +29,7 @@ a {
   text-shadow: none !important;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 header li {
