@@ -1,6 +1,5 @@
 import React from "react"
 
-import HomeSwiper from "../components/homeSwiper"
 import Profile from "../components/profile"
 import Fundraiser from "../components/fundraiser"
 

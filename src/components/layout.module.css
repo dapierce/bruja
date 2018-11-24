@@ -26,7 +26,7 @@ p {
 a {
   background-image: none;
   text-decoration: none;
-  text-shadow: none;
+  text-shadow: none !important;
 }
 a:hover {
   text-decoration: underline;

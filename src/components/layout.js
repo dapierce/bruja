@@ -51,8 +51,8 @@ export default ({ children }) => (
       </div>
       <div style={{ gridColumn: `4` }}>
         <p>206-555-5555</p>
-        <p>311 Bruja Ave<br/>
-        Seattle, WA 98102</p>
+        <p>511 N 85th St<br/>
+        Seattle, WA 98103</p>
         <p>witch@brujasalon.com</p>
       </div>
       <div>
