@@ -1,7 +1,5 @@
 import React from "react"
 
-import Testimonial from "../components/testimonial"
-
 import Layout from "../components/layout"
 
 export default () => (
@@ -20,7 +18,6 @@ export default () => (
         <p>Services provided.</p>
         <a href="/">Schedule an appointment with Tisha</a><a href="/">Portfolio</a>
       </div>
-      <Testimonial/>
     </div>
   </Layout>
 )

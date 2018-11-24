@@ -1,10 +1,55 @@
 .profileContainer {
   display: grid;
-  margin: 40px;
-  padding: 40px
+  grid-template-columns: 25% 55%;
+  grid-column-gap: 5vw;
+  margin: 5vw;
+  padding: 5vw;
+}
+
+.name {
+  text-align: right;
 }
 
 .profileImg {
   max-height: 25vw;
   border-radius: 50%;
+}
+
+ul {
+  margin: 40px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0 2vw 0 0;
+  padding: 0;
+  display: inline;
+}
+
+.button {
+  background: var(--color-gold);
+  border: 1px solid rgba(255, 255, 255, 0.0);
+  border-radius: .6em;
+  padding: .6em;
+  white-space: nowrap;
+}
+.button:hover {
+  text-decoration: none;
+  border-color: var(--color-gold);
+  background-color: rgba(255, 255, 255, 0.0);
+  color: var(--color-off-black);
+  transition: all .2s
+}
+
+@media (max-width: 900px) {
+  .profileContainer {
+    display: grid;
+    grid-template-columns: 25% 68%;
+    grid-column-gap: 5vw;
+    margin: 5vw 2vw;
+    padding: 5vw 2vw;
+  }
+  
+
 }

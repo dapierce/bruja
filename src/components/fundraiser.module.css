@@ -1,0 +1,19 @@
+.container {
+  background: url("./img/bottles.jpg") no-repeat left center;
+  min-height: calc(60vh);
+}
+
+.header {
+  display: inline-block;
+  margin: 20px 0 20px 40%;
+  background: var(--color-off-white);
+  color: #333;
+  padding: 10px 60px;
+}
+
+.copy {
+  background: var(--color-off-white);
+  margin: 20px 0 0 45%;
+  padding: 2vw;
+  width: 40%;
+}

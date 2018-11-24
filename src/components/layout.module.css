@@ -39,6 +39,7 @@ header li {
 header, footer {
   background: var(--color-off-black);
   color: var(--color-gold);
+  transition: .2s all;
 }
 header a, footer a {
   color: var(--color-gold);
@@ -107,7 +108,7 @@ footer, footer table {
   text-transform: uppercase;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 900px) {
   
   body, footer, footer table {
     font-size: 1.2rem;

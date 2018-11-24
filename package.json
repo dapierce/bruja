@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
+  "name": "bruja-gatsby",
+  "description": "Bruja Salon",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
