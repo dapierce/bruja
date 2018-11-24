@@ -1,0 +1,10 @@
+.profileContainer {
+  display: grid;
+  margin: 40px;
+  padding: 40px
+}
+
+.profileImg {
+  max-height: 25vw;
+  border-radius: 50%;
+}

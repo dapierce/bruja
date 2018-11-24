@@ -1,0 +1,140 @@
+/* Color variables */
+:root {
+  --color-gold: #ffee8e;
+  --color-off-white: #efefef;
+  --color-off-black: #000;
+
+  --button-normal-color: rgba(255, 255, 255, 0.0);
+  --button-normal-border: rgba(255, 255, 255, 0.7);
+  --button-hover-color: rgba(255, 255, 255, 0.3);
+  --button-hover-border: rgba(255, 255, 255, 1);
+  --button-active-color: rgba(255, 255, 255, 0.7);
+  --button-active-border: rgba(255, 255, 255, 1);
+}
+html{
+  font-size: 100%;
+}
+
+body {
+  background-color: var(--color-off-white);
+  color: var(--color-off-black);
+  margin: 0;
+}
+p {
+  margin: 0 0 20px 0;
+}
+a {
+  background-image: none;
+  text-decoration: none;
+  text-shadow: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+header li {
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+header, footer {
+  background: var(--color-off-black);
+  color: var(--color-gold);
+}
+header a, footer a {
+  color: var(--color-gold);
+}
+
+footer {
+  padding: 2vw 0 0 2vw;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+footer table {
+  width: auto;
+}
+footer table, footer td {
+  margin: 0;
+  padding: 0 1rem 0 0;
+}
+
+.title {
+  margin: 8px;
+  height: 60px;
+  padding: 0 0 0 20px;
+  transition: .2s all;
+}
+
+.button {
+  background: rgba(255, 255, 255, 0.0);
+  border: 1px solid var(--color-gold);
+  border-radius: .6em;
+  padding: .6em;
+  white-space: nowrap;
+}
+.button:hover {
+  text-decoration: none;
+  background-color: var(--color-gold);
+  color: var(--color-off-black);
+  transition: all .2s
+}
+.hours {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.address {
+  grid-column: 4;
+}
+.map {
+  margin-top: -2vw;
+  margin-bottom: 0;
+}
+.sitemap {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* typography */
+
+footer, footer table {
+  font-size: .9rem;
+}
+
+.sitemap {
+  font-size: .8rem;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1500px) {
+  
+  body, footer, footer table {
+    font-size: 1.2rem;
+  }
+  .sitemap {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .title {
+    clip-path: inset(0 60px 0 0);
+    height: 40px;
+  }
+  header li {
+    padding: 0;
+  }
+
+  footer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .hours {
+    grid-row: 1;
+  }
+  .address {
+    grid-row: 3;
+  }
+  
+
+}
