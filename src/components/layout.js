@@ -1,6 +1,10 @@
-import React from "react"
+import React from "react";
 
-import { Link } from "gatsby"
+import { Link } from "gatsby";
+
+import layoutStyles from "./layout.module.css";
+import logoPic from "./img/logo.png";
+import mapPic from "./img/map.png";
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -9,54 +13,58 @@ const ListLink = props => (
 )
 
 export default ({ children }) => (
-  <div style={{ display: `grid`, margin: `0 auto`, maxWidth: 650, padding: `0 1rem` }}>
-    <header style={{ marginBottom: `1.5rem` }}>
+  <div className={layoutStyles.layout} style={{ margin: `0`, padding: `0` }}>
+    <header style={{ display: `grid`, gridAutoColumns: `repeat(3, 1fr)`}}>
       <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-        <h3 style={{ display: `inline` }}>Bruja Salon</h3>
+        <img className={layoutStyles.title} src={logoPic} alt="Bruja Salon"/>
       </Link>
-      <ul style={{ listStyle: `none`, float: `right` }}>
-        <ListLink to="/">Home</ListLink>
-        <ListLink to="/about/">About</ListLink>
-        <ListLink to="/payitforward">Pay It Forward</ListLink>
-        <ListLink to="/gallery/">Gallery</ListLink>
-        <Link to="#" style={{ background: `white`, border: `1px solid purple`, borderRadius: `.6em`, padding: `.6em`}}>Make an Appointment</Link>
+      <ul style={{display: `grid`, gridColumnStart: `4`, gridAutoFlow: `column`, margin: `20px 0`, padding: `0`, listStyle: `none` }}>
+        <ListLink to="#profile">About</ListLink>
+        <ListLink to="#fundraiser">Fundraiser</ListLink>
+        <li style={{display: `inline-block`, marginRight: `1rem`}}><a className={layoutStyles.button} href="https://www.vagaro.com/">Make an Appointment</a></li>
       </ul>
     </header>
     {children}
-    <footer>
-      <div>
+    <footer style={{ display: `grid`, gridTemplateColumns: `repeat(5, 1fr)`}}>
+      <div style={{ gridColumnStart: `1`, gridColumnEnd: `4` }}>
         <table>
+          <strong>Hours</strong>
           <tbody>
-          <tr><th>Hours</th></tr>
           <tr>
             <td>Tuesday</td>
-            <td>12 pm - 6 pm</td>
+            <td>T.B.D.</td>
           </tr>
           <tr>
             <td>Thursday</td>
-            <td>12 pm - 6 pm</td>
+            <td>T.B.D.</td>
           </tr>
           <tr>
             <td>Friday</td>
-            <td>12 pm - 6 pm</td>
+            <td>T.B.D.</td>
           </tr>
           <tr>
             <td>Saturday</td>
-            <td>12 pm - 6 pm</td>
+            <td>T.B.D.</td>
           </tr>
           </tbody>
         </table>
       </div>
-      <div>
+      <div style={{ gridColumn: `4` }}>
         <p>206-555-5555</p>
         <p>311 Bruja Ave<br/>
         Seattle, WA 98102</p>
+        <p>witch@brujasalon.com</p>
       </div>
       <div>
-        <p>Map</p>
+        <a href="https://www.google.com/maps/place/511+N+85th+St,+Seattle,+WA+98103"><img className={layoutStyles.map} src={mapPic} alt="Located on North 85th St between Fremont Ave and Dayton Ave"/></a>
       </div>
-      <div>
-        <p>Site map</p>
+      <div style={{ display: `grid`, gridColumnStart: `1`, gridColumnEnd: `6` }}>
+        <ul className={layoutStyles.sitemap}>
+          <ListLink to="/">Home</ListLink>
+          <ListLink to="#profile">About</ListLink>
+          <ListLink to="#fundraiser">Fundraiser</ListLink>
+          <li><a href="https://www.vagaro.com/">Make an Appointment</a></li>
+        </ul>
       </div>
     </footer>
   </div>
