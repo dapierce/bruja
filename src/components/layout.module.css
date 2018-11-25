@@ -70,10 +70,11 @@ footer table, footer td {
   border: 1px solid var(--color-gold);
   border-radius: .6em;
   padding: .6em;
+  text-decoration: none !important;
   white-space: nowrap;
 }
 .button:hover {
-  text-decoration: none;
+  text-decoration: none !important;
   background-color: var(--color-gold);
   color: var(--color-off-black);
   transition: all .2s
@@ -118,10 +119,12 @@ footer, footer table {
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 600px) {
   .title {
-    clip-path: inset(0 60px 0 0);
-    height: 40px;
+    clip-path: inset(0 68px 0 0);
+    height: 48px;
+    padding: 0 0 0 10px;
+    margin: 4px;
   }
   header li {
     padding: 0;
@@ -136,6 +139,8 @@ footer, footer table {
   .address {
     grid-row: 3;
   }
-  
+  .map {
+    display: none;
+  }
 
 }
