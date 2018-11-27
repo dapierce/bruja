@@ -1,7 +1,7 @@
 /* Color variables */
 :root {
-  --color-gold: #ffee8e;
-  --color-off-white: #efefef;
+  --color-gold: rgb(255, 238, 142);
+  --color-off-white: rgb(239, 239, 239);
   --color-off-black: #000;
 
   --button-normal-color: rgba(255, 255, 255, 0.0);
@@ -24,6 +24,7 @@ p {
   margin: 0 0 20px 0;
 }
 a {
+  border: none !important;
   background-image: none;
   text-decoration: none !important;
   text-shadow: none !important;
@@ -66,8 +67,8 @@ footer table, footer td {
 }
 
 .button {
-  background: rgba(255, 255, 255, 0.0);
-  border: 1px solid var(--color-gold);
+  background-color: rgba(255, 255, 255, 0.0);
+  border: 1px solid var(--color-gold) !important;
   border-radius: .6em;
   padding: .6em;
   text-decoration: none !important;
@@ -79,6 +80,10 @@ footer table, footer td {
   color: var(--color-off-black);
   transition: all .2s
 }
+.button:active {
+  background-color: rgb(255, 247, 199);
+  box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.75);
+}
 .hours {
   grid-column-start: 1;
   grid-column-end: 4;
@@ -89,6 +94,7 @@ footer table, footer td {
 .map {
   margin-top: -2vw;
   margin-bottom: 0;
+  max-width: 200px;
 }
 .sitemap {
   display: grid;
@@ -125,6 +131,9 @@ footer, footer table {
     height: 48px;
     padding: 0 0 0 10px;
     margin: 4px;
+  }
+  header ul {
+    transform: translateX(-60px);
   }
   header li {
     padding: 0;

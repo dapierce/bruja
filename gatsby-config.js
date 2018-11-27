@@ -19,6 +19,7 @@ module.exports = {
         theme_color: "#ffee8e",
         display: "minimal-ui",
         icon: "src/images/icon.png", // This path is relative to the root of the site.
+        legacy: true, // this will add apple-touch-icon links to <head>
       },
     },
   ]

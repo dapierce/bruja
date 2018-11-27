@@ -1,7 +1,6 @@
 import React from 'react';
 import Swiper from 'react-id-swiper';
 
-import './swiper.min.css';
 import layoutHomeSwiper from "./homeSwiper.module.css";
 
 class HomeSwiper extends React.Component {
