@@ -47,7 +47,7 @@ li {
   box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.75);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .profileContainer {
     display: grid;
     grid-template-columns: 1fr;
@@ -58,10 +58,6 @@ li {
   .name {
     text-align: center;
   }
-
-}
-
-@media (max-width: 600px) {
   .button {
     font-size: .8rem;
   }
