@@ -35,6 +35,10 @@ export default ({ children }) => (
             <td>T.B.D.</td>
           </tr>
           <tr>
+            <td>Wednesday</td>
+            <td>T.B.D.</td>
+          </tr>
+          <tr>
             <td>Thursday</td>
             <td>T.B.D.</td>
           </tr>
@@ -53,7 +57,7 @@ export default ({ children }) => (
         <p>206-555-5555</p>
         <p>511 N 85th St<br/>
         Seattle, WA 98103</p>
-        <p>witch@brujasalon.com</p>
+        <p><a href="tisha@brujasalon.com">tisha@brujasalon.com</a></p>
       </div>
       <div>
         <a href="https://www.google.com/maps/place/511+N+85th+St,+Seattle,+WA+98103"><img className={layoutStyles.map} src={mapPic} alt="Located on North 85th St between Fremont Ave and Dayton Ave"/></a>

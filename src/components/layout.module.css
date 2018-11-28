@@ -32,21 +32,27 @@ a {
 a:hover {
   text-decoration: underline !important;
 }
-
-header li {
-  margin: 0;
-  padding: 10px 0 0 0;
+header {
+  border-bottom: 1px solid var(--color-gold);
+  outline: 2px solid #000;
 }
+
 header, footer {
   background: var(--color-off-black);
   color: var(--color-gold);
   transition: .2s all;
+}
+header li {
+  margin: 0;
+  padding: 10px 0 0 0;
 }
 header a, footer a {
   color: var(--color-gold);
 }
 
 footer {
+  border-top: 1px solid var(--color-gold);
+  outline: 2px solid #000;
   padding: 2vw 0 0 2vw;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -67,7 +73,7 @@ footer table, footer td {
 }
 
 .button {
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: #000;
   border: 1px solid var(--color-gold) !important;
   border-radius: .6em;
   padding: .6em;
@@ -82,7 +88,7 @@ footer table, footer td {
 }
 .button:active {
   background-color: rgb(255, 247, 199);
-  box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0 4px 4px rgba(255, 247, 199, 0.6);
 }
 .hours {
   grid-column-start: 1;
