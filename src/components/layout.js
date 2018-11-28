@@ -15,9 +15,11 @@ const ListLink = props => (
 export default ({ children }) => (
   <div className={layoutStyles.layout} style={{ margin: `0`, padding: `0` }}>
     <header style={{ display: `grid`, gridAutoColumns: `repeat(3, 1fr)`}}>
-      <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-        <img className={layoutStyles.title} src={logoPic} alt="Bruja Salon"/>
-      </Link>
+      <div className={layoutStyles.titleCrop}>
+        <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
+          <img className={layoutStyles.title} src={logoPic} alt="Bruja Salon"/>
+        </Link>
+      </div>
       <ul style={{display: `grid`, gridColumnStart: `4`, gridAutoFlow: `column`, margin: `20px 0`, padding: `0`, listStyle: `none` }}>
         <ListLink to="#profile">About</ListLink>
         <ListLink to="#fundraiser">Fundraiser</ListLink>

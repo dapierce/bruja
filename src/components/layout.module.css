@@ -132,14 +132,18 @@ footer, footer table {
 }
 
 @media (max-width: 600px) {
+  .titleCrop {
+    width: 58px;
+    height: 50px;
+    overflow: hidden;
+  }
   .title {
-    clip-path: inset(0 68px 0 0);
-    height: 48px;
+    height: 45px;
     padding: 0 0 0 10px;
     margin: 4px;
   }
   header ul {
-    transform: translateX(-60px);
+    font-size: .8rem;
   }
   header li {
     padding: 0;
