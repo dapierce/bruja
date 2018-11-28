@@ -7,21 +7,27 @@
 }
 
 .name {
-  text-align: right;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
-
+.profileTitle {
+  margin: 0;
+  padding: 6px 0 0 0;
+}
 .profileImg {
-  max-height: 25vw;
+  max-height: 20vw;
   border-radius: 50%;
 }
 
-ul {
+.buttonList {
+  grid-column-start: 2;
   margin: 40px 0 0 0;
   padding: 0;
   list-style: none;
 }
 
-li {
+.buttonList li {
   margin: 0 2vw 0 0;
   padding: 0;
   display: inline;
@@ -56,6 +62,20 @@ li {
     padding: 5vw 2vw;
   }
   .name {
+    margin-top: 4vw;
+    text-align: center;
+  }
+  .profileTitle {
+    text-align: center;
+  }
+  .profileImg {
+    margin: 0 auto;
+    max-height: 50vw;
+    border-radius: 50%;
+    padding: 6vw;
+  }
+  .buttonList {
+    margin: 6vw 0 0 0;
     text-align: center;
   }
   .button {

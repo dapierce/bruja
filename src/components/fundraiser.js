@@ -1,9 +1,11 @@
 import React from 'react';
 
 import fundraiserStyles from "./fundraiser.module.css";
+import layoutStyles from "./layout.module.css";
 
 export default ({ children }) => (
-  <div id="fundraiser" className={fundraiserStyles.container}>
+  <div className={fundraiserStyles.container}>
+    <a id="fundraiser" className={layoutStyles.anchor}></a>
     <h2 className={fundraiserStyles.header}>Bruja Salon Fundraiser</h2>
     <p className={fundraiserStyles.copy}>I need your help to make this salon come to life!</p>
     <h3 className={fundraiserStyles.header}>Holiday Truffle Fundraiser</h3>

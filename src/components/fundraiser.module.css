@@ -17,3 +17,19 @@
   padding: 2vw;
   width: 40%;
 }
+
+@media (max-width: 600px) {
+  .header {
+    display: inline-block;
+    margin: 0 auto;
+    background:  var(--color-off-white);;
+    color: #333;
+  }
+
+  .copy {
+    margin: 0 auto;
+    padding: 2vw;
+    text-align: center;
+    background: var(--color-off-white);
+  }
+}
