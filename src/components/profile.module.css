@@ -2,11 +2,13 @@
   display: grid;
   grid-template-columns: 25% 55%;
   grid-column-gap: 5vw;
-  margin: 5vw;
-  padding: 5vw;
+  margin: 2vw 5vw;
+  padding: 4vw;
 }
 
 .name {
+  grid-column-start: 1;
+  grid-row-start: 1;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -62,7 +64,7 @@
     padding: 5vw 2vw;
   }
   .name {
-    margin-top: 4vw;
+    margin-top: 2vw;
     text-align: center;
   }
   .profileTitle {

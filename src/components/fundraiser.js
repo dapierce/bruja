@@ -4,8 +4,9 @@ import fundraiserStyles from "./fundraiser.module.css";
 import layoutStyles from "./layout.module.css";
 
 export default ({ children }) => (
-  <div className={fundraiserStyles.container}>
+  <div>
     <a id="fundraiser" className={layoutStyles.anchor}></a>
+    <div className={fundraiserStyles.container}>
     <h2 className={fundraiserStyles.header}>Bruja Salon Fundraiser</h2>
     <p className={fundraiserStyles.copy}>I need your help to make this salon come to life!</p>
     <h3 className={fundraiserStyles.header}>Holiday Truffle Fundraiser</h3>
@@ -17,5 +18,6 @@ export default ({ children }) => (
     <p className={fundraiserStyles.copy}>Contribute to a loan for remodeling costs through Keiv.<br/>
       Details on the way...
     </p>
+  </div>
   </div>
 )

@@ -5,8 +5,9 @@ import layoutStyles from "./layout.module.css";
 import profilePicTisha from "../components/img/tisha-profile.jpg"
 
 export default ({ children }) => (
-  <div className={profileStyles.profileContainer}>
+  <div>
     <a id="profile" className={layoutStyles.anchor}></a>
+    <div className={profileStyles.profileContainer}>
     <h2 className={profileStyles.name}>Tisha</h2>
     <h3 className={profileStyles.profileTitle}>Stylist and head bruja</h3>
     <img className={profileStyles.profileImg} src={profilePicTisha} alt="Tisha"/>
@@ -19,7 +20,7 @@ export default ({ children }) => (
         <li><a className={profileStyles.button} href="https://tishaturner.com">Portfolio</a></li>
       </ul>
     </p>
-
+  </div>
   </div>
 )
 

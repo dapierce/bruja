@@ -122,7 +122,6 @@ footer table, footer td {
 .anchor {
   display: block;
   position: relative;
-  top: -60px;
   visibility: hidden;
 }
 
@@ -178,6 +177,13 @@ footer, footer table {
     top: 0;
     z-index: 999;
   }
+  .anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+  }
+
   .titleCrop {
     width: 58px;
     height: 50px;
