@@ -88,7 +88,7 @@ footer table, footer td {
 
 .headerMenu {
   display: grid;
-  grid-column-start: 2;
+  grid-column-start: 3;
   grid-auto-flow: column;
   margin: 20px 0;
   padding: 0;
@@ -193,6 +193,9 @@ footer, footer table {
     height: 45px;
     padding: 0 0 0 10px;
     margin: 4px;
+  }
+  .headerMenu {
+    grid-column-start: 2;
   }
   header ul, footer ul {
     font-size: .8rem;
