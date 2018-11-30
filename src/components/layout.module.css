@@ -85,6 +85,13 @@ footer table, footer td {
   padding: 0 0 0 20px;
   transition: .2s all;
 }
+.unbreakable {
+  white-space: nowrap;
+}
+
+.sitemap {
+  text-transform: uppercase;
+}
 
 .headerMenu {
   display: grid;
@@ -149,17 +156,6 @@ footer table, footer td {
   padding: 0;
 }
 
-/* typography */
-
-footer, footer table {
-  font-size: .9rem;
-}
-
-.sitemap {
-  font-size: .8rem;
-  text-transform: uppercase;
-}
-
 @media (min-width: 900px) {
   
   body, footer, footer table {
@@ -167,6 +163,18 @@ footer, footer table {
   }
   .sitemap {
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 601px) {
+
+  footer, footer table {
+    font-size: .9rem;
+  }
+
+  .sitemap {
+    font-size: .8rem;
+    text-transform: uppercase;
   }
 }
 
@@ -197,8 +205,8 @@ footer, footer table {
   .headerMenu {
     grid-column-start: 2;
   }
-  header ul, footer ul {
-    font-size: .8rem;
+  header ul {
+    font-size: .9rem;
   }
   header li {
     padding: 0;
@@ -206,6 +214,7 @@ footer, footer table {
 
   footer {
     grid-template-columns: 1fr 1fr;
+    font-size: .9rem;
   }
   .hours {
     grid-row: 1;
@@ -226,18 +235,22 @@ footer, footer table {
 }
 
 @media (max-width: 360px) {
-  header ul, footer ul {
+  header ul, footer {
+    font-size: .8rem;
+    letter-spacing: -.2px;
+  }
+
+  footer {
     font-size: .7rem;
-    letter-spacing: -.5px;
   }
 }
 
 /* Typography */
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h1,h2,h3,h4,h5,h6, header a {
+  font-family: 'Macondo', sans-serif;
 }
 
 p, a, table {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Libre Baskerville', Baskerville, serif;
 }

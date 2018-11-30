@@ -13,6 +13,7 @@ export default class HTML extends React.Component {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css" /> */}
+          <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Macondo" rel="stylesheet" />
           {this.props.headComponents}
         </head>
         <body {...this.props.bodyAttributes}>

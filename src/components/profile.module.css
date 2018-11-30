@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 25% 55%;
   grid-column-gap: 5vw;
+  grid-row-gap: 3vh;
   margin: 2vw 5vw;
   padding: 4vw;
 }
@@ -15,7 +16,7 @@
 }
 .profileTitle {
   margin: 0;
-  padding: 6px 0 0 0;
+  padding: .3rem 0 0 0;
 }
 .profileImg {
   max-height: 20vw;

@@ -24,7 +24,11 @@ class HomeSwiper extends React.Component {
     return (
       <Swiper {...params} className={layoutHomeSwiper.swiper}>
         <div className={layoutHomeSwiper.slide1}>
-          <h1>Welcome to Bruja Salon!</h1>
+          <h1>
+            Welcome to Bruja Salon!<br/>
+            ~<br/>
+            Magic is in the Hair
+          </h1>
           <p>Conjuring the best you in Seattle's Greenwood neighborhood.</p>
         </div>
         <div className={layoutHomeSwiper.slide2}>

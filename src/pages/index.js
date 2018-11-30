@@ -6,13 +6,18 @@ import Fundraiser from "../components/fundraiser"
 
 import Layout from "../components/layout"
 import layoutHomeSwiper from "../components/homeSwiper.module.css"
+import layoutStyles from "../components/layout.module.css"
 
 export default () => (
   <Layout>
     <div id="home">
       {/* <HomeSwiper/> */}
       <div className={layoutHomeSwiper.slide1}>
-        <h1>Welcome to Bruja Salon!</h1>
+        <h1>
+          Welcome to <span className={layoutStyles.unbreakable}>Bruja Hair Salon!</span><br/>
+          ♦♦♦ ♦♦♦<br/>
+          Magic is in the Hair
+        </h1>
         <p>Conjuring the best you in Seattle's Greenwood neighborhood.</p>
       </div>
       <Profile/>
