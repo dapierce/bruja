@@ -1,27 +1,16 @@
 import React from "react"
 
 // import HomeSwiper from "../components/homeSwiper";
+import Home from "../components/home"
 import Profile from "../components/profile"
 import Fundraiser from "../components/fundraiser"
 
 import Layout from "../components/layout"
-import layoutHomeSwiper from "../components/homeSwiper.module.css"
-import layoutStyles from "../components/layout.module.css"
 
 export default () => (
   <Layout>
-    <div id="home">
-      {/* <HomeSwiper/> */}
-      <div className={layoutHomeSwiper.slide1}>
-        <h1 className={layoutStyles.logoFont}>
-          Welcome to <span className={layoutStyles.unbreakable}>Bruja Hair Salon</span><br/>
-          {/* <span className={layoutStyles.swirlDecor}>~</span><br/> */}
-          Magic is in the Hair
-        </h1>
-        <p>Conjuring the best you in Seattle's Greenwood neighborhood.</p>
-      </div>
-      <Profile/>
-      <Fundraiser/>
-    </div>
+    <Home/>
+    <Profile/>
+    <Fundraiser/>
   </Layout>
 )

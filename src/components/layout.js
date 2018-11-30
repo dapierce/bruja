@@ -31,8 +31,8 @@ export default ({ children }) => (
       <div className={layoutStyles.footerData}>
         <table>
           <tbody>
-          <tr>
-            <td><strong>Hours</strong></td>
+          <tr style={{fontWeight: "bold"}}>
+            <td>Hours</td>
           </tr>
           <tr>
             <td>Tuesday</td>

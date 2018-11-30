@@ -10,6 +10,12 @@ module.exports = {
     //   },
     // },
     {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "Bruja Hair Salon",
