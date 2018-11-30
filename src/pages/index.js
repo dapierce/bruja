@@ -13,9 +13,9 @@ export default () => (
     <div id="home">
       {/* <HomeSwiper/> */}
       <div className={layoutHomeSwiper.slide1}>
-        <h1>
-          Welcome to <span className={layoutStyles.unbreakable}>Bruja Hair Salon!</span><br/>
-          ♦&#xFE0E;♦&#xFE0E;♦&#xFE0E; ♦&#xFE0E;♦&#xFE0E;♦&#xFE0E;<br/>
+        <h1 className={layoutStyles.logoFont}>
+          Welcome to <span className={layoutStyles.unbreakable}>Bruja Hair Salon</span><br/>
+          {/* <span className={layoutStyles.swirlDecor}>~</span><br/> */}
           Magic is in the Hair
         </h1>
         <p>Conjuring the best you in Seattle's Greenwood neighborhood.</p>

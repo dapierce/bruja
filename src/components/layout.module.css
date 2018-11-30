@@ -85,9 +85,6 @@ footer table, footer td {
   padding: 0 0 0 20px;
   transition: .2s all;
 }
-.unbreakable {
-  white-space: nowrap;
-}
 
 .sitemap {
   text-transform: uppercase;
@@ -234,7 +231,7 @@ footer table, footer td {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   header ul, footer {
     font-size: .8rem;
     letter-spacing: -.2px;
@@ -253,4 +250,19 @@ h1,h2,h3,h4,h5,h6, header a {
 
 p, a, table {
   font-family: 'Libre Baskerville', Baskerville, serif;
+}
+
+.logoFont {
+  font-family: ReynoldsCaps, 'Macondo', sans-serif;
+}
+
+.unbreakable {
+  white-space: nowrap;
+}
+
+.swirlDecor {
+  position: relative;
+  top: 1rem;
+  font-size: 8rem;
+  line-height: .6rem;
 }

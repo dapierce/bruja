@@ -30,8 +30,10 @@ export default ({ children }) => (
     <footer>
       <div className={layoutStyles.footerData}>
         <table>
-          <strong>Hours</strong>
           <tbody>
+          <tr>
+            <td><strong>Hours</strong></td>
+          </tr>
           <tr>
             <td>Tuesday</td>
             <td>T.B.D.</td>
