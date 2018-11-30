@@ -33,7 +33,7 @@ a:hover {
   text-decoration: underline;
 }
 a[href^="tel:"]:before {
-  content: "\260e";
+  content: "\260e\fe0e";
   margin-right: 0.5em;
 }
 header {

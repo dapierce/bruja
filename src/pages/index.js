@@ -15,7 +15,7 @@ export default () => (
       <div className={layoutHomeSwiper.slide1}>
         <h1>
           Welcome to <span className={layoutStyles.unbreakable}>Bruja Hair Salon!</span><br/>
-          ♦♦♦ ♦♦♦<br/>
+          ♦&#xFE0E;♦&#xFE0E;♦&#xFE0E; ♦&#xFE0E;♦&#xFE0E;♦&#xFE0E;<br/>
           Magic is in the Hair
         </h1>
         <p>Conjuring the best you in Seattle's Greenwood neighborhood.</p>
