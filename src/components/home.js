@@ -3,6 +3,8 @@ import React from 'react';
 import layoutStyles from "../components/layout.module.css"
 import layoutHomeSwiper from "../components/homeSwiper.module.css";
 
+import ReynoldsCaps from "../fonts/ReynoldsCaps.ttf";
+
 import styled from 'styled-components'
 
 const LogoFont = styled.h1`
@@ -10,7 +12,7 @@ const LogoFont = styled.h1`
     font-family: ReynoldsCaps;
     font-style: normal;
     font-weight: normal;
-    src: url("../fonts/ReynoldsCaps.ttf") format('ttf');
+    src: url('{ReynoldsCaps}') format('ttf');
   }
 
   font-family: ReynoldsCaps, sans-serf;
