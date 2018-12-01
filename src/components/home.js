@@ -12,7 +12,7 @@ const LogoFont = styled.h1`
     font-family: ReynoldsCaps;
     font-style: normal;
     font-weight: normal;
-    src: url('{ReynoldsCaps}') format('ttf');
+    src: url('${ReynoldsCaps}') format('ttf');
   }
 
   font-family: ReynoldsCaps, sans-serf;
