@@ -217,6 +217,9 @@ footer table, footer td {
     grid-template-columns: 1fr 1fr;
     font-size: .9rem;
   }
+  footer li {
+    padding-bottom: 1rem;
+  }
   .hours {
     grid-row: 1;
   }
@@ -232,8 +235,9 @@ footer table, footer td {
     grid-row: 2;
     grid-column-start: 1;
     grid-column-end: 5;
+    margin: 0;
   }
-  .sitemapList{
+  .sitemapList {
     column-count: 2;
   }
 }
@@ -246,6 +250,9 @@ footer table, footer td {
 
   footer {
     font-size: .7rem;
+  }
+  .sitemap {
+    margin-top: 1rem;
   }
 }
 
