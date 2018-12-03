@@ -19,7 +19,20 @@ const LogoFont = styled.h1`
   font-style: normal;
   font-weight: normal;
   letter-spacing: 1.4px;
-  font-size: 2.4rem;
+  font-size: 3rem;
+
+  @media (max-width: 900px) {
+    font-size: 2.8rem;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+  }
+`
+
+const MoreSpacing = styled.span`
+  letter-spacing: 4px;
 `
 
 export default ({ children }) => (
@@ -27,7 +40,7 @@ export default ({ children }) => (
     {/* <HomeSwiper/> */}
     <div className={layoutHomeSwiper.slide1}>
       <LogoFont>
-        Welcome to <span className={layoutStyles.unbreakable}>Bruja Hair Salon</span><br/>
+        Welcome to <span className={layoutStyles.unbreakable}>Br<MoreSpacing>u</MoreSpacing>ja Hair Salon</span><br/>
         <span className={layoutStyles.swirlDecor}>~</span><br/>
         Magic is in the Hair
       </LogoFont>
