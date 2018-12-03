@@ -14,8 +14,8 @@ export default ({ children }) => (
     <p className={profileStyles.profileDesc}>
       A musician, painter and stylist, Tisha has many creative persuits.
       In all of her work, she brings a keen eye and attention to detail. 
-      She is mindful of her community and gives back through volunteering and 
-      fundraising.
+      She loves her community and the people surrounding her and gives back 
+      through volunteering and fundraising.
     </p>
     <ul className={profileStyles.buttonList}>
       <li><a className={profileStyles.button} href="/">Make an appointment</a></li>
