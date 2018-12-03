@@ -16,7 +16,10 @@ const LogoFont = styled.h1`
   }
 
   font-family: ReynoldsCaps, sans-serf;
+  font-style: normal;
+  font-weight: normal;
   letter-spacing: 1.4px;
+  font-size: 2.4rem;
 `
 
 export default ({ children }) => (
@@ -25,7 +28,7 @@ export default ({ children }) => (
     <div className={layoutHomeSwiper.slide1}>
       <LogoFont>
         Welcome to <span className={layoutStyles.unbreakable}>Bruja Hair Salon</span><br/>
-        {/* <span className={layoutStyles.swirlDecor}>~</span><br/> */}
+        <span className={layoutStyles.swirlDecor}>~</span><br/>
         Magic is in the Hair
       </LogoFont>
       <p>Conjuring the best you in Seattle's Greenwood neighborhood.</p>

@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Link } from "gatsby";
+import { Helmet } from "react-helmet";
 
 import layoutStyles from "./layout.module.css";
 import logoPic from "./img/logo.png";
@@ -14,6 +15,10 @@ const ListLink = props => (
 
 export default ({ children }) => (
   <div className={layoutStyles.container}>
+  <Helmet>
+    <title>Bruja Hair Salon</title>
+    <meta name="description" content="Magic is in the hair! Conjuring the best you in Seattle's Greenwood neighborhood. We offer the full range of hair services from cuts to high fashion color." />
+  </Helmet>
     <header>
       <div className={layoutStyles.titleCrop}>
         <Link to="/">

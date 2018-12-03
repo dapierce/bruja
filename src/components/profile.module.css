@@ -69,16 +69,26 @@
     text-align: center;
   }
   .profileTitle {
+    grid-column: 1;
+    grid-row: 2;
     text-align: center;
   }
   .profileImg {
+    grid-column: 1;
+    grid-row: 3;
     margin: 0 auto;
     max-height: 50vw;
     border-radius: 50%;
-    padding: 6vw;
+    padding: 4vw;
+  }
+  .profileDesc {
+    grid-column: 1;
+    grid-row: 4;
   }
   .buttonList {
-    margin: 6vw 0 0 0;
+    grid-column: 1;
+    grid-row: 5;
+    margin: 4vw 0 0 0;
     text-align: center;
   }
   .button {
