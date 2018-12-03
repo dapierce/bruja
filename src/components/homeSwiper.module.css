@@ -18,7 +18,7 @@
 .slide2 h1,
 .slide3 h1 {
   display: inline-block;
-  margin: 20px 0 20px 40%;
+  margin: 20px auto;
   background: #000;
   color: var(--color-off-white);
   padding: 2vh 4vw;
@@ -30,7 +30,7 @@
 .slide1 p,
 .slide2 p,
 .slide3 p {
-  margin: 0 10% 0 20%;
+  margin: 0 15% 0 15%;
   padding: 2vw;
   text-align: center;
   background: #000;
@@ -50,7 +50,7 @@
   .slide1 p,
   .slide2 p,
   .slide3 p {
-    margin: 4vh 6%;
+    margin: 4vh;
     padding: 2vw;
     text-align: center;
   }

@@ -5,20 +5,23 @@
 
 .header {
   display: inline-block;
-  margin: 20px 0 20px 40%;
+  margin: 20px auto;
   background: #000;
   color: var(--color-off-white);
   padding: 2vh 4vw;
   border: 1px solid var(--color-gold);
   outline: 4px solid #000;
-  padding: 10px 60px;
+  text-align: center;
 }
 
 .copy {
-  background: var(--color-off-white);
-  margin: 20px 0 0 45%;
+  margin: 4vh 12vh;
   padding: 2vw;
-  width: 40%;
+  text-align: center;
+  background: #000;
+  color: var(--color-off-white);
+  border: 1px solid var(--color-gold);
+  outline: 4px solid #000;
 }
 
 .buttonList {
@@ -58,7 +61,7 @@
 @media (max-width: 600px) {
   .header {
     display: inline-block;
-    margin: 2vh auto;
+    margin: 4vh auto;
     background: #000;
     color: var(--color-off-white);
     padding: 2vh 4vw;
@@ -68,7 +71,7 @@
   }
 
   .copy {
-    margin: 0 auto;
+    margin: 4vh;
     padding: 2vw;
     text-align: center;
     background: #000;
