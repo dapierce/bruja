@@ -11,16 +11,22 @@ export default ({ children }) => (
     <h2 className={profileStyles.name}>Tisha</h2>
     <h3 className={profileStyles.profileTitle}>Stylist and head bruja</h3>
     <img className={profileStyles.profileImg} src={profilePicTisha} alt="Tisha"/>
-    <p className={profileStyles.profileDesc}>
-      A musician, painter and stylist, Tisha has many creative persuits.
-      In all of her work, she brings a keen eye and attention to detail. 
-      She loves her community and the people surrounding her and gives back 
-      through volunteering and fundraising.
-    </p>
-    <ul className={profileStyles.buttonList}>
-      <li><a className={profileStyles.button} href="/">Make an appointment</a></li>
-      <li><a className={profileStyles.button} href="https://tishaturner.com">Portfolio</a></li>
-    </ul>
+    <div className={profileStyles.profileDesc}>
+      <p>
+        Tisha has been a hairstylist in Seattle for almost a decade, with
+        interests in hair, art, music, nature, fashion and tech. Tisha's 
+        keen eye and attention to detail along with her extensive background in
+        color theory and continuing education means she brings with every
+        service her passion for conjuring the best you.
+      </p>
+      <p>
+        It's not just a glamor it's a transformation!
+      </p>
+      <ul className={profileStyles.buttonList}>
+        <li><a className={profileStyles.button} href="/">Make an appointment</a></li>
+        <li><a className={profileStyles.button} href="https://tishaturner.com">Portfolio</a></li>
+      </ul>
+    </div>
   </div>
   </div>
 )

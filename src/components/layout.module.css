@@ -1,6 +1,7 @@
 /* Color variables */
 :root {
-  --color-gold: rgb(255, 238, 142);
+  --color-gold: rgb(255, 232, 104);
+  --color-gold-shadow: rgb(238, 212, 63);
   --color-off-white: rgb(239, 239, 239);
   --color-off-black: #000;
 
@@ -109,7 +110,7 @@ footer table, footer td {
 
 .button {
   background-color: #000;
-  border: 1px solid var(--color-gold);
+  border: 2px solid var(--color-gold);
   border-radius: .6em;
   padding: .6em;
   text-decoration: none;
@@ -164,6 +165,9 @@ footer table, footer td {
   body, footer, footer table {
     font-size: 1.2rem;
   }
+  header ul {
+    font-size: 22px;
+  }
   .sitemap {
     font-size: .9rem;
   }
@@ -211,6 +215,9 @@ footer table, footer td {
   }
   header li {
     padding: 0;
+  }
+  .button {
+    border: 1px solid var(--color-gold);
   }
 
   footer {
