@@ -42,7 +42,7 @@ export default ({ children }) => (
       <LogoFont>
         Welcome to <span className={layoutStyles.unbreakable}>Br<MoreSpacing>u</MoreSpacing>ja Hair Salon</span><br/>
         <span className={layoutStyles.swirlDecor}>~</span><br/>
-        Magic is in the Hair
+        <span className={layoutStyles.goldType}>Magic is in the Hair</span>
       </LogoFont>
       <p>Conjuring the best you in Seattle's Greenwood neighborhood.</p>
     </div>

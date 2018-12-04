@@ -283,3 +283,7 @@ p, a, table {
   font-size: 6rem;
   line-height: .6rem;
 }
+
+.goldType {
+  color: var(--color-gold);
+}
