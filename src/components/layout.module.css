@@ -162,6 +162,10 @@ footer table, footer td {
   padding: 0;
 }
 
+.sitemapList a {
+  padding: .5rem 0;
+}
+
 @media (min-width: 900px) {
   
   body, footer, footer table {
@@ -226,9 +230,6 @@ footer table, footer td {
     grid-template-columns: 1fr 1fr;
     font-size: .9rem;
   }
-  footer li {
-    padding-bottom: 1rem;
-  }
   .hours {
     grid-row: 1;
   }
@@ -248,6 +249,9 @@ footer table, footer td {
   }
   .sitemapList {
     column-count: 2;
+  }
+  .sitemapList a {
+    padding: .8rem 0;
   }
 }
 
