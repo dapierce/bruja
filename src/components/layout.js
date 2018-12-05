@@ -4,8 +4,8 @@ import { Link } from "gatsby";
 import { Helmet } from "react-helmet";
 
 import layoutStyles from "./layout.module.css";
-import logoPic from "./img/logo.png";
-import mapPic from "./img/map.png";
+import logoPic from "../images/logo.png";
+import mapPic from "../images/map.png";
 
 const ListLink = props => (
   <li>

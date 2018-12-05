@@ -2,7 +2,7 @@ import React from 'react';
 
 import profileStyles from "./profile.module.css";
 import layoutStyles from "./layout.module.css";
-import profilePicTisha from "../components/img/tisha-profile.jpg"
+import profilePicTisha from "../images/tisha-profile.jpg"
 
 export default ({ children }) => (
   <div>

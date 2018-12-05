@@ -1,5 +1,5 @@
 .container {
-  background: url("./img/bottles.jpg") no-repeat left center;
+  background: url("../images/bottles.jpg") no-repeat left center;
   min-height: calc(60vh);
   padding-bottom: 4vw;
 }
