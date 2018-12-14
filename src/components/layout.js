@@ -37,7 +37,7 @@ export default ({ children }) => (
     </header>
     {children}
     <footer>
-      <div className={layoutStyles.footerData}>
+      <div className={layoutStyles.hours}>
         <table>
           <tbody>
             <tr style={{fontWeight: "bold"}}>

@@ -12,9 +12,6 @@
   --button-active-color: rgba(255, 255, 255, 0.7);
   --button-active-border: rgba(255, 255, 255, 1);
 }
-html{
-  font-size: 100%;
-}
 
 body {
   background-color: var(--color-off-white);
@@ -137,7 +134,7 @@ footer table, footer td {
 
 .hours {
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 3;
 }
 .address {
   grid-column: 3;
@@ -174,18 +171,21 @@ footer table, footer td {
   header ul {
     font-size: 22px;
   }
-  .sitemap {
+  .sitemapList {
     font-size: .9rem;
   }
 }
 
 @media (max-width: 899px) {
-  .sitemap {
-    font-size: .7rem;
+
+  footer, .hours {
+    font-size: .8rem;
   }
-  
-  footer, footer table {
-    font-size: .9rem;
+  footer td {
+    padding: 0;
+  }
+  .sitemapList {
+    font-size: .7rem;
   }
 }
 
@@ -232,6 +232,7 @@ footer table, footer td {
   }
   .hours {
     grid-row: 1;
+    font-size: .6rem;
   }
   .address {
     grid-row: 1;
@@ -255,7 +256,7 @@ footer table, footer td {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   header ul, footer {
     font-size: .8rem;
     letter-spacing: -.2px;
@@ -263,6 +264,9 @@ footer table, footer td {
 
   footer {
     font-size: .7rem;
+  }
+  .hours {
+    font-size: .6rem;
   }
   .sitemap {
     margin-top: 1rem;
