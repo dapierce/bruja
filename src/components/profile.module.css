@@ -22,7 +22,9 @@
   max-height: 20vw;
   border-radius: 50%;
 }
-
+.profileDesc {
+  font-size: 1rem;
+}
 .buttonList {
   grid-column-start: 2;
   margin: 40px 0 0 0;
@@ -54,6 +56,12 @@
 .button:active {
   background-color: rgb(255, 247, 199);
   box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 899px) {
+  .profileContainer {
+    grid-template-columns: 25% 75%;
+  }
 }
 
 @media (max-width: 600px) {

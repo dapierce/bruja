@@ -1,5 +1,16 @@
+/* Remove browser-specific number buttons on input fields */
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type=number] { 
+  -moz-appearance: textfield;
+  appearance: textfield;
+  margin: 0; 
+}
+
 .container {
-  background: url("../images/bottles.jpg") no-repeat left center;
+  background: url("../images/bottles.jpg") repeat left top;
+  background-size: 100%;
   min-height: calc(60vh);
   padding-bottom: 4vw;
 }
@@ -32,6 +43,98 @@
   width: 80vw;
 }
 
+.artGallery {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.artGalleryPiece:nth-child(odd) {
+  align-self: flex-start;
+}
+.artGalleryPiece:nth-child(even) {
+  align-self: flex-end;
+}
+
+.artGalleryPiece {
+  display: flex;
+  background: #000;
+  color: var(--color-off-white);
+  border: 1px solid var(--color-gold);
+  outline: 4px solid #000;
+  width: 80vw;
+  margin: 2vw 4vw;
+}
+
+.pieceImg {
+  max-width: 400px;
+  height: 25vh;
+  max-height: 400px;
+}
+
+.pieceDesc {
+  font-size: 1rem;
+  padding: 2vw;
+}
+
+.artGalleryPiece form {
+  align-self: center;
+  margin: 0 auto;
+}
+
+/* form {
+  background: #000;
+  color: var(--color-off-white);
+  border: 1px solid var(--color-gold);
+  outline: 4px solid #000;
+  width: 60vw;
+  margin: 2vw auto;
+  padding: 2vw;
+} */
+
+form h3 {
+  text-align: center;
+}
+
+form p {
+  text-align: center;
+}
+
+/* input {
+  border: 1px solid #999;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 8px;
+  width: 180px;
+}
+
+input:invalid {
+  background-color: #fdd;
+} */
+
+.artworkNum input {
+  width: 80px;
+  text-align: right;
+}
+
+.priceInput span {
+  position: relative;
+  padding: 4px;
+  top: 2px;
+  left: 24px;
+  border-right: 1px solid #999;
+  color: #000;
+}
+
+.priceInput input {
+  padding: 8px 8px 8px 30px;
+  width: 146px;
+}
+
+form button {
+  width: 20vw;
+}
+
 .buttonList {
   grid-column-start: 2;
   margin: 40px 0 0 0;
@@ -46,27 +149,39 @@
 }
 
 .button {
-  background: var(--color-gold);
-  border: 1px solid rgba(0, 0, 0, 0.4) !important;
-  border-radius: .6em;
-  color: var(--color-off-black);
-  margin: 1rem;
-  padding: .6em;
+  color: #000;
+  background-color: var(--color-gold);
+  border: 2px solid var(--color-gold);
+  border-radius: .6rem;
+  font-family: 'Libre Baskerville', Baskerville, serif;
+  padding: .8rem .6rem;
+  text-decoration: none;
   white-space: nowrap;
 }
 .button:hover {
-  text-decoration: none !important;
-  border-color: var(--color-gold);
-  background-color: rgba(255, 255, 255, 0.0);
+  text-decoration: none;
+  background-color: rgb(255, 247, 199);
   color: var(--color-off-black);
   transition: all .2s
 }
 .button:active {
   background-color: rgb(255, 247, 199);
-  box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0 4px 4px rgba(255, 247, 199, 0.6);
 }
 
 @media (max-width: 600px) {
+  .artGalleryPiece {
+    width: 98%;
+    margin: 2vw auto;
+  }
+
+  .artGalleryPiece:nth-child(odd) {
+    align-self: flex-start;
+  }
+  .artGalleryPiece:nth-child(even) {
+    align-self: flex-start;
+  }
+
   .header {
     margin: 4vh auto;
     padding: 2vh 4vw;
@@ -74,5 +189,38 @@
 
   .copy {
     padding: 2vw;
+  }
+
+  .pieceImg {
+    max-height: 150px;
+    height: 40vh;
+  }
+
+  .pieceDesc {
+    font-size: .8rem;
+    line-height: .8rem;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .artGalleryPiece {
+    flex-flow: column;
+    width: 90%;
+  }
+  .pieceImg {
+    max-height: initial;
+    max-width: 96%;
+    width: auto;
+    height: auto;
+    margin: 2% auto;
+  }
+  .pieceDesc {
+    padding: 0 10vw;
+  }
+
+  p {
+    font-size: .6rem;
+    line-height: 1rem;
   }
 }

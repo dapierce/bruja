@@ -279,8 +279,12 @@ h1,h2,h3,h4,h5,h6, header a {
   font-family: 'Macondo', sans-serif;
 }
 
-p, a, table {
+p, a, table, input {
   font-family: 'Libre Baskerville', Baskerville, serif;
+}
+
+p {
+  line-height: 1.6rem;
 }
 
 .unbreakable {
