@@ -40,29 +40,37 @@ export default ({ children }) => (
       <div className={layoutStyles.footerData}>
         <table>
           <tbody>
-          <tr style={{fontWeight: "bold"}}>
-            <td>Hours</td>
-          </tr>
-          <tr>
-            <td>Tuesday</td>
-            <td>T.B.D.</td>
-          </tr>
-          <tr>
-            <td>Wednesday</td>
-            <td>T.B.D.</td>
-          </tr>
-          <tr>
-            <td>Thursday</td>
-            <td>T.B.D.</td>
-          </tr>
-          <tr>
-            <td>Friday</td>
-            <td>T.B.D.</td>
-          </tr>
-          <tr>
-            <td>Saturday</td>
-            <td>T.B.D.</td>
-          </tr>
+            <tr style={{fontWeight: "bold"}}>
+              <td>Hours</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>Closed</td>
+            </tr>
+            <tr>
+              <td>Monday</td>
+              <td>Closed</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>5:00 PM - 9:00 PM</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>9:00 AM - 5:00 PM</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>5:00 PM - 9:00 PM</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>9:30 AM - 7:00 PM</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>9:00 AM - 7:00 PM</td>
+            </tr>
           </tbody>
         </table>
       </div>
