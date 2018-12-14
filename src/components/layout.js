@@ -29,7 +29,7 @@ export default ({ children }) => (
         <ListLink to="#profile">About</ListLink>
         <ListLink to="#fundraiser">Fundraiser</ListLink>
         <li className={layoutStyles.headerMenuItem}>
-          <a className={layoutStyles.button} href="https://www.vagaro.com/">
+          <a className={layoutStyles.button} href="https://www.vagaro.com/brujahairsalon/">
             Make an Appointment
           </a>
         </li>
@@ -86,7 +86,7 @@ export default ({ children }) => (
           <ListLink to="/">Home</ListLink>
           <ListLink to="#profile">About</ListLink>
           <ListLink to="#fundraiser">Fundraiser</ListLink>
-          <li><a href="https://www.vagaro.com/">Make an Appointment</a></li>
+          <li><a href="https://www.vagaro.com/brujahairsalon/">Make an Appointment</a></li>
         </ul>
       </div>
     </footer>

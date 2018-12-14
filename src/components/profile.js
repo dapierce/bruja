@@ -23,7 +23,7 @@ export default ({ children }) => (
         It's not just a glamor it's a transformation!
       </p>
       <ul className={profileStyles.buttonList}>
-        <li><a className={profileStyles.button} href="/">Make an appointment</a></li>
+        <li><a className={profileStyles.button} href="https://www.vagaro.com/brujahairsalon/">Make an appointment</a></li>
         <li><a className={profileStyles.button} href="https://tishaturner.com">Portfolio</a></li>
       </ul>
     </div>
