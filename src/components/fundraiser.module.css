@@ -219,6 +219,9 @@ form button {
     padding: 0 10vw;
   }
 
+  h3 {
+    font-size: 1rem;
+  }
   p {
     font-size: .8rem;
     line-height: 1.4rem;
