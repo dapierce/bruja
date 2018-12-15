@@ -232,7 +232,7 @@ footer table, footer td {
   }
   .hours {
     grid-row: 1;
-    font-size: .6rem;
+    font-size: .7rem;
   }
   .address {
     grid-row: 1;
@@ -266,10 +266,16 @@ footer table, footer td {
     font-size: .7rem;
   }
   .hours {
-    font-size: .6rem;
+    font-size: .65rem;
   }
   .sitemap {
     margin-top: 1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .hours {
+    font-size: .6rem;
   }
 }
 
