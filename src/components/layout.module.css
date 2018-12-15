@@ -179,7 +179,7 @@ footer table, footer td {
 @media (max-width: 899px) {
 
   footer, .hours {
-    font-size: .8rem;
+    font-size: .85rem;
   }
   footer td {
     padding: 0;
@@ -232,7 +232,7 @@ footer table, footer td {
   }
   .hours {
     grid-row: 1;
-    font-size: .7rem;
+    font-size: .8rem;
   }
   .address {
     grid-row: 1;
