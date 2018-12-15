@@ -179,13 +179,35 @@ footer table, footer td {
 @media (max-width: 899px) {
 
   footer, .hours {
-    font-size: .85rem;
+    font-size: 1rem;
+  }
+  footer td {
+    padding: 0 10px 0 0;
+  }
+  .sitemapList {
+    font-size: .7rem;
+  }
+}
+
+@media (max-width: 720px) {
+
+  footer, .hours {
+    font-size: .9rem;
   }
   footer td {
     padding: 0;
   }
   .sitemapList {
     font-size: .7rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .hours {
+    font-size: .8rem;
+  }
+  .address {
+    font-size: .8rem;
   }
 }
 
