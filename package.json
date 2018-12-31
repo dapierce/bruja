@@ -19,9 +19,8 @@
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
     "react-id-swiper": "^1.6.8",
+    "react-images": "^0.5.19",
     "react-typography": "^0.16.13",
-    "styled-components": "^4.1.2",
-    "typography": "^0.16.17",
-    "typography-theme-fairy-gates": "^0.15.11"
+    "styled-components": "^4.1.2"
   }
 }

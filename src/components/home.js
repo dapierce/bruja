@@ -44,7 +44,10 @@ export default ({ children }) => (
         <span className={layoutStyles.swirlDecor}>~</span><br/>
         <span className={layoutStyles.goldType}>Magic is in the Hair</span>
       </LogoFont>
-      <p>Conjuring the best you in Seattle's Greenwood neighborhood.</p>
+      <div className={layoutHomeSwiper.textBlock}>
+        <p>Conjuring the best you in Seattle's Greenwood neighborhood.</p>
+        <p>Opening <strong className={layoutStyles.goldType}>January 19, 2019</strong></p>
+      </div>
     </div>
   </div>
 )

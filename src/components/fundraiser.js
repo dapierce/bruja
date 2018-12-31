@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Gallery from './gallery'
 import fundraiserStyles from "./fundraiser.module.css";
 import layoutStyles from "./layout.module.css";
 
@@ -7,16 +8,26 @@ import franciosInk from "../images/art-auction/franciosink.jpg";
 import franciosInkThumb from "../images/art-auction/franciosink-thumb.jpg";
 import franciosOld from "../images/art-auction/franciosold.jpg";
 import franciosOldThumb from "../images/art-auction/franciosold-thumb.jpg";
-import deaton from "../images/art-auction/deaton.jpg";
-import deatonThumb from "../images/art-auction/deaton-thumb.jpg";
+import nicholas from "../images/art-auction/nicholas.jpg";
+import nicholasThumb from "../images/art-auction/nicholas-thumb.jpg";
 import deatonDoe from "../images/art-auction/deatonthedoe.jpg";
 import deatonDoeThumb from "../images/art-auction/deatonthedoe-thumb.jpg";
-import dolphin from "../images/art-auction/dolphin.jpg";
-import dolphinThumb from "../images/art-auction/dolphin-thumb.jpg";
-import green from "../images/art-auction/green.jpg";
-import greenThumb from "../images/art-auction/green-thumb.jpg";
+import mystic from "../images/art-auction/mystic.jpg";
+import mysticThumb from "../images/art-auction/mystic-thumb.jpg";
+import lana from "../images/art-auction/lana.jpg";
+import lanaThumb from "../images/art-auction/lana-thumb.jpg";
 import luchador from "../images/art-auction/luchador.jpg";
 import luchadorThumb from "../images/art-auction/luchador-thumb.jpg";
+
+const DEFAULT_IMAGES = [
+  { id: '1', src: franciosInk, thumbnail: franciosInkThumb, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+  { id: '2', src: franciosOld, thumbnail: franciosOldThumb, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+  { id: '3', src: nicholas, thumbnail: nicholasThumb, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+  { id: '4', src: deatonDoe, thumbnail: deatonDoeThumb, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+  { id: '5', src: mystic, thumbnail: mysticThumb, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+  { id: '6', src: lana, thumbnail: lanaThumb, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+  { id: '7', src: luchador, thumbnail: luchadorThumb, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
+];
 
 export default ({ children }) => (
   <div>
@@ -31,7 +42,7 @@ export default ({ children }) => (
     </div>
     <div className={fundraiserStyles.artGallery}>
       <div className={fundraiserStyles.artGalleryPiece}>
-        <img className={fundraiserStyles.pieceImg} src={franciosInkThumb} alt="Francios"/>
+        <a href={franciosInk}><img className={fundraiserStyles.pieceImg} src={franciosInkThumb} alt="Francios"/></a>
         <div className={fundraiserStyles.pieceDesc}>
           <h3>
             <span className={layoutStyles.goldType}>#1 </span>
@@ -50,7 +61,7 @@ export default ({ children }) => (
         </form>
       </div>
       <div className={fundraiserStyles.artGalleryPiece}>
-        <img className={fundraiserStyles.pieceImg} src={franciosOldThumb} alt="Old Francios"/>
+        <a href={franciosOld}><img className={fundraiserStyles.pieceImg} src={franciosOldThumb} alt="Old Francios"/></a>
         <div className={fundraiserStyles.pieceDesc}>
           <h3>
             <span className={layoutStyles.goldType}>#2 </span>
@@ -69,7 +80,7 @@ export default ({ children }) => (
         </form>
       </div>
       <div className={fundraiserStyles.artGalleryPiece}>
-        <img className={fundraiserStyles.pieceImg} src={deatonThumb} alt="Deaton"/>
+        <a href={nicholas}><img className={fundraiserStyles.pieceImg} src={nicholasThumb} alt="Nicholas Grant"/></a>
         <div className={fundraiserStyles.pieceDesc}>
           <h3>
             <span className={layoutStyles.goldType}>#3 </span>
@@ -107,7 +118,7 @@ export default ({ children }) => (
         </form>
       </div>
       <div className={fundraiserStyles.artGalleryPiece}>
-        <img className={fundraiserStyles.pieceImg} src={dolphinThumb} alt="Dolphin Boy"/>
+        <img className={fundraiserStyles.pieceImg} src={mysticThumb} alt="Mystic in Water"/>
         <div className={fundraiserStyles.pieceDesc}>
           <h3>
             <span className={layoutStyles.goldType}>#5 </span>
@@ -126,7 +137,7 @@ export default ({ children }) => (
         </form>
       </div>
       <div className={fundraiserStyles.artGalleryPiece}>
-        <img className={fundraiserStyles.pieceImg} src={greenThumb} alt="Green Lady"/>
+        <img className={fundraiserStyles.pieceImg} src={lanaThumb} alt="Green Lady"/>
         <div className={fundraiserStyles.pieceDesc}>
           <h3>
             <span className={layoutStyles.goldType}>#6 </span>

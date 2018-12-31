@@ -1,10 +1,23 @@
 import React from 'react';
+import { StaticQuery, graphql } from "gatsby"
 
 import profileStyles from "./profile.module.css";
 import layoutStyles from "./layout.module.css";
-import profilePicTisha from "../images/tisha-profile.jpg"
+import profilePicTisha from "../images/tisha-profile.jpg";
 
 export default ({ children }) => (
+  <StaticQuery
+    query={graphql`
+      query {
+        site {
+          siteMetadata {
+            bookingLink
+          }
+        }
+      }
+    `
+}
+  render={data => (
   <div>
     <div id="profile" className={layoutStyles.anchor}></div>
     <div className={profileStyles.profileContainer}>
@@ -23,10 +36,12 @@ export default ({ children }) => (
         It's not just a glamor it's a transformation!
       </p>
       <ul className={profileStyles.buttonList}>
-        <li><a className={profileStyles.button} href="https://www.vagaro.com/brujahairsalon/">Make an appointment</a></li>
+        <li><a className={profileStyles.button} href={data.site.siteMetadata.bookingLink}>Make an appointment</a></li>
         <li><a className={profileStyles.button} href="https://tishaturner.com">Portfolio</a></li>
       </ul>
     </div>
   </div>
   </div>
+)}
+/>
 )

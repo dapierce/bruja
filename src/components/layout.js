@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Link } from "gatsby";
+import { StaticQuery, Link, graphql } from "gatsby"
 import { Helmet } from "react-helmet";
 
 import layoutStyles from "./layout.module.css";
@@ -14,6 +14,19 @@ const ListLink = props => (
 )
 
 export default ({ children }) => (
+  <StaticQuery
+    query={graphql`
+      query {
+        site {
+          siteMetadata {
+            googleMapsLink,
+            bookingLink
+          }
+        }
+      }
+    `
+}
+    render={data => (
   <div className={layoutStyles.container}>
     <Helmet>
       <html lang="en" />
@@ -30,7 +43,7 @@ export default ({ children }) => (
         <ListLink to="#profile">About</ListLink>
         <ListLink to="#fundraiser">Fundraiser</ListLink>
         <li className={layoutStyles.headerMenuItem}>
-          <a className={layoutStyles.button} href="https://www.vagaro.com/brujahairsalon/">
+          <a className={layoutStyles.button} href={data.site.siteMetadata.bookingLink}>
             Make an Appointment
           </a>
         </li>
@@ -78,7 +91,7 @@ export default ({ children }) => (
       <div className={layoutStyles.address}>
         <p><a href="tel:1-206-395-8231">206-395-8231</a></p>
         <p>
-          <a href="https://www.google.com/maps/place/511+N+85th+St,+Seattle,+WA+98103">
+          <a href={data.site.siteMetadata.googleMapsLink}>
             511 N 85th St<br/>
             Seattle, WA 98103
           </a>
@@ -86,18 +99,21 @@ export default ({ children }) => (
         <p><a href="tisha@brujasalon.com">tisha@brujasalon.com</a></p>
       </div>
       <div>
-        <a href="https://www.google.com/maps/place/511+N+85th+St,+Seattle,+WA+98103" 
-        alt="Open address in Google Maps"><img className={layoutStyles.map} src={mapPic} 
-        alt="Located on North 85th St between Fremont Ave and Dayton Ave"/></a>
+        <a href={data.site.siteMetadata.googleMapsLink} alt="Open address in Google Maps">
+          <img className={layoutStyles.map} src={mapPic} 
+          alt="Located on North 85th St between Fremont Ave and Dayton Ave"/>
+        </a>
       </div>
       <div className={layoutStyles.sitemap}>
         <ul className={layoutStyles.sitemapList}>
           <ListLink to="/">Home</ListLink>
           <ListLink to="#profile">About</ListLink>
           <ListLink to="#fundraiser">Fundraiser</ListLink>
-          <li><a href="https://www.vagaro.com/brujahairsalon/">Make an Appointment</a></li>
+          <li><a href={data.site.siteMetadata.bookingLink}>Make an Appointment</a></li>
         </ul>
       </div>
     </footer>
   </div>
+)}
+/>
 )

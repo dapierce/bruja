@@ -68,7 +68,6 @@ input[type=number] {
 
 .pieceImg {
   max-width: 400px;
-  height: 25vh;
   max-height: 400px;
 }
 
@@ -169,6 +168,13 @@ form button {
   box-shadow: 0 0 4px 4px rgba(255, 247, 199, 0.6);
 }
 
+@media (max-width: 900px) {
+  .pieceImg {
+    max-height: 40vh;
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 600px) {
   .artGalleryPiece {
     width: 98%;
@@ -192,8 +198,7 @@ form button {
   }
 
   .pieceImg {
-    max-height: 150px;
-    height: 40vh;
+    max-width: 150px;
   }
 
   .pieceDesc {
@@ -209,7 +214,7 @@ form button {
     width: 90%;
   }
   .pieceImg {
-    max-height: initial;
+    max-height: 40vh;
     max-width: 96%;
     width: auto;
     height: auto;
