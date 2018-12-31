@@ -52,11 +52,10 @@
     text-align: center;
   }
 
-  .slide1 p,
-  .slide2 p,
-  .slide3 p {
-    margin: 4vh;
-    padding: 2vw;
+  .textBlock p {
     text-align: center;
+    line-height: 1.8rem;
+    padding: 0;
+    margin: 0;
   }
 }
