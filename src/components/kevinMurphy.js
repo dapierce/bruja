@@ -25,7 +25,7 @@ export default ({ children }) => (
           <h2>Kevin Murphy</h2>
           <p>
             We use Kevin Murphy color and hair products at Bruja because they
-            offer the best care for your hair, and are environmentally
+            offer exceptional care for your hair, and are environmentally
             conscious. They are committed to products that are sulphate and
             paraben free and use no animal testing.
           </p>
