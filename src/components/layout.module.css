@@ -278,7 +278,7 @@ footer table, footer td {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 460px) {
   header ul, footer {
     font-size: .8rem;
     letter-spacing: -.2px;
@@ -292,6 +292,20 @@ footer table, footer td {
   }
   .sitemap {
     margin-top: 1rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .titleCrop {
+    margin-top: .8rem;
+  }
+  .headerMenu {
+    grid-template-rows: 1fr 1fr;
+    margin: 1rem 0 0 0;
+  }
+
+  .headerMenuItem {
+    padding-bottom: 1rem;
   }
 }
 
