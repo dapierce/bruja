@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-flow: row;
+}
+
+.img {
+  max-width: 40%;
+  object-fit: cover;
+  max-height: 600px;
+}
+
+.copy {
+  background: #ffffff;
+  padding: 2rem 8vw;
+}
+
+@media (max-width: 600px) {
+  .copy {
+    padding: 2rem 4vw;
+  }
+  .copy p {
+    font-size: .7rem;
+  }
+}

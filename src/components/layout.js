@@ -41,6 +41,7 @@ export default ({ children }) => (
       </div>
       <ul className={layoutStyles.headerMenu}>
         <ListLink to="#profile">About</ListLink>
+        <ListLink to="#kevinMurphy">Kevin Murphy</ListLink>
         <ListLink to="#fundraiser">Fundraiser</ListLink>
         <li className={layoutStyles.headerMenuItem}>
           <a className={layoutStyles.button} href={data.site.siteMetadata.bookingLink}>
@@ -106,8 +107,8 @@ export default ({ children }) => (
       </div>
       <div className={layoutStyles.sitemap}>
         <ul className={layoutStyles.sitemapList}>
-          <ListLink to="/">Home</ListLink>
           <ListLink to="#profile">About</ListLink>
+          <ListLink to="#kevinMurphy">Kevin Murphy</ListLink>
           <ListLink to="#fundraiser">Fundraiser</ListLink>
           <li><a href={data.site.siteMetadata.bookingLink}>Make an Appointment</a></li>
         </ul>

@@ -26,7 +26,6 @@ const DEFAULT_IMAGES = [
   { id: '4', src: deatonDoe, thumbnail: deatonDoeThumb, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
   { id: '5', src: mystic, thumbnail: mysticThumb, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
   { id: '6', src: lana, thumbnail: lanaThumb, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-  { id: '7', src: luchador, thumbnail: luchadorThumb, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
 ];
 
 export default ({ children }) => (
@@ -151,25 +150,6 @@ export default ({ children }) => (
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick" />
         <input type="hidden" name="hosted_button_id" value="B8SA4UFLDDTMN" />
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-        </form>
-      </div>
-      <div className={fundraiserStyles.artGalleryPiece}>
-        <img className={fundraiserStyles.pieceImg} src={luchadorThumb} alt="Luchador"/>
-        <div className={fundraiserStyles.pieceDesc}>
-          <h3>
-            <span className={layoutStyles.goldType}>#7 </span>
-            Luchador
-          </h3>
-          <p>
-            Luchador, arcylic and pastel on canvas 20x20<br/>
-            Initial bid: $100
-          </p>
-        </div>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick" />
-        <input type="hidden" name="hosted_button_id" value="LFPD3AQZ2WX6L" />
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
         <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
         </form>

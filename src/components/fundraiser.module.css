@@ -16,9 +16,8 @@ input[type=number] {
 }
 
 .header {
-  margin: 20px auto;
-  padding: 4vh 4vw;
-
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .header h2 {
@@ -189,8 +188,8 @@ form button {
   }
 
   .header {
-    margin: 4vh auto;
-    padding: 2vh 4vw;
+    margin: 0 auto;
+    padding: 2rem;
   }
 
   .copy {

@@ -95,7 +95,7 @@ footer table, footer td {
 }
 .headerMenu {
   display: grid;
-  grid-column-start: 3;
+  grid-column-start: 2;
   grid-auto-flow: column;
   margin: 20px 0;
   padding: 0;
@@ -211,7 +211,7 @@ footer table, footer td {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   header {
     position: -webkit-sticky;
     position: sticky;

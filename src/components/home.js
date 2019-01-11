@@ -45,7 +45,7 @@ export default ({ children }) => (
         <span className={layoutStyles.goldType}>Magic is in the Hair</span>
       </LogoFont>
       <div className={layoutHomeSwiper.textBlock}>
-        <p>Conjuring the best you in Seattle's Greenwood neighborhood.</p>
+        <p>Conjuring the best you in Seattle's Greenwood neighborhood.<br/>We offer Devacurl services and use Kevin Murphy color and product to give your hair the best treatment.</p>
         <p>Opening <strong className={layoutStyles.goldType}>January 19, 2019</strong></p>
       </div>
     </div>

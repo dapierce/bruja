@@ -7,6 +7,7 @@ import Profile from "../components/profile"
 import Fundraiser from "../components/fundraiser"
 
 import Layout from "../components/layout"
+import KevinMurphy from "../components/kevinMurphy";
 // import HomeSwiper from "../components/homeSwiper";
 
 export default () => (
@@ -16,6 +17,7 @@ export default () => (
     </Helmet>
     <Home/>
     <Profile/>
+    <KevinMurphy/>
     <Fundraiser/>
   </Layout>
 )
