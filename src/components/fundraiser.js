@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Gallery from './gallery'
+// import Gallery from './gallery'
 import fundraiserStyles from "./fundraiser.module.css";
 import layoutStyles from "./layout.module.css";
 
@@ -16,17 +16,15 @@ import mystic from "../images/art-auction/mystic.jpg";
 import mysticThumb from "../images/art-auction/mystic-thumb.jpg";
 import lana from "../images/art-auction/lana.jpg";
 import lanaThumb from "../images/art-auction/lana-thumb.jpg";
-import luchador from "../images/art-auction/luchador.jpg";
-import luchadorThumb from "../images/art-auction/luchador-thumb.jpg";
 
-const DEFAULT_IMAGES = [
-  { id: '1', src: franciosInk, thumbnail: franciosInkThumb, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-  { id: '2', src: franciosOld, thumbnail: franciosOldThumb, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-  { id: '3', src: nicholas, thumbnail: nicholasThumb, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-  { id: '4', src: deatonDoe, thumbnail: deatonDoeThumb, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-  { id: '5', src: mystic, thumbnail: mysticThumb, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-  { id: '6', src: lana, thumbnail: lanaThumb, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-];
+// const DEFAULT_IMAGES = [
+//   { id: '1', src: franciosInk, thumbnail: franciosInkThumb, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+//   { id: '2', src: franciosOld, thumbnail: franciosOldThumb, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+//   { id: '3', src: nicholas, thumbnail: nicholasThumb, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+//   { id: '4', src: deatonDoe, thumbnail: deatonDoeThumb, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+//   { id: '5', src: mystic, thumbnail: mysticThumb, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+//   { id: '6', src: lana, thumbnail: lanaThumb, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+// ];
 
 export default ({ children }) => (
   <div>
