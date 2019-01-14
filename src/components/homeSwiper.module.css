@@ -1,5 +1,6 @@
 .slide1 {
   background: url("../images/herbs.jpg") no-repeat;
+  background-size: cover;
   min-height: calc(100vh - 60px);
   padding-bottom: 2vw;
   text-align: center;
