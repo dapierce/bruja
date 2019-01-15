@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
+import { StaticQuery, graphql } from "gatsby";
 
-import layoutStyles from "../components/layout.module.css"
+import layoutStyles from "../components/layout.module.css";
 import layoutHomeSwiper from "../components/homeSwiper.module.css";
 
+import logoPic from "../images/logo.png";
 import ReynoldsCaps from "../fonts/ReynoldsCaps.ttf";
 
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const LogoFont = styled.h1`
   @font-face {
@@ -29,25 +31,52 @@ const LogoFont = styled.h1`
     font-size: 2.4rem;
     letter-spacing: 1px;
   }
-`
+`;
 
 const MoreSpacing = styled.span`
   letter-spacing: 4px;
-`
+`;
 
 export default ({ children }) => (
-  <div id="home">
-    {/* <HomeSwiper/> */}
-    <div className={layoutHomeSwiper.slide1}>
-      <LogoFont>
-        Welcome to <span className={layoutStyles.unbreakable}>Br<MoreSpacing>u</MoreSpacing>ja Hair Salon</span><br/>
-        <span className={layoutStyles.swirlDecor}>~</span><br/>
-        <span className={layoutStyles.goldType}>Magic is in the Hair</span>
-      </LogoFont>
-      <div className={layoutHomeSwiper.textBlock}>
-        <p>Conjuring the best you in Seattle's Greenwood neighborhood.<br/>We offer Devacurl services and use Kevin Murphy color and product to give your hair the best treatment.</p>
-        <p>Opening <strong className={layoutStyles.goldType}>January 19, 2019</strong></p>
+  <StaticQuery
+    query={graphql`
+      query {
+        site {
+          siteMetadata {
+            bookingLink
+          }
+        }
+      }
+    `}
+    render={data => (
+      <div id="home">
+        {/* <HomeSwiper/> */}
+        <div className={layoutHomeSwiper.slide1}>
+          <LogoFont>
+            <img className={layoutHomeSwiper.logo} src={logoPic} alt="Bruja Hair Salon" />
+            <br />
+            <span className={layoutStyles.goldType}>Magic is in the Hair</span>
+          </LogoFont>
+          <div className={layoutHomeSwiper.textBlock}>
+            <p>
+              Conjuring the best you in Seattle's Greenwood neighborhood.
+              <br />
+              We offer Devacurl services and use Kevin Murphy color and product
+              to give your hair the best treatment.
+            </p>
+            <ul className={layoutHomeSwiper.buttonList}>
+              <li>
+                <a
+                  className={layoutHomeSwiper.button}
+                  href={data.site.siteMetadata.bookingLink}
+                >
+                  Book an appointment!
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-)
+    )}
+  />
+);
