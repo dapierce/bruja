@@ -30,7 +30,8 @@
 }
 
 .logo {
-  max-width: 60vw;
+  max-width: 600px;
+  width: 60vw;
   margin-bottom: 2vh;
 }
 
