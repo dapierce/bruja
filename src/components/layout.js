@@ -97,7 +97,7 @@ export default ({ children }) => (
             Seattle, WA 98103
           </a>
         </p>
-        <p><a href="tisha@brujasalon.com">tisha@brujasalon.com</a></p>
+        <p><a href="mailto:tisha@brujasalon.com">tisha@brujasalon.com</a></p>
       </div>
       <div>
         <a href={data.site.siteMetadata.googleMapsLink} alt="Open address in Google Maps">
