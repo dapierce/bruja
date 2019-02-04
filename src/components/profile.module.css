@@ -4,7 +4,7 @@
   grid-column-gap: 5vw;
   grid-row-gap: 3vh;
   margin: 2vw 5vw;
-  padding: 4vw;
+  padding: 0 4vw;
 }
 
 .name {
@@ -27,6 +27,9 @@
 }
 .buttonList {
   grid-column-start: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   margin: 40px 0 0 0;
   padding: 0;
   list-style: none;
@@ -34,7 +37,7 @@
 
 .buttonList li {
   margin: 0 2vw 0 0;
-  padding: 0;
+  padding-bottom: 4vh;
   display: inline;
 }
 
@@ -69,7 +72,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 2vw;
-    margin: 5vw 2vw;
+    margin: 2vw 5vw;
     padding: 5vw 2vw;
   }
   .name {
@@ -96,7 +99,7 @@
   .buttonList {
     grid-column: 1;
     grid-row: 5;
-    margin: 6vw 0 0 0;
+    margin: 6vh 0 0 0;
     text-align: center;
   }
   .button {

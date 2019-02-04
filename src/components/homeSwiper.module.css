@@ -36,7 +36,7 @@
 }
 
 .textBlock {
-  margin: 0 15% 0 15%;
+  margin: 10vh 15% 0 15%;
   background: #000;
   color: var(--color-off-white);
   border: 1px solid var(--color-gold);
@@ -53,15 +53,16 @@
 
 .buttonList {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 2rem 0;
-  padding: 0;
   list-style: none;
+  margin: 0;
+  padding: 0 0 6vh 0;
   text-align: center;
 }
 
 .buttonList li {
-  padding: 0 1vw 0 0;
+  padding-top: 6vh;
   display: inline;
 }
 
@@ -91,6 +92,10 @@
   .slide3 h1 {
     margin: 4vh auto;
     text-align: center;
+  }
+
+  .textBlock {
+    margin: 0 10% 0 10%;
   }
 
   .textBlock p {
