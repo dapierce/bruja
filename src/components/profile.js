@@ -11,6 +11,7 @@ export default ({ children }) => (
       query {
         site {
           siteMetadata {
+            instagramLink,
             bookingLink
           }
         }
@@ -37,6 +38,7 @@ export default ({ children }) => (
       </p>
       <ul className={profileStyles.buttonList}>
         <li><a className={profileStyles.button} href={data.site.siteMetadata.bookingLink}>Make an appointment</a></li>
+        <li><a className={profileStyles.button} href={data.site.siteMetadata.instagramLink}>Instagram</a></li>
         <li><a className={profileStyles.button} href="https://tishaturner.com">Portfolio</a></li>
       </ul>
     </div>

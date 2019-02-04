@@ -52,7 +52,8 @@
 }
 
 .buttonList {
-  grid-column-start: 2;
+  display: flex;
+  justify-content: space-evenly;
   margin: 2rem 0;
   padding: 0;
   list-style: none;
@@ -60,7 +61,7 @@
 }
 
 .buttonList li {
-  padding: 0;
+  padding: 0 1vw 0 0;
   display: inline;
 }
 

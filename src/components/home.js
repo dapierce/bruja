@@ -43,6 +43,7 @@ export default ({ children }) => (
       query {
         site {
           siteMetadata {
+            instagramLink,
             bookingLink
           }
         }
@@ -65,6 +66,14 @@ export default ({ children }) => (
               to give your hair the best treatment.
             </p>
             <ul className={layoutHomeSwiper.buttonList}>
+            <li>
+                <a
+                  className={layoutHomeSwiper.button}
+                  href={data.site.siteMetadata.instagramLink}
+                >
+                  Instagram
+                </a>
+              </li>
               <li>
                 <a
                   className={layoutHomeSwiper.button}
