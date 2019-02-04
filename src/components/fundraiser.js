@@ -39,7 +39,7 @@ export default ({ children }) => (
     </div>
     <div className={fundraiserStyles.artGallery}>
       <div className={fundraiserStyles.artGalleryPiece}>
-        <a href={franciosInk}><img className={fundraiserStyles.pieceImg} src={franciosInkThumb} alt="Francios"/></a>
+        <a className={fundraiserStyles.pieceLink} href={franciosInk}><img className={fundraiserStyles.pieceImg} src={franciosInkThumb} alt="Francios"/></a>
         <div className={fundraiserStyles.pieceDesc}>
           <h3>
             <span className={layoutStyles.goldType}>#1 </span>
@@ -58,7 +58,7 @@ export default ({ children }) => (
         </form>
       </div>
       <div className={fundraiserStyles.artGalleryPiece}>
-        <a href={franciosOld}><img className={fundraiserStyles.pieceImg} src={franciosOldThumb} alt="Old Francios"/></a>
+        <a className={fundraiserStyles.pieceLink} href={franciosOld}><img className={fundraiserStyles.pieceImg} src={franciosOldThumb} alt="Old Francios"/></a>
         <div className={fundraiserStyles.pieceDesc}>
           <h3>
             <span className={layoutStyles.goldType}>#2 </span>
@@ -77,7 +77,7 @@ export default ({ children }) => (
         </form>
       </div>
       <div className={fundraiserStyles.artGalleryPiece}>
-        <a href={nicholas}><img className={fundraiserStyles.pieceImg} src={nicholasThumb} alt="Nicholas Grant"/></a>
+        <a className={fundraiserStyles.pieceLink} href={nicholas}><img className={fundraiserStyles.pieceImg} src={nicholasThumb} alt="Nicholas Grant"/></a>
         <div className={fundraiserStyles.pieceDesc}>
           <h3>
             <span className={layoutStyles.goldType}>#3 </span>
@@ -96,7 +96,7 @@ export default ({ children }) => (
         </form>
       </div>
       <div className={fundraiserStyles.artGalleryPiece}>
-        <img className={fundraiserStyles.pieceImg} src={deatonDoeThumb} alt="Deaton the Doe"/>
+      <a className={fundraiserStyles.pieceLink} href={deatonDoe}><img className={fundraiserStyles.pieceImg} src={deatonDoeThumb} alt="Deaton the Doe"/></a>
         <div className={fundraiserStyles.pieceDesc}>
           <h3>
             <span className={layoutStyles.goldType}>#4 </span>
@@ -115,7 +115,7 @@ export default ({ children }) => (
         </form>
       </div>
       <div className={fundraiserStyles.artGalleryPiece}>
-        <img className={fundraiserStyles.pieceImg} src={mysticThumb} alt="Mystic in Water"/>
+      <a className={fundraiserStyles.pieceLink} href={mystic}><img className={fundraiserStyles.pieceImg, fundraiserStyles.wide} src={mysticThumb} alt="Mystic in Water"/></a>
         <div className={fundraiserStyles.pieceDesc}>
           <h3>
             <span className={layoutStyles.goldType}>#5 </span>
@@ -134,7 +134,7 @@ export default ({ children }) => (
         </form>
       </div>
       <div className={fundraiserStyles.artGalleryPiece}>
-        <img className={fundraiserStyles.pieceImg} src={lanaThumb} alt="Green Lady"/>
+      <a className={fundraiserStyles.pieceLink} href={lana}><img className={fundraiserStyles.pieceImg} src={lanaThumb} alt="Lana del Bae"/></a>
         <div className={fundraiserStyles.pieceDesc}>
           <h3>
             <span className={layoutStyles.goldType}>#6 </span>

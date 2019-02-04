@@ -1,3 +1,8 @@
+/* 
+layout.module.css
+Styles used by layout.js and shared by entire website
+*/
+
 /* Color variables */
 :root {
   --color-gold: rgb(255, 232, 104);
@@ -17,10 +22,9 @@ body {
   background-color: var(--color-off-white);
   color: var(--color-off-black);
   margin: 0;
-  max-width: 100vw;
   overflow-x: hidden;
   position: absolute;
-  height: auto;
+  width: 100%;
 }
 p {
   margin: 0 0 20px 0;
@@ -35,16 +39,20 @@ a[href^="tel:"]:before {
   content: "\260e\fe0e";
   margin-right: 0.5em;
 }
+
 header {
   display: grid;
   border-bottom: 1px solid var(--color-gold);
   outline: 2px solid #000;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
-
 header, footer {
   background: var(--color-off-black);
   color: var(--color-gold);
-  transition: .2s all;
+  transition: 1s all;
 }
 header ul {
   font-size: 20px;
@@ -81,11 +89,13 @@ footer table, footer td {
 .container {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 .titleCrop {
   width: auto;
   height: 80px;
   overflow: hidden;
+  transition: .2s all;
 }
 .title {
   margin: 8px;
@@ -104,7 +114,6 @@ footer table, footer td {
 
 .headerMenuItem {
   display: inline-block;
-  margin-right: 1rem;
 }
 
 .button {
@@ -129,6 +138,7 @@ footer table, footer td {
 .anchor {
   display: block;
   position: relative;
+  top: -80px;
   visibility: hidden;
 }
 
@@ -142,7 +152,8 @@ footer table, footer td {
 .map {
   margin-top: -2vw;
   margin-bottom: 0;
-  max-width: 200px;
+  max-width: 450px;
+  width: 100%;
 }
 .sitemap {
   grid-row: 2;
@@ -178,6 +189,9 @@ footer table, footer td {
 
 @media (max-width: 899px) {
 
+  .headerMenu {
+    margin-top: 22px;
+  }
   footer, .hours {
     font-size: 1rem;
   }
@@ -191,6 +205,12 @@ footer table, footer td {
 
 @media (max-width: 720px) {
 
+  .anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+  }
   footer, .hours {
     font-size: .9rem;
   }
@@ -212,23 +232,12 @@ footer table, footer td {
 }
 
 @media (max-width: 720px) {
-  header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-  }
-  .anchor {
-    display: block;
-    position: relative;
-    top: -60px;
-    visibility: hidden;
-  }
 
   .titleCrop {
     width: 58px;
     height: 50px;
     overflow: hidden;
+    margin-top: 4px;
   }
   .title {
     height: 45px;
@@ -297,7 +306,7 @@ footer table, footer td {
 
 @media (max-width: 420px) {
   .titleCrop {
-    margin-top: .8rem;
+    margin-top: 12px;
   }
   .headerMenu {
     grid-template-rows: 1fr 1fr;
@@ -306,6 +315,10 @@ footer table, footer td {
 
   .headerMenuItem {
     padding-bottom: 1rem;
+  }
+
+  .anchor {
+    top: -80px;
   }
 }
 

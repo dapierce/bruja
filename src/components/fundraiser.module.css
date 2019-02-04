@@ -65,9 +65,14 @@ input[type=number] {
   margin: 2vw 4vw;
 }
 
+.pieceLink {
+  text-align: center;
+}
 .pieceImg {
-  max-width: 400px;
   max-height: 400px;
+}
+.wide {
+  max-height: 200px;
 }
 
 .pieceDesc {
