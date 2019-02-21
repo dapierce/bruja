@@ -58,31 +58,31 @@ export default ({ children }) => (
             <tr style={{fontWeight: "bold"}}>
               <td>Hours</td>
             </tr>
-            <tr>
+            <tr id="sun">
               <td>Sunday</td>
               <td>Closed</td>
             </tr>
-            <tr>
+            <tr id="mon">
               <td>Monday</td>
               <td>Closed</td>
             </tr>
-            <tr>
+            <tr id="tue">
               <td>Tuesday</td>
               <td>5:00 PM - 9:00 PM</td>
             </tr>
-            <tr>
+            <tr id="wed">
               <td>Wednesday</td>
               <td>9:00 AM - 5:00 PM</td>
             </tr>
-            <tr>
+            <tr id="thu">
               <td>Thursday</td>
               <td>5:00 PM - 9:00 PM</td>
             </tr>
-            <tr>
+            <tr id="fri">
               <td>Friday</td>
               <td>9:30 AM - 7:00 PM</td>
             </tr>
-            <tr>
+            <tr id="sat">
               <td>Saturday</td>
               <td>9:00 AM - 7:00 PM</td>
             </tr>
@@ -90,7 +90,7 @@ export default ({ children }) => (
         </table>
       </div>
       <div className={layoutStyles.address}>
-        <p><a href="tel:1-206-395-8231">206-395-8231</a></p>
+        <p><span itemprop="telephone"><a href="tel:+12063958231">206-395-8231</a></span></p>
         <p>
           <a href={data.site.siteMetadata.googleMapsLink}>
             511 N 85th St<br/>

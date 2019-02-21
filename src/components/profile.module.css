@@ -3,8 +3,8 @@
   grid-template-columns: 25% 55%;
   grid-column-gap: 5vw;
   grid-row-gap: 3vh;
-  margin: 2vw 5vw;
-  padding: 0 4vw;
+  margin: 0 5vw;
+  padding: 4vw 4vw 2vw;
 }
 
 .name {
@@ -37,7 +37,7 @@
 
 .buttonList li {
   margin: 0 2vw 0 0;
-  padding-bottom: 4vh;
+  padding-bottom: 40px;
   display: inline;
 }
 
@@ -99,9 +99,13 @@
   .buttonList {
     grid-column: 1;
     grid-row: 5;
-    margin: 6vh 0 0 0;
+    margin: 6vh 20% 0;
     text-align: center;
   }
+  .buttonList li {
+    margin: 0;
+    padding-bottom: 24px;
+  }  
   .button {
     margin-top: 20px;
     font-size: .8rem;

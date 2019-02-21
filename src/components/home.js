@@ -33,10 +33,6 @@ const LogoFont = styled.h1`
   }
 `;
 
-const MoreSpacing = styled.span`
-  letter-spacing: 4px;
-`;
-
 export default ({ children }) => (
   <StaticQuery
     query={graphql`
