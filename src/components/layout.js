@@ -41,7 +41,7 @@ export default ({ children }) => (
       </div>
       <ul className={layoutStyles.headerMenu}>
         <ListLink to="#profile">About</ListLink>
-        <ListLink to="#kevinMurphy">Kevin Murphy</ListLink>
+        <ListLink to="#product">Products</ListLink>
         <ListLink to="#fundraiser">Fundraiser</ListLink>
         <li className={layoutStyles.headerMenuItem}>
           <a className={layoutStyles.button} href={data.site.siteMetadata.bookingLink}>
@@ -90,7 +90,7 @@ export default ({ children }) => (
         </table>
       </div>
       <div className={layoutStyles.address}>
-        <p><span itemprop="telephone"><a href="tel:+12063958231">206-395-8231</a></span></p>
+        <p><span itemProp="telephone"><a href="tel:+12063958231">206-395-8231</a></span></p>
         <p>
           <a href={data.site.siteMetadata.googleMapsLink}>
             511 N 85th St<br/>
@@ -108,7 +108,7 @@ export default ({ children }) => (
       <div className={layoutStyles.sitemap}>
         <ul className={layoutStyles.sitemapList}>
           <ListLink to="#profile">About</ListLink>
-          <ListLink to="#kevinMurphy">Kevin Murphy</ListLink>
+          <ListLink to="#product">Products</ListLink>
           <ListLink to="#fundraiser">Fundraiser</ListLink>
           <li><a href={data.site.siteMetadata.bookingLink}>Make an Appointment</a></li>
         </ul>

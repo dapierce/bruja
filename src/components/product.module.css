@@ -7,7 +7,19 @@
 .img {
   max-width: 40%;
   object-fit: cover;
-  max-height: 600px;
+  max-height: 800px;
+}
+
+.logo {
+  max-width: 60%;
+  margin-bottom: 1rem;
+  margin-left: -2%;
+}
+
+.mini {
+  max-width: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .copy {
