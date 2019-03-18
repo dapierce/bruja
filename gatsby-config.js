@@ -4,15 +4,10 @@ module.exports = {
     instagramLink: 'https://www.instagram.com/bruja_hair/',
     googleMapsLink: 'https://www.google.com/maps/place/Bruja+Hair+Salon/@47.6903981,-122.3542453,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xde7c422f4b3c7cfc!8m2!3d47.6903981!4d-122.3520566',
     bookingLink: 'https://www.vagaro.com/brujahairsalon/book-now',
+    servicesLink: 'https://www.vagaro.com/brujahairsalon/services',
     productKevinMurphyLink: 'https://app.saloninteractive.com/cel/Brujasalon',
   },
   plugins: [
-    // {
-    //   resolve: `gatsby-plugin-typography`,
-    //   options: {
-    //     pathToConfigModule: `src/utils/typography.js`,
-    //   },
-    // },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
