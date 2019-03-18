@@ -49,8 +49,8 @@ export default ({ children }) => (
               </li>
             </ul>
             <p>Additionally, we use these products for your services:</p>
-            <img className={productStyles.logo, productStyles.mini} src={devacurlLogo} alt="DevaCurl" />
-            <img className={productStyles.logo, productStyles.mini} src={schwarzkopfLogo} alt="Schwarzkopf Professional HairCare for you" />
+            <img className={productStyles.miniLogo} src={devacurlLogo} alt="DevaCurl" />
+            <img className={productStyles.miniLogo} src={schwarzkopfLogo} alt="Schwarzkopf Professional HairCare for you" />
           </div>
           <img className={productStyles.img} src={oceanImg} alt="Water at sunrise" />
         </div>

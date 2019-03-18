@@ -16,10 +16,11 @@
   margin-left: -2%;
 }
 
-.mini {
-  max-width: 30%;
-  margin-left: 10%;
-  margin-right: 10%;
+.miniLogo {
+  max-width: 40%;
+  margin-bottom: 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .copy {
