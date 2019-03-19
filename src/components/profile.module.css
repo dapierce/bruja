@@ -61,6 +61,13 @@
   box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.75);
 }
 
+.seperator {
+  background-color: var(--color-off-black);
+  border: none;
+  height: 2px;
+  width: 60%;
+}
+
 @media (max-width: 899px) {
   .profileContainer {
     grid-template-columns: 25% 75%;
@@ -70,34 +77,36 @@
 @media (max-width: 600px) {
   .profileContainer {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-row-gap: 2vw;
     margin: 2vw 5vw;
     padding: 5vw 2vw;
   }
   .name {
-    margin-top: 2vw;
-    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+    text-align: left;
+    margin-top: 40%;
   }
   .profileTitle {
-    grid-column: 1;
-    grid-row: 2;
-    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: calc(40% + 6vw);
   }
   .profileImg {
     grid-column: 1;
-    grid-row: 3;
-    margin: 0 auto;
-    max-height: 50vw;
+    grid-row: 1;
+    max-height: 40vw;
     border-radius: 50%;
     padding: 2vw;
   }
   .profileDesc {
-    grid-column: 1;
-    grid-row: 4;
+    grid-column: span 2;
+    grid-row: 3;
+    font-size: .8rem;
   }
   .buttonList {
-    grid-column: 1;
+    grid-column: span 2;
     grid-row: 5;
     margin: 6vh 20% 0;
     text-align: center;
