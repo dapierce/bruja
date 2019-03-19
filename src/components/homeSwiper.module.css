@@ -1,6 +1,7 @@
 .slide1 {
-  background: url("../images/herbs.jpg") no-repeat;
+  background: url("../images/salon-interior.jpg") no-repeat;
   background-size: cover;
+  background-position-y: center;
   min-height: calc(100vh - 60px);
   padding-bottom: 2vw;
   text-align: center;
