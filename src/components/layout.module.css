@@ -8,7 +8,7 @@ Styles used by layout.js and shared by entire website
   --color-gold: rgb(255, 232, 104);
   --color-gold-shadow: rgb(238, 212, 63);
   --color-off-white: rgb(239, 239, 239);
-  --color-off-black: #000;
+  --color-off-black: #222;
 
   --button-normal-color: rgba(255, 255, 255, 0.0);
   --button-normal-border: rgba(255, 255, 255, 0.7);
@@ -50,7 +50,7 @@ header {
   z-index: 999;
 }
 header, footer {
-  background: var(--color-off-black);
+  background: black;
   color: var(--color-gold);
   transition: 1s all;
 }

@@ -4,12 +4,13 @@ import { StaticQuery, Link, graphql } from "gatsby"
 import { Helmet } from "react-helmet";
 
 import layoutStyles from "./layout.module.css";
+
 import logoPic from "../images/logo.png";
 import mapPic from "../images/map.png";
 
 const ListLink = props => (
   <li>
-    <Link to={props.to}>{props.children}</Link>
+    <a href={props.to}>{props.children}</a>
   </li>
 )
 
@@ -40,7 +41,7 @@ export default ({ children }) => (
         </Link>
       </div>
       <ul className={layoutStyles.headerMenu}>
-        <ListLink to="#profile">About</ListLink>
+        <ListLink to="#profile">Stylists</ListLink>
         <ListLink to="#product">Products</ListLink>
         <ListLink to="#fundraiser">Fundraiser</ListLink>
         <li className={layoutStyles.headerMenuItem}>
@@ -72,11 +73,11 @@ export default ({ children }) => (
             </tr>
             <tr id="wed">
               <td>Wednesday</td>
-              <td>9:00 AM - 5:00 PM</td>
+              <td>9:00 AM - 8:00 PM</td>
             </tr>
             <tr id="thu">
               <td>Thursday</td>
-              <td>5:00 PM - 9:00 PM</td>
+              <td>12:00 PM - 9:00 PM</td>
             </tr>
             <tr id="fri">
               <td>Friday</td>
@@ -107,7 +108,7 @@ export default ({ children }) => (
       </div>
       <div className={layoutStyles.sitemap}>
         <ul className={layoutStyles.sitemapList}>
-          <ListLink to="#profile">About</ListLink>
+          <ListLink to="#profile">Stylists</ListLink>
           <ListLink to="#product">Products</ListLink>
           <ListLink to="#fundraiser">Fundraiser</ListLink>
           <li><a href={data.site.siteMetadata.bookingLink}>Make an Appointment</a></li>
