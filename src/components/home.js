@@ -56,10 +56,7 @@ export default ({ children }) => (
           </LogoFont>
           <div className={layoutHomeSwiper.textBlock}>
             <p>
-              Conjuring the best you in Seattle's Greenwood neighborhood.
-              <br />
-              We offer Devacurl services and use Kevin Murphy color and product
-              to give your hair the best treatment.
+              Conjuring the best you in Seattle's Greenwood neighborhood!
             </p>
             <ul className={layoutHomeSwiper.buttonList}>
             <li>
