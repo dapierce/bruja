@@ -115,7 +115,7 @@ export default ({ children }) => (
         </form>
       </div>
       <div className={fundraiserStyles.artGalleryPiece}>
-      <a className={fundraiserStyles.pieceLink} href={mystic}><img className={fundraiserStyles.pieceImg, fundraiserStyles.wide} src={mysticThumb} alt="Mystic in Water"/></a>
+      <a className={fundraiserStyles.pieceLink} href={mystic}><img className={fundraiserStyles.wide} src={mysticThumb} alt="Mystic in Water"/></a>
         <div className={fundraiserStyles.pieceDesc}>
           <h3>
             <span className={layoutStyles.goldType}>#5 </span>
