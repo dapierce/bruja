@@ -177,6 +177,9 @@ form button {
     max-height: 40vh;
     max-width: 100%;
   }
+  .wide {
+    max-height: 150px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -204,6 +207,9 @@ form button {
   .pieceImg {
     max-width: 150px;
   }
+  .wide {
+    max-height: 100px;
+  }
 
   .pieceDesc {
     font-size: .8rem;
@@ -217,7 +223,7 @@ form button {
     flex-flow: column;
     width: 90%;
   }
-  .pieceImg {
+  .pieceImg, .wide {
     max-height: 40vh;
     max-width: 96%;
     width: auto;
