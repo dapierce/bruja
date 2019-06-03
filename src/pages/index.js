@@ -1,13 +1,11 @@
 import React from "react"
 
-import { Helmet } from "react-helmet";
-
-import Home from "../components/home"
-import Profile from "../components/profile"
-import Fundraiser from "../components/fundraiser"
+import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
-import Product from "../components/product";
+import Home from "../components/home"
+import Profile from "../components/profile"
+import Product from "../components/product"
 // import HomeSwiper from "../components/homeSwiper";
 
 export default () => (
@@ -18,6 +16,5 @@ export default () => (
     <Home/>
     <Profile/>
     <Product/>
-    <Fundraiser/>
   </Layout>
 )
