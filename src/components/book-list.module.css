@@ -28,3 +28,12 @@
   margin-right: 2rem;
   vertical-align: middle;
 }
+
+@media (max-width: 420px) {
+  .container {
+    margin: 0;
+  }
+  .title {
+    text-align: center;
+  }
+}

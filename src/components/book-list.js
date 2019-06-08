@@ -20,7 +20,7 @@ export default ({ children }) => (
     `}
     render={data => (
       <div className={bookStyles.container}>
-        <h2>
+        <h2 className={bookStyles.title}>
           Book with which Stylist?
         </h2>
         <div>
