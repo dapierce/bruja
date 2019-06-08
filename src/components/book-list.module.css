@@ -1,0 +1,30 @@
+.container {
+  margin: 0 20%;
+}
+
+.stylistList {
+  display: flex;
+  flex-flow: column;
+  margin: 0 0 10vh 0;
+}
+
+.stylist {
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 1rem;
+  list-style: none;
+  border-radius: 1rem;
+  transition: .2s all ease-in-out;
+}
+
+.stylist:hover {
+  background: rgba(255, 255, 255, .5);
+  box-shadow: 0 0 20px -10px rgba(0, 0, 0, .5);
+}
+
+.photo {
+  max-width: 80px;
+  border-radius: 50%;
+  margin-right: 2rem;
+  vertical-align: middle;
+}

@@ -1,10 +1,26 @@
+.container {
+  background: #ebc8de fixed; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fffde7, #ebc8de) fixed;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fffde7, #ebc8de) fixed;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: inset 0 0 60px -10px rgba(0, 0, 0, .5);
+  padding: 2rem;
+}
+
 .profileContainer {
   display: grid;
-  grid-template-columns: 25% 55%;
   grid-column-gap: 5vw;
   grid-row-gap: 3vh;
-  margin: 0 5vw;
-  padding: 4vw 4vw 2vw;
+  margin: 1rem 5vw;
+  padding: 4vw 8vw 0 2vw;
+  border-radius: 1rem;
+  transition: .5s all ease-in-out;
+}
+
+.profileContainer:hover {
+  background: rgba(255, 255, 255, .5);
+  box-shadow: 0 0 20px -10px rgba(0, 0, 0, .5);
 }
 
 .name {
@@ -21,6 +37,7 @@
 .profileImg {
   max-height: 20vw;
   border-radius: 50%;
+  padding-bottom: 4vh;
 }
 .profileDesc {
   font-size: 1rem;
@@ -68,6 +85,12 @@
   width: 60%;
 }
 
+@media (min-width: 900px) {
+  .profileContainer {
+    grid-template-columns: 25% 75%;
+  }
+}
+
 @media (max-width: 899px) {
   .profileContainer {
     grid-template-columns: 25% 75%;
@@ -75,12 +98,18 @@
 }
 
 @media (max-width: 600px) {
+  .container {
+    margin: 0;
+    padding: 1rem 2vw;
+  }
   .profileContainer {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-row-gap: 2vw;
-    margin: 2vw 5vw;
+    margin: 1rem 5vw;
     padding: 5vw 2vw;
+    background: rgba(255, 255, 255, .5);
+    box-shadow: 0 0 20px -10px rgba(0, 0, 0, .5);
   }
   .name {
     grid-column: 2;

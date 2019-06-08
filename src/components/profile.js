@@ -21,7 +21,7 @@ export default ({ children }) => (
       }
     `}
     render={data => (
-      <div>
+      <div className={profileStyles.container}>
         <div id="profile" className={layoutStyles.anchor} />
         <div className={profileStyles.profileContainer}>
           <h2 className={profileStyles.name}>Tisha</h2>
@@ -68,7 +68,6 @@ export default ({ children }) => (
             </ul>
           </div>
         </div>
-        <hr className={profileStyles.seperator}/>
         <div className={profileStyles.profileContainer}>
         <h2 className={profileStyles.name}>Hilary</h2>
           <h3 className={profileStyles.profileTitle}>Stylist</h3>

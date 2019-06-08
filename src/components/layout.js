@@ -10,7 +10,7 @@ import mapPic from "../images/map.png";
 
 const ListLink = props => (
   <li>
-    <a href={props.to}>{props.children}</a>
+    <Link to={props.to}>{props.children}</Link>
   </li>
 )
 
@@ -44,9 +44,9 @@ export default ({ children }) => (
         <ListLink to="#profile">Stylists</ListLink>
         <ListLink to="#product">Products</ListLink>
         <li className={layoutStyles.headerMenuItem}>
-          <a className={layoutStyles.button} href={data.site.siteMetadata.bookingLink}>
+          <Link className={layoutStyles.button} to="book-now/">
             Make an Appointment
-          </a>
+          </Link>
         </li>
       </ul>
     </header>
@@ -109,7 +109,7 @@ export default ({ children }) => (
         <ul className={layoutStyles.sitemapList}>
           <ListLink to="#profile">Stylists</ListLink>
           <ListLink to="#product">Products</ListLink>
-          <li><a href={data.site.siteMetadata.bookingLink}>Make an Appointment</a></li>
+          <ListLink to="book-now/">Book Now</ListLink>
         </ul>
       </div>
     </footer>
