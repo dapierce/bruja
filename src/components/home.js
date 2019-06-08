@@ -1,5 +1,5 @@
 import React from "react";
-import { StaticQuery, graphql } from "gatsby";
+import { StaticQuery, graphql, Link } from "gatsby";
 
 import layoutStyles from "../components/layout.module.css";
 import layoutHomeSwiper from "../components/homeSwiper.module.css";
@@ -68,12 +68,12 @@ export default ({ children }) => (
                 </a>
               </li>
               <li>
-                <a
+                <Link
                   className={layoutHomeSwiper.button}
-                  href={data.site.siteMetadata.bookingLink}
+                  to="book-now/"
                 >
                   Book an appointment!
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

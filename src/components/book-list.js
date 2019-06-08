@@ -29,7 +29,7 @@ export default ({ children }) => (
               <img
                 className={bookStyles.photo}
                 src={profilePicTisha}
-                alt="Tisha's photo"
+                alt="Tisha"
               />
           Tisha
           </li>
@@ -39,7 +39,7 @@ export default ({ children }) => (
               <img
                 className={bookStyles.photo}
                 src={profilePicHilary}
-                alt="Hilary's photo"
+                alt="Hilary"
               />Hilary</li></a>
           </ul>
         </div>
