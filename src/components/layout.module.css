@@ -81,10 +81,7 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   border-top: 1px solid var(--color-gold);
   outline: 2px solid #000;
-  padding: 2vw 0 0 2vw;
-  
-}
-footer {
+  padding: 2vw 0 0 0;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -160,9 +157,11 @@ footer table, footer td {
 .hours {
   grid-column-start: 1;
   grid-column-end: 3;
+  padding-left: 2vw;
 }
 .address {
   grid-column: 3;
+  padding-left: 2vw;
 }
 .map {
   margin-top: -2vw;
@@ -174,6 +173,7 @@ footer table, footer td {
   grid-row: 2;
   grid-column: 1 / -1;
   margin: 1rem 0;
+  padding-left: 2vw;
   text-transform: uppercase;
   white-space: nowrap;
 }
@@ -318,6 +318,9 @@ footer table, footer td {
 }
 
 @media (max-width: 460px) {
+  header ul {
+    font-size: .95rem;
+  }
   .container {
     padding-bottom: 200px;
   }
@@ -334,6 +337,9 @@ footer table, footer td {
 }
 
 @media (max-width: 350px) {
+  header ul {
+    font-size: .85rem;
+  }
   .hours {
     font-size: .6rem;
   }
