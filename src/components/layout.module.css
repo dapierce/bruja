@@ -58,8 +58,9 @@ header {
   z-index: 999;
 }
 header, footer {
-  background: black;
+  background: #000; /* Old browsers */
   color: var(--color-gold);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, .5);
   transition: 1s all;
 }
 header ul {
@@ -77,6 +78,11 @@ header a, footer a {
 }
 
 footer {
+  background: #45484d; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #45484d 0%, #000000 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  text-shadow: 0 1px 4px rgba(0, 0, 0, .5);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   border-top: 1px solid var(--color-gold);

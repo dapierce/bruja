@@ -1,11 +1,18 @@
 .container {
-  margin: 0 20%;
+  margin: 0;
+  padding-bottom: 2vw;
+}
+
+.title {
+  text-align: center;
 }
 
 .stylistList {
   display: flex;
   flex-flow: column;
-  margin: 0 0 10vh 0;
+  margin: 0 auto;
+  padding: 0;
+  width: fit-content;
 }
 
 .stylist {
@@ -15,6 +22,7 @@
   list-style: none;
   border-radius: 1rem;
   transition: .2s all ease-in-out;
+  font-size: 1.2rem;
 }
 
 .stylist:hover {
@@ -32,8 +40,5 @@
 @media (max-width: 420px) {
   .container {
     margin: 0;
-  }
-  .title {
-    text-align: center;
   }
 }
