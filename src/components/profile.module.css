@@ -137,7 +137,7 @@
   .buttonList {
     grid-column: span 2;
     grid-row: 5;
-    margin: 6vh 20% 0;
+    margin: 4vh 20% 0;
     text-align: center;
   }
   .buttonList li {
