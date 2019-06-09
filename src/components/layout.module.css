@@ -331,27 +331,25 @@ footer table, footer td {
   footer {
     font-size: .7rem;
   }
-  .hours {
-    font-size: .65rem;
-  }
 }
 
 @media (max-width: 350px) {
   header ul {
-    font-size: .85rem;
+    font-size: .8rem;
   }
   .hours {
-    font-size: .6rem;
+    font-size: .7rem;
   }
 }
 
 /* Typography */
 
-h1,h2,h3,h4,h5,h6, header a {
-  font-family: 'Macondo', sans-serif;
+h1,h2,h3,h4,h5,h6, a, footer table {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
 }
 
-p, a, table, input {
+p, table, input {
   font-family: 'Libre Baskerville', Baskerville, serif;
 }
 

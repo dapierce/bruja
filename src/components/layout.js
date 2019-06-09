@@ -31,7 +31,7 @@ export default ({ children }) => (
   <div className={layoutStyles.container}>
     <Helmet>
       <html lang="en" />
-      <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Macondo" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Josefin+Sans:400,700&display=swap" rel="stylesheet" />
       <meta name="description" content="Magic is in the hair! Conjuring the best you in Seattle's Greenwood neighborhood. We offer the full range of hair services from cuts to high fashion color." />
     </Helmet>
     <header>
