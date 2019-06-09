@@ -60,7 +60,6 @@ header {
 header, footer {
   background: #000; /* Old browsers */
   color: var(--color-gold);
-  text-shadow: 0 1px 4px rgba(0, 0, 0, .5);
   transition: 1s all;
 }
 header ul {
@@ -331,7 +330,7 @@ footer table, footer td {
     padding-bottom: 200px;
   }
   header ul, footer {
-    letter-spacing: -.2px;
+    letter-spacing: -.4px;
   }
 
   footer {
@@ -339,9 +338,12 @@ footer table, footer td {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   header ul {
     font-size: .8rem;
+  }
+  .titleCrop {
+    margin-top: 2px;
   }
   .hours {
     font-size: .7rem;

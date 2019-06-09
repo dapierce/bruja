@@ -15,10 +15,18 @@
   width: fit-content;
 }
 
+.stylistList a, .stylistList a:visited {
+  color: #000;
+}
+
+.stylistList a:active {
+  color: var(--color-off-black);
+}
+
 .stylist {
   justify-content: space-evenly;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1rem 4rem;
   list-style: none;
   border-radius: 1rem;
   transition: .2s all ease-in-out;
