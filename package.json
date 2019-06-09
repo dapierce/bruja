@@ -3,10 +3,9 @@
   "description": "Bruja Salon",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
-    "gatsby": "^2.3.11",
+    "gatsby": "^2.8.6",
     "gatsby-image": "^2.0.37",
     "gatsby-plugin-manifest": "^2.0.26",
-    "gatsby-plugin-netlify-cms": "^4.0.1",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.11",
     "gatsby-plugin-sharp": "^2.0.32",
