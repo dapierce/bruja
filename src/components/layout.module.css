@@ -19,10 +19,10 @@ Styles used by layout.js and shared by entire website
 }
 
 body {
-  background: #ebc8de fixed; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fffde7, #ebc8de) fixed;
+  background: #e3c8eb fixed; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fffde7, #e3c8eb) fixed;
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fffde7, #ebc8de) fixed;
+  background: linear-gradient(to right, #fffde7, #e3c8eb) fixed;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow: inset 0 0 60px -10px rgba(0, 0, 0, .5);
   color: var(--color-off-black);

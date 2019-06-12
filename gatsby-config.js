@@ -17,6 +17,8 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
@@ -29,9 +31,9 @@ module.exports = {
         name: "Bruja Hair Salon",
         short_name: "Bruja Salon",
         start_url: "/",
-        background_color: "#000000",
-        theme_color: "#ffee8e",
-        display: "minimal-ui",
+        background_color: "#E3C8EB",
+        theme_color: "#000000",
+        display: "standalone",
         icon: "src/images/icon.png", // This path is relative to the root of the site.
         legacy: true, // this will add apple-touch-icon links to <head>
       },
