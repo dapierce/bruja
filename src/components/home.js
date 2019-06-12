@@ -4,7 +4,7 @@ import { StaticQuery, graphql, Link } from "gatsby";
 import layoutStyles from "../components/layout.module.css";
 import layoutHomeSwiper from "../components/homeSwiper.module.css";
 
-import logoPic from "../images/logo.png";
+import logoPic from "../images/logo.svg";
 import ReynoldsCaps from "../fonts/ReynoldsCaps.ttf";
 
 import styled from "styled-components";
