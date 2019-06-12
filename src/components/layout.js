@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 
 import layoutStyles from "./layout.module.css";
 
-import logoPic from "../images/logo.png";
+import logoPic from "../images/logo.svg";
 import mapPic from "../images/map.png";
 
 const ListLink = props => (
