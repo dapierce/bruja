@@ -60,7 +60,7 @@ export default ({ children }) => (
             </tr>
             <tr id="sun">
               <td>Sunday</td>
-              <td>Closed</td>
+              <td>10:00 AM - 5:00 PM</td>
             </tr>
             <tr id="mon">
               <td>Monday</td>
@@ -68,23 +68,23 @@ export default ({ children }) => (
             </tr>
             <tr id="tue">
               <td>Tuesday</td>
-              <td>5:00 PM - 9:00 PM</td>
+              <td>Closed</td>
             </tr>
             <tr id="wed">
               <td>Wednesday</td>
-              <td>9:00 AM - 8:00 PM</td>
+              <td>10:00 AM - 8:00 PM</td>
             </tr>
             <tr id="thu">
               <td>Thursday</td>
-              <td>12:00 PM - 9:00 PM</td>
+              <td>12:00 PM - 8:00 PM</td>
             </tr>
             <tr id="fri">
               <td>Friday</td>
-              <td>9:30 AM - 7:00 PM</td>
+              <td>9:00 AM - 7:00 PM</td>
             </tr>
             <tr id="sat">
               <td>Saturday</td>
-              <td>9:00 AM - 7:00 PM</td>
+              <td>9:00 AM - 6:00 PM</td>
             </tr>
           </tbody>
         </table>
