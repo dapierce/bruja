@@ -25,6 +25,7 @@
 
 .stylist {
   justify-content: space-evenly;
+  border: 1px solid transparent;
   margin: 0 auto;
   padding: 1rem 4rem;
   list-style: none;
@@ -37,6 +38,11 @@
   background: rgba(255, 255, 255, .5);
   border: 1px solid rgba(255, 255, 255, .5);
   box-shadow: 0 0 20px -10px rgba(0, 0, 0, .5);
+}
+
+.stylist:active {
+  transform: scale(0.96);
+  box-shadow: 0 0 20px -10px rgba(255, 255, 255, .5);
 }
 
 .photo {
