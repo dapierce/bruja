@@ -91,11 +91,11 @@ export default ({ children }) => (
             </tr>
             <tr id="fri">
               <td>Friday</td>
-              <td>9:00 AM - 7:00 PM</td>
+              <td>10:00 AM - 8:00 PM</td>
             </tr>
             <tr id="sat">
               <td>Saturday</td>
-              <td>9:00 AM - 6:00 PM</td>
+              <td>9:00 AM - 5:00 PM</td>
             </tr>
           </tbody>
         </table>
