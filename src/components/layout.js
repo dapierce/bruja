@@ -14,6 +14,8 @@ const ListLink = props => (
   </li>
 )
 
+const dayOfWeek = new Date().getDay()
+
 export default ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -69,31 +71,31 @@ export default ({ children }) => (
             <tr style={{fontWeight: "bold"}}>
               <td>Hours</td>
             </tr>
-            <tr id="sun">
+            <tr style={dayOfWeek === 0 ? { fontWeight: "bold" } : {}}>
               <td>Sunday</td>
               <td>10:00 AM - 5:00 PM</td>
             </tr>
-            <tr id="mon">
+            <tr style={dayOfWeek === 1 ? { fontWeight: "bold" } : {}}>
               <td>Monday</td>
               <td>Closed</td>
             </tr>
-            <tr id="tue">
+            <tr style={dayOfWeek === 2 ? { fontWeight: "bold" } : {}}>
               <td>Tuesday</td>
               <td>Closed</td>
             </tr>
-            <tr id="wed">
+            <tr style={dayOfWeek === 3 ? { fontWeight: "bold" } : {}}>
               <td>Wednesday</td>
               <td>10:00 AM - 8:00 PM</td>
             </tr>
-            <tr id="thu">
+            <tr style={dayOfWeek === 4 ? { fontWeight: "bold" } : {}}>
               <td>Thursday</td>
               <td>12:00 PM - 8:00 PM</td>
             </tr>
-            <tr id="fri">
+            <tr style={dayOfWeek === 5 ? { fontWeight: "bold" } : {}}>
               <td>Friday</td>
               <td>10:00 AM - 8:00 PM</td>
             </tr>
-            <tr id="sat">
+            <tr style={dayOfWeek === 6 ? { fontWeight: "bold" } : {}}>
               <td>Saturday</td>
               <td>9:00 AM - 5:00 PM</td>
             </tr>
