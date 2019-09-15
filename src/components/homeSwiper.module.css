@@ -7,16 +7,6 @@
   text-align: center;
 }
 
-.slide2 {
-  background: url("../images/bottles.jpg") no-repeat left center;
-  min-height: calc(100vh - 80px);
-}
-
-.slide3 {
-  background: url("../images/plants.jpg") no-repeat left center;
-  min-height: calc(100vh - 80px);
-}
-
 .slide1 h1,
 .slide2 h1,
 .slide3 h1 {
