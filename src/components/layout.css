@@ -4,29 +4,26 @@ Header styles
 
 header {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: min-content auto;
   align-items: center;
   background: white;
 }
 .header__logo img {
   height: 80px;
 }
-.header__menu {
-  padding: 0 1.5rem 0 0;
-}
 .header__menu__links {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   list-style: none;
+  max-width: 720px;
 }
 .header__menu__book {
   display: flex;
-  align-items: center;
+  padding: 0 1rem;
   list-style: none;
 }
 .header__menu ul {
-  padding: 0;
   margin: 0;
 }
 .header__menu ul li {
@@ -51,17 +48,14 @@ header {
 
 @media (max-width: 960px) {
   .header__logo img {
-    height: 70px;
-  }
-  .header__menu {
-    padding: 0;
+    height: 60px;
   }
 }
 
 /* TODO: at <=640 width, change nav to left side pull out menu and center logo */
 @media (max-width: 640px) {
   .header__logo img {
-    height: 60px;
+    height: 50px;
   }
   .header__menu__links {
     display: none;

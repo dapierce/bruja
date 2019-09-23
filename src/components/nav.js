@@ -4,8 +4,10 @@ import { Link } from "gatsby"
 const Nav = ({ children }) => (
   <nav
     style={{
-      display: `flex`,
-      listStyle: `none`,
+      display: `grid`,
+      gridTemplateColumns: `auto min-content`,
+      alignItems: `center`,
+      justifyItems: `center`,
     }}
   >
     <ul className="header__menu__links">
