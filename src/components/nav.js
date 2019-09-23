@@ -2,14 +2,13 @@ import React from "react"
 import { Link } from "gatsby"
 
 const Nav = ({ children }) => (
-  <nav>
-    <ul
-      style={{
-        display: `flex`,
-        justifyContent: `space-between`,
-        listStyle: `none`,
-      }}
-    >
+  <nav
+    style={{
+      display: `flex`,
+      listStyle: `none`,
+    }}
+  >
+    <ul className="header__menu__links">
       <li>
         <Link to="/stylists">Stylists</Link>
       </li>
@@ -25,6 +24,8 @@ const Nav = ({ children }) => (
       <li>
         <Link to="/blog">Blog</Link>
       </li>
+    </ul>
+    <ul className="header__menu__book">
       <li>
         <Link className="button" to="/book-now">
           Book Now

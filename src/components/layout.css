@@ -1,28 +1,76 @@
+/* 
+Header styles
+*/
+
 header {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto auto;
+  align-items: center;
   background: white;
 }
+.header__logo img {
+  height: 80px;
+}
 .header__menu {
-  padding: 2.5rem 3rem;
+  padding: 0 1.5rem 0 0;
+}
+.header__menu__links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+.header__menu__book {
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
 .header__menu ul {
   padding: 0;
+  margin: 0;
 }
 .header__menu ul li {
   list-style: none;
+  padding: 0.8rem 0;
 }
 .header__menu a {
   text-transform: uppercase;
   text-decoration: none;
+  padding: 1.2rem 1rem 1rem;
+  white-space: nowrap;
 }
 .header__menu a:hover {
   text-decoration: underline;
 }
 
+@media (min-width: 961px) {
+  header {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .header__logo img {
+    height: 70px;
+  }
+  .header__menu {
+    padding: 0;
+  }
+}
+
+/* TODO: at <=640 width, change nav to left side pull out menu and center logo */
+@media (max-width: 640px) {
+  .header__logo img {
+    height: 60px;
+  }
+  .header__menu__links {
+    display: none;
+  }
+}
+
 .button {
   border: 2px solid rgb(248, 222, 255);
-  background: rgba(248, 222, 255, 0.8);
+  background: rgba(248, 222, 255, 0.85);
   padding: 1.2rem 2rem 1rem 2rem;
   text-decoration: none;
   text-transform: uppercase;
@@ -30,11 +78,10 @@ header {
 }
 .button:hover {
   background: rgba(248, 222, 255, 1);
+  text-decoration: none;
 }
 
 html {
-  font-family: Josefin Sans, sans-serif;
-  letter-spacing: -0.04em;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -42,4 +89,20 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Josefin Slab, serif;
+}
+a {
+  font-family: Josefin Sans, sans-serif;
+  letter-spacing: -0.04em;
+}
+p {
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
 }

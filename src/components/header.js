@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          <img src={logo} alt="Bruja Hair Salon" style={{ height: `80px` }} />
+          <img src={logo} alt="Bruja Hair Salon" />
         </Link>
       </h1>
     </div>
