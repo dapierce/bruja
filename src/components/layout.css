@@ -17,6 +17,7 @@ header {
   justify-content: space-between;
   list-style: none;
   max-width: 720px;
+  padding: 0;
 }
 .header__menu__book {
   display: flex;
