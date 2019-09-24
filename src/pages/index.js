@@ -19,7 +19,7 @@ const insideStyles = {
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO />
     <Parallax bgImage={image1} blur={0.5} strength={400}>
       <div
         style={{
@@ -36,17 +36,16 @@ const IndexPage = () => (
           >
             Magic is in the Hair
           </h1>
-          <a className="button" href="/book-now">
+          <Link className="button" to="/book-now">
             Book Now
-          </a>
+          </Link>
         </div>
       </div>
     </Parallax>
-    <div style={{ height: `800px`, padding: `1rem 20vw` }}>
+    <div style={{ height: `800px`, padding: `1rem 10vw` }}>
       <p />
       <p>Conjuring the best you in Seattle's Greenwood neighborhood!</p>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 

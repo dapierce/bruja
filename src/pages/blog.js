@@ -4,12 +4,12 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const BookNow = () => (
+const Blog = () => (
   <Layout>
-    <SEO title="Bruja Hair Salon: Book Now" />
-    <h1>Book an appointment</h1>
-    <p>List of stylists here!</p>
+    <SEO title="Blog" />
+    <h1>Blog</h1>
+    <p>List of articles here!</p>
   </Layout>
 )
 
-export default BookNow
+export default Blog

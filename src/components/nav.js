@@ -21,7 +21,7 @@ const Nav = ({ children }) => (
         <Link to="/products">Products</Link>
       </li>
       <li>
-        <Link to="/book-now">Shop</Link>
+        <a href="https://app.saloninteractive.com/cel/Brujasalon">Shop</a>
       </li>
       <li>
         <Link to="/blog">Blog</Link>
