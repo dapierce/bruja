@@ -4,7 +4,7 @@ import React from "react"
 
 import Nav from "./nav"
 
-import logo from "../images/logo-black.png"
+import logo from "../images/logo-black.svg"
 
 const Header = ({ siteTitle }) => (
   <header>
@@ -18,7 +18,6 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `black`,
             textDecoration: `none`,
           }}
         >
