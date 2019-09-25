@@ -4,6 +4,8 @@ import { Parallax } from "react-parallax"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Instagram from "../components/instagram"
+import Newsletter from "../components/newsletter"
 
 import image1 from "../images/salon-interior.jpg"
 
@@ -42,9 +44,13 @@ const IndexPage = () => (
         </div>
       </div>
     </Parallax>
-    <div style={{ height: `800px`, padding: `1rem 10vw` }}>
+    <div style={{ padding: `1rem 10vw` }}>
       <p />
       <p>Conjuring the best you in Seattle's Greenwood neighborhood!</p>
+    </div>
+    <div style={{ display: `grid`, gridTemplateColumns: `1fr 1fr` }}>
+      <Instagram />
+      <Newsletter />
     </div>
   </Layout>
 )

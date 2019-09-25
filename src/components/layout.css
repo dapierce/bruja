@@ -88,6 +88,38 @@ header {
   background: rgba(248, 222, 255, 1);
   text-decoration: none;
 }
+.gallery {
+  width: calc(50vw - 2rem);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
+  align-items: center;
+  margin: 0.5rem;
+}
+.gallery__image {
+  max-width: 400px;
+  width: 100%;
+}
+.newsletter {
+  box-shadow: 0 0 0 1.5rem aquamarine;
+  border: 1px dashed cadetblue;
+  width: calc(50vw - 5rem);
+  margin: 2rem;
+  background-color: aquamarine;
+}
+.newsletter p {
+  text-align: center;
+  padding: 2rem;
+}
+.newsletter form {
+  margin: 0 auto;
+  min-width: 100px;
+  width: 60%;
+}
+.newsletter input {
+  width: 100%;
+}
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
