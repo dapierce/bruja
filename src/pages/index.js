@@ -48,7 +48,7 @@ const IndexPage = () => (
       <p />
       <p>Conjuring the best you in Seattle's Greenwood neighborhood!</p>
     </div>
-    <div style={{ display: `grid`, gridTemplateColumns: `1fr 1fr` }}>
+    <div className="section_two_columns">
       <Instagram />
       <Newsletter />
     </div>
