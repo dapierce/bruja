@@ -19,7 +19,7 @@ const insideStyles = {
 
 const IndexPage = () => (
   <Layout>
-    <SEO />
+    <SEO title="Home" />
     <Parallax bgImage={image1} blur={0.5} strength={400}>
       <div
         style={{

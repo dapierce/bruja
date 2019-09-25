@@ -9,7 +9,7 @@ header {
   background: white;
 }
 .header__logo {
-  width: 200px;
+  min-width: 200px;
 }
 .header__logo img {
   height: 80px;
@@ -40,8 +40,11 @@ header {
   padding: 1.2rem 1rem 1rem;
   white-space: nowrap;
 }
-.header__menu a:hover {
+.header__menu__links a:hover {
   text-decoration: underline;
+}
+.header__menu__book a:hover {
+  text-decoration: none;
 }
 
 @media (min-width: 961px) {
@@ -52,7 +55,7 @@ header {
 
 @media (max-width: 960px) {
   .header__logo {
-    width: 160px;
+    min-width: 160px;
   }
   .header__logo img {
     height: 60px;
@@ -62,7 +65,7 @@ header {
 /* TODO: at <=640 width, change nav to left side pull out menu and center logo */
 @media (max-width: 640px) {
   .header__logo {
-    width: 134px;
+    min-width: 134px;
   }
   .header__logo img {
     height: 50px;
@@ -74,17 +77,17 @@ header {
 
 .button {
   border: 2px solid rgb(248, 222, 255);
-  background: rgba(248, 222, 255, 0.85);
+  background: rgba(248, 222, 255, 0.7);
   padding: 1.2rem 2rem 1rem 2rem;
   text-decoration: none;
   text-transform: uppercase;
-  transition: 0.4s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
-.button:hover {
+.button:hover,
+.button:active {
   background: rgba(248, 222, 255, 1);
   text-decoration: none;
 }
-
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -101,10 +104,15 @@ h4,
 h5,
 h6 {
   font-family: Josefin Slab, serif;
+  font-weight: 700;
 }
 a {
   font-family: Josefin Sans, sans-serif;
   letter-spacing: -0.04em;
+}
+a,
+a:visited {
+  color: black;
 }
 p {
   font-family: Georgia, serif;
