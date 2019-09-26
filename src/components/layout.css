@@ -46,7 +46,10 @@ header {
 .header__menu__book a:hover {
   text-decoration: none;
 }
-
+.section_two_columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 @media (min-width: 961px) {
   header {
     font-size: 1.2rem;
@@ -59,9 +62,6 @@ header {
   }
   .header__logo img {
     height: 60px;
-  }
-  .section_two_columns {
-    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -93,9 +93,6 @@ header {
 .button:active {
   background: rgba(248, 222, 255, 1);
   text-decoration: none;
-}
-.section_two_columns {
-  display: grid;
 }
 .gallery {
   width: calc(100% - 1rem);
