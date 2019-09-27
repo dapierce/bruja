@@ -101,14 +101,21 @@ export default ({ children }) => (
         </table>
       </div>
       <div className={layoutStyles.address}>
-        <p><span itemProp="telephone"><a href="tel:+12063958231">206-395-8231</a></span></p>
         <p>
+          Contact Tisha<br />
+          <span itemProp="telephone"><a href="tel:+12063958231">206-395-8231</a></span><br />
+          <a href="mailto:tisha@brujasalon.com">tisha@brujasalon.com</a>
+        </p>
+        <p>
+          Contact Hilary<br />
+          <span itemProp="telephone"><a href="tel:+13607751182">360-775-1182</a></span><br />
+          <a href="mailto:hilarys.hair.chair@gmail.com">hilarys.hair.chair@gmail.com</a>
+        </p>
           <a href={data.site.siteMetadata.googleMapsLink}>
             511 N 85th St<br/>
             Seattle, WA 98103
           </a>
         </p>
-        <p><a href="mailto:tisha@brujasalon.com">tisha@brujasalon.com</a></p>
       </div>
       <div>
         <a href={data.site.siteMetadata.googleMapsLink} alt="Open address in Google Maps">
