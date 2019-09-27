@@ -40,6 +40,7 @@ export default ({ children }) => (
               brings with every service her passion for conjuring the best you.
             </p>
             <p>It's not just a glamor it's a transformation!</p>
+            <p>Phone: 206-395-8231 | Email: <a href="mailto:tisha@brujasalon.com">tisha@brujasalon.com</a></p>
             <ul className={profileStyles.buttonList}>
               <li>
                 <a
@@ -88,6 +89,7 @@ export default ({ children }) => (
               like put some effort in to styling. She’s always excited to meet
               new people and to play with new hair!
             </p>
+            <p>Phone: 360-775-1182 | Email: <a href="mailto:hilarys.hair.chair@gmail.com">hilarys.hair.chair@gmail.com</a></p>
             <ul className={profileStyles.buttonList}>
               <li>
                 <a
