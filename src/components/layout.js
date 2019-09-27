@@ -111,6 +111,7 @@ export default ({ children }) => (
           <span itemProp="telephone"><a href="tel:+13607751182">360-775-1182</a></span><br />
           <a href="mailto:hilarys.hair.chair@gmail.com">hilarys.hair.chair@gmail.com</a>
         </p>
+        <p>
           <a href={data.site.siteMetadata.googleMapsLink}>
             511 N 85th St<br/>
             Seattle, WA 98103
