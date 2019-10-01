@@ -37,8 +37,13 @@ header {
 .header__menu a {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1.2rem 1rem 1rem;
   white-space: nowrap;
+}
+.header__menu__book a {
+  padding: 1.2rem 2rem 1rem 2rem;
+}
+.header__menu__links a {
+  padding: 1.2rem 1rem 1rem 0;
 }
 .header__menu__links a:hover {
   text-decoration: underline;
@@ -51,7 +56,7 @@ header {
   grid-template-columns: 1fr 1fr;
 }
 @media (min-width: 961px) {
-  header {
+  header a {
     font-size: 1.2rem;
   }
 }
@@ -62,6 +67,9 @@ header {
   }
   .header__logo img {
     height: 60px;
+  }
+  .header__menu__links a {
+    font-weight: 400;
   }
 }
 
@@ -88,6 +96,7 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.3s all ease-in-out;
+  font-weight: 500;
 }
 .button:hover,
 .button:active {
@@ -122,8 +131,33 @@ header {
   min-width: 100px;
   width: 60%;
 }
+.newsletter label {
+  font-family: Josefin Sans, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+  left: -1px;
+}
+.newsletter__input {
+  display: grid;
+  grid-template-columns: 1fr 5rem;
+}
 .newsletter input {
+  text-align: center;
   width: 100%;
+  font-family: Josefin Sans, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.6rem 0;
+  border: 1px solid gray;
+}
+.newsletter button {
+  font-family: Josefin Sans, sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 0.6rem 0;
 }
 html {
   -ms-text-size-adjust: 100%;
@@ -145,7 +179,8 @@ h6 {
 }
 a {
   font-family: Josefin Sans, sans-serif;
-  letter-spacing: -0.04em;
+  font-weight: 300;
+  font-size: 1rem;
 }
 a,
 a:visited {

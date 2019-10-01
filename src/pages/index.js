@@ -45,8 +45,10 @@ const IndexPage = () => (
       </div>
     </Parallax>
     <div style={{ padding: `1rem 10vw` }}>
-      <p />
-      <p>Conjuring the best you in Seattle's Greenwood neighborhood!</p>
+      <p>
+        Conjuring the best you in Seattle's Greenwood neighborhood. We offer the
+        full range of hair services from cuts to high fashion color.
+      </p>
     </div>
     <div className="section_two_columns">
       <Instagram />

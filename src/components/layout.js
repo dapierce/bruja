@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <Helmet>
         <link
-          href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700|Josefin+Slab:400,400i,700&display=swap"
+          href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i,500,500i,600,600i,700|Josefin+Slab:400,400i,700&display=swap"
           rel="stylesheet"
         />
       </Helmet>
