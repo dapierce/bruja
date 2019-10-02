@@ -114,6 +114,7 @@ header {
   text-decoration: none;
 }
 .section_two_columns {
+  box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -215,6 +216,7 @@ header {
   padding: 0.8rem 0.4rem 0.67rem;
   border: 1px solid lightgray;
   border-right: 0;
+  border-radius: 0;
 }
 .newsletter button {
   box-sizing: border-box;
