@@ -158,13 +158,19 @@ header {
   padding: 1.2rem 2rem 1rem 2rem;
   text-decoration: none;
   text-transform: uppercase;
-  transition: 0.3s all ease-in-out;
+  transition: 0.3s background ease-in-out;
   font-weight: 500;
 }
 .button:hover,
 .button:active {
   background: rgba(248, 222, 255, 1);
   text-decoration: none;
+}
+.button:active {
+  position: relative;
+  top: 0.1rem;
+  padding-top: 1.3rem;
+  padding-bottom: 0.9rem;
 }
 .gallery {
   width: calc(100% - 1rem);
@@ -227,6 +233,10 @@ header {
   text-transform: uppercase;
   font-weight: 300;
   padding: 0.8rem 0 0.67rem;
+}
+.newsletter button:active {
+  padding-top: 0.9rem;
+  padding-bottom: 0.57rem;
 }
 html {
   -ms-text-size-adjust: 100%;

@@ -1,5 +1,7 @@
 import React from "react"
 
+// TODO: make forms work for netlify: https://www.netlify.com/docs/form-handling/#javascript-rendered-forms
+
 const Newsletter = ({ children }) => (
   <div className="newsletter">
     <p>Subscribe for updates and loyalty rewards with Bruja!</p>
