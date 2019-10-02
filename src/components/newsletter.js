@@ -8,13 +8,15 @@ const Newsletter = ({ children }) => (
       <br />
       <div className="newsletter__input">
         <input
-          type="text"
+          type="email"
           id="email"
           name="email"
           required
           minlength="4"
           size="10"
-          placeholder="Email address"
+          spellCheck="false"
+          pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+          title="Invalid email address"
         />
         <button type="submit">Sign Up</button>
       </div>

@@ -26,7 +26,9 @@ const IndexPage = () => (
       <div
         style={{
           width: `100vw`,
-          height: `45vh`,
+          height: `50vh`,
+          minHeight: `400px`,
+          maxHeight: `500px`,
         }}
       >
         <div style={insideStyles}>
