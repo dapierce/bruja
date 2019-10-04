@@ -4,28 +4,17 @@ import React from "react"
 
 import Nav from "./nav"
 
+import styles from "./header.module.css"
 import logo from "../images/logo-black.svg"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div
-      className="header__logo"
-      style={{
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            textDecoration: `none`,
-          }}
-        >
-          <img src={logo} alt="Bruja Hair Salon" />
-        </Link>
-      </h1>
+    <div className={styles.header__logo}>
+      <Link to="/">
+        <img src={logo} alt="Bruja Hair Salon" />
+      </Link>
     </div>
-    <div className="header__menu">
+    <div className={styles.header__menu}>
       <Nav />
     </div>
   </header>

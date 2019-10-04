@@ -1,0 +1,33 @@
+.header__menu__links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  list-style: none;
+  max-width: 720px;
+  padding: 0;
+}
+.header__menu__book {
+  display: flex;
+  padding: 0 1rem;
+  list-style: none;
+}
+.header__menu__links a {
+  padding: 1.2rem 1rem 1rem 0;
+}
+.header__menu__links a:hover {
+  text-decoration: underline;
+}
+.header__menu__book a:hover {
+  text-decoration: none;
+}
+@media (max-width: 960px) {
+  .header__menu__links a {
+    font-weight: 400;
+  }
+}
+/* TODO: at <=640 width, change nav to left side pull out menu and center logo */
+@media (max-width: 640px) {
+  .header__menu__links {
+    display: none;
+  }
+}

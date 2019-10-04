@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import styles from "./nav.module.css"
+
 const Nav = ({ children }) => (
   <nav
     style={{
@@ -10,7 +12,7 @@ const Nav = ({ children }) => (
       justifyItems: `center`,
     }}
   >
-    <ul className="header__menu__links">
+    <ul className={styles.header__menu__links}>
       <li>
         <Link to="/stylists">Stylists</Link>
       </li>
@@ -27,7 +29,7 @@ const Nav = ({ children }) => (
         <Link to="/blog">Blog</Link>
       </li>
     </ul>
-    <ul className="header__menu__book">
+    <ul className={styles.header__menu__book}>
       <li>
         <Link className="button" to="/book-now">
           Book Now

@@ -1,8 +1,8 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* CSS Reset
+http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
-*/
-/* prettier-ignore */
+*/ /* prettier-ignore */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,19 +23,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+/* HTML5 display-role reset for older browsers */ /* prettier-ignore */
+article, aside, details, figcaption, figure, 
+footer, hgroup, menu, nav, section {
+	display: block;
 }
 body {
   line-height: 1;
@@ -59,107 +50,41 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-/* 
-Header styles
-*/
-
-header {
-  display: grid;
-  grid-template-columns: min-content auto;
-  align-items: center;
-  background: white;
+.frame_one_column {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4rem;
 }
-.header__logo {
-  min-width: 200px;
-}
-.header__logo img {
-  height: 80px;
-}
-.header__menu__links {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  list-style: none;
-  max-width: 720px;
-  padding: 0;
-}
-.header__menu__book {
-  display: flex;
-  padding: 0 1rem;
-  list-style: none;
-}
-.header__menu ul {
-  margin: 0;
-}
-.header__menu ul li {
-  list-style: none;
-  padding: 0.8rem 0;
-}
-.header__menu a {
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-}
-.header__menu__book a {
-  padding: 1.2rem 2rem 1rem 2rem;
-}
-.header__menu__links a {
-  padding: 1.2rem 1rem 1rem 0;
-}
-.header__menu__links a:hover {
-  text-decoration: underline;
-}
-.header__menu__book a:hover {
-  text-decoration: none;
-}
-.section_two_columns {
-  box-sizing: border-box;
+.frame_two_columns {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-@media (min-width: 961px) {
-  header a {
-    font-size: 1.2rem;
+
+@media (min-width: 721px) {
+  .newsletter {
+    margin: 0.5rem 0.5rem 0.5rem 0;
   }
 }
 
-@media (max-width: 960px) {
-  .header__logo {
-    min-width: 160px;
-  }
-  .header__logo img {
-    height: 60px;
-  }
-  .header__menu__links a {
-    font-weight: 400;
-  }
-}
-
-/* TODO: at <=640 width, change nav to left side pull out menu and center logo */
-@media (max-width: 640px) {
-  .header__logo {
-    min-width: 134px;
-  }
-  .header__logo img {
-    height: 50px;
-  }
-  .header__menu__links {
-    display: none;
-  }
-  .section_two_columns {
+@media (max-width: 720px) {
+  .frame_two_columns {
     grid-template-columns: 1fr;
+  }
+  .newsletter {
+    margin: 0 0.5rem 0 0.5rem;
   }
 }
 
 .button {
   border: 2px solid rgb(248, 222, 255);
   background: rgba(248, 222, 255, 0.7);
-  padding: 1.2rem 2rem 1rem 2rem;
+  padding: 18px 32px 16px 32px;
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.3s background ease-in-out;
   font-weight: 500;
+  white-space: nowrap;
 }
 .button:hover,
 .button:active {
@@ -168,12 +93,12 @@ header {
 }
 .button:active {
   position: relative;
-  top: 0.1rem;
-  padding-top: 1.3rem;
-  padding-bottom: 0.9rem;
+  top: 2px;
+  padding-top: 20px;
+  padding-bottom: 14px;
 }
 .gallery {
-  width: calc(100% - 1rem);
+  box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 0.5rem;
@@ -186,17 +111,15 @@ header {
   width: 100%;
 }
 .newsletter {
-  margin: 0.5rem;
-  width: calc(100% - 1rem);
-  height: 100%;
   background-color: aquamarine;
 }
 .newsletter p {
   text-align: center;
+  margin-top: 2rem;
   padding: 2rem;
 }
 .newsletter form {
-  margin: 0 auto;
+  margin: 2.5rem auto;
   min-width: 280px;
   width: 60%;
 }
@@ -258,21 +181,27 @@ h6 {
 }
 h1 {
   font-size: 3.5rem;
+  margin-bottom: 3rem;
 }
 h2 {
   font-size: 3rem;
+  margin-bottom: 2.5rem;
 }
 h3 {
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
 h4 {
   font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 h5 {
   font-size: 1rem;
+  margin-bottom: 1.5rem;
 }
 h6 {
   font-size: 0.8rem;
+  margin-bottom: 1.2rem;
 }
 
 a {
@@ -287,4 +216,8 @@ a:visited {
 p {
   font-family: Georgia, serif;
   font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+.nobreak {
+  white-space: nowrap;
 }

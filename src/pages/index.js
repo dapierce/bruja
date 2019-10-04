@@ -34,11 +34,12 @@ const IndexPage = () => (
         <div style={insideStyles}>
           <h1
             style={{
-              whiteSpace: `nowrap`,
-              textShadow: `2px 3px 1px rgba(0,0,0,.5)`,
+              textShadow: `3px 3px 6px rgba(0,0,0,.9)`,
+              fontWeight: `400`,
             }}
           >
-            Magic is in the Hair
+            <span className="nobreak">Magic is in the</span>
+            <span className="nobreak"> Hair</span>
           </h1>
           <Link className="button" to="/book-now">
             Book Now
@@ -46,13 +47,13 @@ const IndexPage = () => (
         </div>
       </div>
     </Parallax>
-    <div style={{ padding: `1rem 10vw` }}>
+    <div className="frame_one_column">
       <p>
         Conjuring the best you in Seattle's Greenwood neighborhood. We offer the
         full range of hair services from cuts to high fashion color.
       </p>
     </div>
-    <div className="section_two_columns">
+    <div className="frame_two_columns">
       <Instagram />
       <Newsletter />
     </div>
