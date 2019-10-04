@@ -38,8 +38,8 @@ const IndexPage = () => (
               fontWeight: `400`,
             }}
           >
-            <span className="nobreak">Magic is in the</span>
-            <span className="nobreak"> Hair</span>
+            <span className="nobreak">Magic is in the</span>&nbsp;
+            <span className="nobreak">Hair</span>
           </h1>
           <Link className="button" to="/book-now">
             Book Now
