@@ -13,7 +13,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+figure, figcaption, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -50,7 +50,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.frame_one_column {
+.centered_p {
   max-width: 640px;
   margin: 0 auto;
   padding: 4rem;
@@ -61,18 +61,9 @@ table {
   grid-template-columns: 1fr 1fr;
 }
 
-@media (min-width: 721px) {
-  .newsletter {
-    margin: 0.5rem 0.5rem 0.5rem 0;
-  }
-}
-
 @media (max-width: 720px) {
   .frame_two_columns {
     grid-template-columns: 1fr;
-  }
-  .newsletter {
-    margin: 0 0.5rem 0 0.5rem;
   }
 }
 
@@ -109,57 +100,6 @@ table {
 .gallery__image {
   max-width: 400px;
   width: 100%;
-}
-.newsletter {
-  background-color: aquamarine;
-}
-.newsletter p {
-  text-align: center;
-  margin-top: 2rem;
-  padding: 2rem;
-}
-.newsletter form {
-  margin: 2.5rem auto;
-  min-width: 280px;
-  width: 60%;
-}
-.newsletter label {
-  font-family: Josefin Sans, sans-serif;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  font-weight: 300;
-  position: relative;
-  left: -1px;
-}
-.newsletter__input {
-  display: grid;
-  grid-template-columns: 1fr 5rem;
-}
-.newsletter input {
-  box-sizing: border-box;
-  text-align: right;
-  width: 100%;
-  font-family: Josefin Sans, sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  padding: 0.8rem 0.4rem 0.67rem;
-  border: 1px solid lightgray;
-  border-right: 0;
-  border-radius: 0;
-}
-.newsletter button {
-  box-sizing: border-box;
-  border: 1px solid lightgray;
-  background: rgb(255, 220, 225);
-  font-family: Josefin Sans, sans-serif;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  font-weight: 300;
-  padding: 0.8rem 0 0.67rem;
-}
-.newsletter button:active {
-  padding-top: 0.9rem;
-  padding-bottom: 0.57rem;
 }
 html {
   -ms-text-size-adjust: 100%;

@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
   <header>
     <div className={styles.header__logo}>
       <Link to="/">
-        <img src={logo} alt="Bruja Hair Salon" />
+        <img src={logo} alt={siteTitle} />
       </Link>
     </div>
     <div className={styles.header__menu}>

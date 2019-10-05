@@ -1,0 +1,23 @@
+footer {
+  margin-top: 0.5rem;
+  padding-top: 2rem;
+
+  background: rgb(248, 222, 255);
+  text-align: center;
+}
+.contact {
+  margin-top: 1rem;
+}
+.sitemap {
+  margin: 3.5rem 1rem 0 1rem;
+  text-transform: uppercase;
+}
+.sitemap ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sitemap ul li {
+  margin-right: 2rem;
+  margin-bottom: 1.4rem;
+}

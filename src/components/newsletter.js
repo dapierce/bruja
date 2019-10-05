@@ -1,14 +1,16 @@
 import React from "react"
 
+import styles from "./newsletter.module.css"
+
 // TODO: make forms work for netlify: https://www.netlify.com/docs/form-handling/#javascript-rendered-forms
 
 const Newsletter = ({ children }) => (
-  <div className="newsletter">
+  <div className={styles.newsletter}>
     <p>Subscribe for updates and loyalty rewards with Bruja!</p>
     <form method="POST" netlify>
       <label for="email">Email address</label>
       <br />
-      <div className="newsletter__input">
+      <div className={styles.newsletter__input}>
         <input
           type="email"
           id="email"

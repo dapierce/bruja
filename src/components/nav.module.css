@@ -20,11 +20,6 @@
 .header__menu__book a:hover {
   text-decoration: none;
 }
-@media (max-width: 960px) {
-  .header__menu__links a {
-    font-weight: 400;
-  }
-}
 /* TODO: at <=640 width, change nav to left side pull out menu and center logo */
 @media (max-width: 640px) {
   .header__menu__links {
