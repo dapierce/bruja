@@ -4,6 +4,9 @@ header {
   align-items: center;
   background: white;
 }
+.header__slide {
+  display: none;
+}
 .header__logo {
   min-width: 200px;
   padding: 1.45rem 1.0875rem;
@@ -38,6 +41,12 @@ header {
 }
 /* TODO: at <=640 width, change nav to left side pull out menu and center logo */
 @media (max-width: 640px) {
+  header {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .header__slide {
+    display: inline-block;
+  }
   .header__logo {
     min-width: 134px;
     padding: 1rem 1.0875rem;

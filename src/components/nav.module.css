@@ -25,4 +25,7 @@
   .header__menu__links {
     display: none;
   }
+  .header__menu__book a {
+    padding: 18px 18px 16px 18px;
+  }
 }
