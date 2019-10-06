@@ -21,10 +21,10 @@ const Footer = ({ children }) => (
     render={data => (
       <footer>
         <div className="frame_one_column">
-          <p>
-            Bruja Hair Salon
-            <br />
+          <p className={styles.address}>
             <a href="https://www.google.com/maps/place/Bruja+Hair+Salon/@47.6903981,-122.3542453,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xde7c422f4b3c7cfc!8m2!3d47.6903981!4d-122.3520566">
+              <span className={styles.title}>Bruja Hair Salon</span>
+              <br />
               511 N 85th St
               <br />
               Seattle, WA 98103
@@ -34,7 +34,7 @@ const Footer = ({ children }) => (
         <div className="frame_two_columns">
           <div className={styles.contact}>
             <p>
-              Contact Tisha
+              <span className={styles.title}>Contact Tisha</span>
               <br />
               <span itemProp="telephone">
                 <a href="tel:+12063958231">206-395-8231</a>
@@ -45,7 +45,7 @@ const Footer = ({ children }) => (
           </div>
           <div className={styles.contact}>
             <p>
-              Contact Hilary
+              <span className={styles.title}>Contact Hilary</span>
               <br />
               <span itemProp="telephone">
                 <a href="tel:+13607751182">360-775-1182</a>

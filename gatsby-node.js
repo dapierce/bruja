@@ -5,3 +5,8 @@
  */
 
 // You can delete this file if you're not using it
+
+createRedirect({
+  fromPath: "/shop",
+  toPath: "https://app.saloninteractive.com/cel/Brujasalon",
+})

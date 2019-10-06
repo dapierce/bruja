@@ -6,32 +6,32 @@ module.exports = {
     instagram: `@bruja_hair`,
     siteMap: [
       {
-         name:'Home',
-         link:'/'
+        name: "Home",
+        link: "/",
       },
       {
-         name:'Stylists',
-         link:'/stylists'
+        name: "Stylists",
+        link: "/stylists",
       },
       {
-         name:'Services',
-         link:'/services'
+        name: "Services",
+        link: "/services",
       },
       {
-         name:'Products',
-         link:'/products'
+        name: "Products",
+        link: "/products",
       },
       {
-         name:'Shop',
-         link:'https://app.saloninteractive.com/cel/Brujasalon'
+        name: "Shop",
+        link: "/shop",
       },
       {
-         name:'Blog',
-         link:'/blog'
+        name: "Blog",
+        link: "/blog",
       },
       {
-         name:'Book Now',
-         link:'/book-now'
+        name: "Book Now",
+        link: "/book-now",
       },
     ],
   },

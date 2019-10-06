@@ -7,7 +7,7 @@ import styles from "./newsletter.module.css"
 const Newsletter = ({ children }) => (
   <div className={styles.newsletter}>
     <p>Subscribe for updates and loyalty rewards with Bruja!</p>
-    <form method="POST" netlify>
+    <form method="POST" data-netlify="true">
       <label for="email">Email address</label>
       <br />
       <div className={styles.newsletter__input}>
