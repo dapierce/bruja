@@ -45,6 +45,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
