@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import styles from "./nav.module.css"
 
-const Nav = ({ children }) => (
+const Nav = ({ menuLinks }) => (
   <nav
     style={{
       display: `grid`,
@@ -25,9 +25,9 @@ const Nav = ({ children }) => (
       <li>
         <a href="https://app.saloninteractive.com/cel/Brujasalon">Shop</a>
       </li>
-      <li>
+      {/* <li>
         <Link to="/blog">Blog</Link>
-      </li>
+      </li> */}
     </ul>
     <ul className={styles.header__menu__book}>
       <li>

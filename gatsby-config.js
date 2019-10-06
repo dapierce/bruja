@@ -23,12 +23,12 @@ module.exports = {
       },
       {
         name: "Shop",
-        link: "/shop",
+        link: "https://app.saloninteractive.com/cel/Brujasalon",
       },
-      {
-        name: "Blog",
-        link: "/blog",
-      },
+      // {
+      //   name: "Blog",
+      //   link: "/blog",
+      // },
       {
         name: "Book Now",
         link: "/book-now",

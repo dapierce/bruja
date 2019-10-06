@@ -7,7 +7,7 @@ import Nav from "./nav"
 import styles from "./header.module.css"
 import logo from "../images/logo-black.svg"
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, menuLinks }) => (
   <header>
     <div className={styles.header__logo}>
       <Link to="/">
@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
       </Link>
     </div>
     <div className={styles.header__menu}>
-      <Nav />
+      <Nav menuLinks={menuLinks} />
     </div>
   </header>
 )
