@@ -6,7 +6,7 @@ import Link from "./link"
 import "./slide-menu.css"
 
 const SlideMenu = ({ menuLinks }) => (
-  <Menu width={`280px`}>
+  <Menu disableAutoFocus width={`280px`}>
     {menuLinks.map(link => (
       <Link to={link.link}>{link.name}</Link>
     ))}

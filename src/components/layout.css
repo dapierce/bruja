@@ -55,7 +55,15 @@ table {
   margin: 0 auto;
   padding: 4rem;
 }
-.frame_two_columns {
+.box_p {
+  margin: 0 auto;
+  padding: 2rem;
+}
+.frame_one_column {
+  padding: 0 2rem;
+}
+.frame_two_columns,
+.frame_booking {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -93,6 +101,23 @@ table {
 .gallery__image {
   max-width: 400px;
   width: 100%;
+}
+.stylist {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+}
+.stylist__pic {
+  border-radius: 50%;
+  width: 50%;
+  max-width: 250px;
+}
+.frame_booking a {
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+.frame_booking a:hover {
+  background: rgb(248, 222, 255);
 }
 html {
   -ms-text-size-adjust: 100%;
@@ -152,7 +177,8 @@ a:visited {
   color: black;
 }
 p {
-  font-family: Georgia, serif;
+  font-family: Josefin Sans, sans-serif;
+  font-weight: 400;
   font-size: 1.1rem;
   line-height: 1.6rem;
 }
