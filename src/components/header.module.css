@@ -46,10 +46,11 @@ header {
   }
   .header__slide {
     display: inline-block;
+    min-width: 72px;
   }
   .header__logo {
     min-width: 134px;
-    padding: 1rem 1.0875rem;
+    padding: 1rem 0;
   }
   .header__logo img {
     height: 50px;
