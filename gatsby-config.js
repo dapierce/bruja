@@ -1,12 +1,39 @@
 module.exports = {
   siteMetadata: {
-    title: 'Bruja Hair Salon',
-    instagramLink: 'https://www.instagram.com/bruja_hair/',
-    googleMapsLink: 'https://www.google.com/maps/place/Bruja+Hair+Salon/@47.6903981,-122.3542453,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xde7c422f4b3c7cfc!8m2!3d47.6903981!4d-122.3520566',
-    bookingLink: 'https://www.vagaro.com/brujahairsalon/book-now',
-    hilaryBookingLink: 'https://www.vagaro.com/hilaryshairchair/book-now',
-    servicesLink: 'https://www.vagaro.com/brujahairsalon/services',
-    productKevinMurphyLink: 'https://app.saloninteractive.com/cel/Brujasalon',
+    title: `Bruja Hair Salon`,
+    description: `Magic is in the hair! Conjuring the best you in Seattle's Greenwood neighborhood. We offer the full range of hair services from cuts to high fashion color.`,
+    facebook: `brujahairsalon`,
+    instagram: `@bruja_hair`,
+    siteMap: [
+      {
+        name: "Home",
+        link: "/",
+      },
+      {
+        name: "Stylists",
+        link: "/stylists",
+      },
+      {
+        name: "Services",
+        link: "/services",
+      },
+      {
+        name: "Products",
+        link: "/products",
+      },
+      {
+        name: "Shop",
+        link: "https://app.saloninteractive.com/cel/Brujasalon",
+      },
+      // {
+      //   name: "Blog",
+      //   link: "/blog",
+      // },
+      {
+        name: "Book Now",
+        link: "/book-now",
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -17,14 +44,9 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
-    {
-      resolve: `gatsby-plugin-styled-components`,
-      options: {
-        // Add any options here
-      },
-    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -32,11 +54,20 @@ module.exports = {
         short_name: "Bruja Salon",
         start_url: "/",
         background_color: "#E3C8EB",
-        theme_color: "#000000",
+        theme_color: "#FFFFFF",
         display: "standalone",
-        icon: "src/images/icon.png", // This path is relative to the root of the site.
+        icon: "src/images/icon-black.png", // This path is relative to the root of the site.
         legacy: true, // this will add apple-touch-icon links to <head>
       },
     },
-  ]
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `bruja_hair`,
+      },
+    },
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // `gatsby-plugin-offline`,
+  ],
 }

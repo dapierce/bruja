@@ -1,0 +1,57 @@
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 20px;
+  padding: 1rem 1rem 0.6rem 1rem;
+  transition: color 0.2s;
+  font-size: 32px;
+}
+.bm-item:hover {
+  background: rgb(248, 222, 255);
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 1.5rem;
+  top: 28px;
+}
+.bm-burger-bars {
+  background: black;
+  box-shadow: 0px 0 8px white;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+.bm-cross {
+  background: darkgray;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: white;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  top: 0;
+}
+.bm-menu-wrap {
+  top: 0;
+}

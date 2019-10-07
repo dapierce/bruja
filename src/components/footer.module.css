@@ -1,0 +1,39 @@
+footer {
+  margin-top: 0.5rem;
+  padding-top: 2rem;
+
+  background: rgb(248, 222, 255);
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.title {
+  font-family: Josefin Sans, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.contact {
+  margin-top: 1rem;
+}
+.sitemap {
+  margin: 3.5rem 1rem 0 1rem;
+  text-transform: uppercase;
+}
+.sitemap ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sitemap ul li {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1.4rem;
+}
+.sitemap a {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
