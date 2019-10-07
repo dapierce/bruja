@@ -1,19 +1,43 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Parallax } from "react-parallax"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import LogoKevinMurphy from "../images/product/kevinmurphy.svg"
-import LogoDevaCurl from "../images/product/devacurl.svg"
-import LogoSchwarzkopf from "../images/product/schwarzkopf.svg"
+// import LogoKevinMurphy from "../images/product/kevinmurphy.svg"
+// import LogoDevaCurl from "../images/product/devacurl.svg"
+// import LogoSchwarzkopf from "../images/product/schwarzkopf.svg"
+
+import image1 from "../images/water.jpg"
+
+const insideStyles = {
+  color: "white",
+  padding: 20,
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%,-50%)",
+  textAlign: "center",
+}
 
 const Products = () => (
   <Layout>
     <SEO title="Products" />
-    <h1>Products</h1>
-    <div>
-      <ul>
+    <div className="frame_one_column">
+      <h1>Products</h1>
+    </div>
+    <Parallax bgImage={image1} blur={0.5} strength={400}>
+      <div
+        style={{
+          width: `100vw`,
+          height: `25vh`,
+          minHeight: `100px`,
+          maxHeight: `300px`,
+        }}
+      ></div>
+    </Parallax>
+
+    {/* <ul>
         <li style={{ cursor: `pointer` }}>
           <img src={LogoKevinMurphy} alt="Kevin Murphy" />
         </li>
@@ -24,9 +48,9 @@ const Products = () => (
         <li style={{ cursor: `pointer` }}>
           <img src={LogoSchwarzkopf} alt="Schwarzkopf" />
         </li>
-      </ul>
-
-      <div>
+      </ul> */}
+    <div className="frame_two_columns">
+      <div className="box_p">
         <h2>Kevin Murphy</h2>
         <p>
           We use Kevin Murphy color and hair products at Bruja because they
@@ -35,25 +59,31 @@ const Products = () => (
           paraben free and use no animal testing.
         </p>
         <p>
-          We have their product ready to buy at our salon, but if you would
-          like Kevin Murphy delivered straight to your door, you can order
-          product here:
+          We have their product ready to buy at our salon, but if you would like
+          Kevin Murphy delivered straight to your door, you can order product
+          here:
         </p>
-        <p>
+        <p className="box_p">
           <a
-            className="page-button"
+            className="button"
             href="https://app.saloninteractive.com/cel/Brujasalon"
           >
             Buy Kevin Murphy
           </a>
         </p>
       </div>
-      <div>
+      <div className="box_p">
         <h2>Deva Curl</h2>
-        <p>Info about deva curl here!</p>
-        <p>More info</p>
+        <p>
+          Specializing in curly hair of all types, Deva Curl has a product for
+          your curl type! These products are free of sulfates, parabens, and
+          silicones to ensure they hydrate and nurish your hair without damaging
+          it, and they offer No Poo conditioner, an alternative to shampoo that
+          avoids removing important natural oils. They are 100% free of animal
+          testing.
+        </p>
       </div>
-      <div>
+      <div className="box_p">
         <h2>Living Proof</h2>
         <p>
           Living Proof uses science and patented technology to create
@@ -62,12 +92,12 @@ const Products = () => (
           and color safe.
         </p>
       </div>
-      <div>
+      <div className="box_p">
         <h2>Schwarzkopf</h2>
         <p>
-          Schwarzkopf is a hair color line that gives you true results that
-          last without comprising the health of your hair with its Fiberplex
-          Bond Enforcing System.
+          Schwarzkopf is a hair color line that gives you true results that last
+          without comprising the health of your hair with its Fiberplex Bond
+          Enforcing System.
         </p>
       </div>
     </div>
