@@ -204,3 +204,8 @@ th {
     padding-bottom: 0.5rem;
   }
 }
+@media (max-width: 640px) {
+  .box_p {
+    padding: 1rem;
+  }
+}

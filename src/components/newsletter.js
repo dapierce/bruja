@@ -7,7 +7,7 @@ const Newsletter = ({ children }) => (
     <p>Subscribe for updates and loyalty rewards with Bruja!</p>
     <form
       name="newsletter"
-      method="post"
+      method="POST"
       action="/success"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
