@@ -18,6 +18,7 @@ const Newsletter = ({ children }) => (
       <br />
       <div className={styles.newsletter__input}>
         <input
+          className={styles.email}
           type="email"
           id="email"
           name="email"
@@ -28,7 +29,7 @@ const Newsletter = ({ children }) => (
           pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
           title="Invalid email address"
         />
-        <button type="submit">Sign Up</button>
+        <input type="submit" className={styles.button} value="Sign Up" />
       </div>
     </form>
   </div>

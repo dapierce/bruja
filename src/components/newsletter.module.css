@@ -23,7 +23,7 @@
   display: grid;
   grid-template-columns: 1fr 5rem;
 }
-.newsletter input {
+.email {
   box-sizing: border-box;
   text-align: center;
   width: 100%;
@@ -33,20 +33,20 @@
   border-radius: 0;
   -webkit-appearance: none;
 }
-.newsletter button {
+.button {
   box-sizing: border-box;
-  border: 1px solid lightgray;
   background: rgb(255, 220, 225);
+  border: 1px solid lightgray;
   text-transform: uppercase;
   padding: 0.8rem 0 0.67rem;
 }
-.newsletter button:active {
+.button:active {
   padding-top: 0.9rem;
   padding-bottom: 0.57rem;
 }
 
 input,
-button {
+.button {
   font-family: Josefin Sans, sans-serif;
   font-size: 16px;
   font-weight: 300;
