@@ -8,7 +8,7 @@ import hilaryPic from "../images/hilary-profile.jpg"
 
 const BookNow = () => (
   <Layout>
-    <SEO title="Bruja Hair Salon: Book Now" />
+    <SEO title="Book Now" />
     <div className="frame_one_column">
       <h1>Book an appointment</h1>
     </div>

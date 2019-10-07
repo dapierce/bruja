@@ -176,11 +176,22 @@ a,
 a:visited {
   color: black;
 }
-p {
+p,
+table {
   font-family: Josefin Sans, sans-serif;
   font-weight: 400;
   font-size: 1.1rem;
   line-height: 1.6rem;
+}
+td,
+th {
+  border-bottom: 1px solid lightgray;
+  padding: 0.5rem;
+  text-align: left;
+}
+th {
+  background: rgb(248, 222, 255);
+  font-weight: 600;
 }
 .nobreak {
   white-space: nowrap;

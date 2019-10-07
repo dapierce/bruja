@@ -4,21 +4,7 @@ import { Parallax } from "react-parallax"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-// import LogoKevinMurphy from "../images/product/kevinmurphy.svg"
-// import LogoDevaCurl from "../images/product/devacurl.svg"
-// import LogoSchwarzkopf from "../images/product/schwarzkopf.svg"
-
 import image1 from "../images/water.jpg"
-
-const insideStyles = {
-  color: "white",
-  padding: 20,
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%,-50%)",
-  textAlign: "center",
-}
 
 const Products = () => (
   <Layout>
@@ -36,19 +22,6 @@ const Products = () => (
         }}
       ></div>
     </Parallax>
-
-    {/* <ul>
-        <li style={{ cursor: `pointer` }}>
-          <img src={LogoKevinMurphy} alt="Kevin Murphy" />
-        </li>
-        <li style={{ cursor: `pointer` }}>
-          <img src={LogoDevaCurl} alt="Deva Curl" />
-        </li>
-        <li style={{ cursor: `pointer` }}>Living Proof</li>
-        <li style={{ cursor: `pointer` }}>
-          <img src={LogoSchwarzkopf} alt="Schwarzkopf" />
-        </li>
-      </ul> */}
     <div className="frame_two_columns">
       <div className="box_p">
         <h2>Kevin Murphy</h2>
