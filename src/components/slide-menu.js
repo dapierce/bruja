@@ -8,7 +8,9 @@ import "./slide-menu.css"
 const SlideMenu = ({ menuLinks }) => (
   <Menu disableAutoFocus width={`280px`}>
     {menuLinks.map(link => (
-      <Link to={link.link}>{link.name}</Link>
+      <li key={link.name}>
+        <Link to={link.link}>{link.name}</Link>
+      </li>
     ))}
   </Menu>
 )

@@ -6,7 +6,6 @@
  */
 
 import React from "react"
-import Helmet from "react-helmet"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
@@ -35,12 +34,6 @@ const Layout = ({ children }) => (
           siteTitle={data.site.siteMetadata.title}
           menuLinks={data.site.siteMetadata.siteMap}
         />
-        <Helmet>
-          <link
-            href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i,600,600i&display=swap"
-            rel="stylesheet"
-          />
-        </Helmet>
         <div
           style={{
             margin: `0 auto`,

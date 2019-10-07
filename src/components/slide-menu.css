@@ -1,15 +1,16 @@
-.bm-item {
-  display: inline-block;
+.bm-item a {
+  display: block;
   text-decoration: none;
-  margin-bottom: 20px;
   padding: 1rem 1rem 0.6rem 1rem;
   transition: color 0.2s;
   font-size: 32px;
 }
+.bm-item {
+  margin-bottom: 20px;
+}
 .bm-item:hover {
   background: rgb(248, 222, 255);
 }
-
 .bm-burger-button {
   position: fixed;
   width: 36px;
@@ -29,28 +30,18 @@
 .bm-cross {
   background: darkgray;
 }
-
-/* General sidebar styles */
 .bm-menu {
   background: white;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
-
-/* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
   fill: #373a47;
 }
-
-/* Wrapper for item list */
-.bm-item-list {
-  color: #b8b7ad;
-}
-
-/* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
   top: 0;
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.3);
 }
 .bm-menu-wrap {
   top: 0;

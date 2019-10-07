@@ -15,7 +15,7 @@ const Instagram = () => (
               localFile {
                 childImageSharp {
                   fluid(maxHeight: 400, maxWidth: 400, quality: 50) {
-                    ...GatsbyImageSharpFluid
+                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
                   }
                 }
               }

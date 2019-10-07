@@ -14,7 +14,7 @@ const Newsletter = ({ children }) => (
     >
       <input type="hidden" name="bot-field" />
       <input type="hidden" name="form-name" value="contact" />
-      <label for="email">Email address</label>
+      <label htmlFor="email">Email address</label>
       <br />
       <div className={styles.newsletter__input}>
         <input
@@ -23,7 +23,7 @@ const Newsletter = ({ children }) => (
           id="email"
           name="email"
           required
-          minlength="4"
+          minLength="4"
           size="10"
           spellCheck="false"
           pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
