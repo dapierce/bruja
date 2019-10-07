@@ -37,7 +37,6 @@ const Layout = ({ children }) => (
             rel="stylesheet"
           />
           <meta name="apple-mobile-web-app-capable" content="yes" />
-          <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
           <link
             href="/iphone5_splash.png"
             media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"

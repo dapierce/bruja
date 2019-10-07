@@ -57,7 +57,7 @@ module.exports = {
         background_color: "#E3C8EB",
         theme_color: "#FFFFFF",
         display: "standalone",
-        icon: "src/images/icon-black.png", // This path is relative to the root of the site.
+        icon: "src/images/icon-whitebg.png", // This path is relative to the root of the site.
         legacy: true, // this will add apple-touch-icon links to <head>
       },
     },
