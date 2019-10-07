@@ -14,8 +14,8 @@ const Instagram = () => (
               caption
               localFile {
                 childImageSharp {
-                  fluid(maxHeight: 400, maxWidth: 400, quality: 50) {
-                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  fluid(maxHeight: 300, quality: 50) {
+                    ...GatsbyImageSharpFluid_withWebp
                   }
                 }
               }
