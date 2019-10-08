@@ -8,7 +8,7 @@
 .bm-item {
   margin-bottom: 20px;
 }
-.bm-item:hover {
+.bm-item a:hover {
   background: rgb(248, 222, 255);
 }
 .bm-burger-button {

@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import Instagram from "../components/instagram"
 import Newsletter from "../components/newsletter"
 
-import image1 from "../images/salon-interior.jpg"
+import image1 from "../images/salon-exterior.jpg"
 
 const insideStyles = {
   color: "white",
@@ -32,14 +32,6 @@ const IndexPage = () => (
         }}
       >
         <div style={insideStyles}>
-          <h1
-            style={{
-              textShadow: `3px 3px 6px rgba(0,0,0,.9)`,
-              fontWeight: `400`,
-            }}
-          >
-            <span className="nobreak">Magic is in the</span> Hair
-          </h1>
           <Link className="button" to="/book-now">
             Book Now
           </Link>
@@ -48,6 +40,10 @@ const IndexPage = () => (
     </Parallax>
     <div className="frame_one_column">
       <div className="centered_p">
+        <h1 style={{ textAlign: `center` }}>
+          <span className="nobreak">Magic is in the</span> Hair
+        </h1>
+
         <p>
           Conjuring the best you in Seattle's Greenwood neighborhood. We offer
           the full range of hair services from cuts to high fashion color.

@@ -15,6 +15,7 @@ const Stylists = () => (
     <div className="frame_two_columns">
       <div className="stylist">
         <h2>Tisha</h2>
+        <h3>Owner, Stylist</h3>
         <img className="stylist__pic" src={tishaPic} alt="Tisha" />
         <p className="box_p">
           Tisha has been a hairstylist in Seattle for almost a decade, with
@@ -39,6 +40,7 @@ const Stylists = () => (
       </div>
       <div className="stylist">
         <h2>Hilary</h2>
+        <h3>Stylist</h3>
         <img className="stylist__pic" src={hilaryPic} alt="Hilary" />
         <p className="box_p">
           Hilary has been living her dream of making Seattlites look and feel

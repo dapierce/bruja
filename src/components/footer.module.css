@@ -16,11 +16,34 @@ footer a:hover {
   font-size: 1.2rem;
   font-weight: 400;
 }
+.address {
+  margin-bottom: 1rem;
+}
+.hours {
+  margin: 1.4rem auto 0;
+}
+.hours table {
+  margin-top: 1rem;
+  font-family: Josefin Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.hours th {
+  text-align: center;
+}
+.hours td:first-child {
+  padding: 0 1rem 0 0;
+}
+.hours th,
+.hours td {
+  border: 0;
+  padding: 0;
+}
 .contact {
   margin-top: 1rem;
 }
 .sitemap {
-  margin: 3.5rem 1rem 0 1rem;
+  margin: 2rem 1rem 0 1rem;
   text-transform: uppercase;
 }
 .sitemap ul {
