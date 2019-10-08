@@ -40,10 +40,7 @@ const IndexPage = () => (
     </Parallax>
     <div className="frame_one_column">
       <div className="centered_p">
-        <h1 style={{ textAlign: `center` }}>
-          <span className="nobreak">Magic is in the</span> Hair
-        </h1>
-
+        <h1 style={{ textAlign: `center` }}>Magic is in the Hair</h1>
         <p>
           Conjuring the best you in Seattle's Greenwood neighborhood. We offer
           the full range of hair services from cuts to high fashion color.

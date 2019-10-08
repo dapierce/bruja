@@ -6,6 +6,8 @@ import SEO from "../components/seo"
 import tishaPic from "../images/tisha-profile.jpg"
 import hilaryPic from "../images/hilary-profile.jpg"
 
+// TODO: Make a vertical divider when 2 col, horizontal when 1 col
+
 const Stylists = () => (
   <Layout>
     <SEO title="Stylists" />

@@ -7,7 +7,7 @@ import styles from "./footer.module.css"
 import "./slide-menu.css"
 
 const SlideMenu = ({ menuLinks }) => (
-  <Menu disableAutoFocus width={`320px`}>
+  <Menu disableAutoFocus width={`300px`}>
     <ul>
       {menuLinks.map(link => (
         <li key={link.name}>

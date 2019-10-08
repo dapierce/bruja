@@ -2,8 +2,8 @@
   display: block;
   text-decoration: none;
   padding: 1rem 1rem 0.6rem 1rem;
-  transition: color 0.2s;
-  font-size: 32px;
+  transition: background 0.2s;
+  font-size: 28px;
 }
 .bm-item {
   margin-bottom: 20px;
@@ -32,8 +32,7 @@
 }
 .bm-menu {
   background: white;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
+  padding: 2em 1.5em 0;
 }
 .bm-morph-shape {
   fill: #373a47;
