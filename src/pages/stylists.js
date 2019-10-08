@@ -29,12 +29,12 @@ const Stylists = () => (
           <br />
           It's not just a glamor it's a transformation!
         </p>
-        <p>
+        <p className="box_p" style={{ textAlign: `center` }}>
           Phone: <a href="tel:+12063958231">206-395-8231</a>
           <br />
           Email: <a href="mailto:tisha@brujasalon.com">tisha@brujasalon.com</a>
         </p>
-        <div className="box_p">
+        <div className="box_p" style={{ textAlign: `center` }}>
           <a className="button" href="https://www.instagram.com/bruja_hair/">
             Instagram
           </a>
@@ -54,7 +54,7 @@ const Stylists = () => (
           the wash-and-go type or you like put some effort in to styling. She’s
           always excited to meet new people and to play with new hair!
         </p>
-        <p>
+        <p className="box_p" style={{ textAlign: `center` }}>
           Phone: <a href="tel:+13607751182">360-775-1182</a>
           <br />
           Email:{" "}
@@ -63,7 +63,7 @@ const Stylists = () => (
           </a>
         </p>
 
-        <div className="box_p">
+        <div className="box_p" style={{ textAlign: `center` }}>
           <a
             className="button"
             href="https://www.instagram.com/hilary.does.hair/"

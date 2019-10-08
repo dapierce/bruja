@@ -57,7 +57,7 @@ table {
 }
 .box_p {
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 2rem 1rem;
 }
 .frame_one_column {
   padding: 0 2rem;
@@ -111,6 +111,9 @@ table {
   border-radius: 50%;
   width: 50%;
   max-width: 250px;
+}
+.stylist p {
+  text-align: left;
 }
 .frame_booking a {
   border-radius: 0.5rem;
@@ -212,7 +215,7 @@ hr {
 }
 @media (max-width: 640px) {
   .box_p {
-    padding: 2rem 1rem;
+    padding: 1rem 1.5rem 1rem;
   }
   .centered_p {
     padding: 1.5rem;
