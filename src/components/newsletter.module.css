@@ -33,9 +33,10 @@
   border-radius: 0;
 }
 .button {
+  border: 1px solid lightgray;
   box-sizing: border-box;
   background: rgb(255, 220, 225);
-  border: 1px solid lightgray;
+  color: black;
   text-transform: uppercase;
   padding: 0.8rem 0 0.67rem;
 }
@@ -43,15 +44,14 @@
   padding-top: 0.9rem;
   padding-bottom: 0.57rem;
 }
-
 input {
   border-radius: 0;
   font-family: Josefin Sans, sans-serif;
   font-size: 16px;
   font-weight: 300;
+  margin: 0;
   -webkit-appearance: none;
 }
-
 @media (min-width: 721px) {
   .newsletter {
     margin: 0.5rem 0.5rem 0 0;
