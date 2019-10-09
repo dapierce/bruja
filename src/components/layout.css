@@ -55,7 +55,7 @@ table {
   margin: 0 auto;
   padding: 4rem;
 }
-.box_p {
+.box_p, button_p {
   margin: 0 auto;
   padding: 2rem 2rem 1rem;
 }
@@ -216,6 +216,9 @@ hr {
 @media (max-width: 640px) {
   .box_p {
     padding: 1rem 1.5rem 1rem;
+  }
+  .button_p {
+    padding: 2rem 1.5rem 1rem;
   }
   .centered_p {
     padding: 1.5rem;

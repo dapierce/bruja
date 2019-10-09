@@ -36,7 +36,7 @@ const Products = () => (
           Kevin Murphy delivered straight to your door, you can order product
           here:
         </p>
-        <p className="box_p" style={{ textAlign: `center` }}>
+        <p className="button_p" style={{ textAlign: `center` }}>
           <a
             className="button"
             href="https://app.saloninteractive.com/cel/Brujasalon"

@@ -31,11 +31,11 @@ const Instagram = () => (
             <div key={i}>
               <a
                 href={"https://www.instagram.com/p/" + item.node.id}
-                alt={item.node.caption}
               >
                 <Image
                   className="gallery__image"
                   fluid={item.node.localFile.childImageSharp.fluid}
+                  alt={item.node.caption}
                 />
               </a>
             </div>
