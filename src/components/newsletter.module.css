@@ -41,6 +41,7 @@
   padding: 0.8rem 0 0.67rem;
 }
 .button:active {
+  background: rgb(226, 181, 187);
   padding-top: 0.9rem;
   padding-bottom: 0.57rem;
 }
@@ -51,6 +52,10 @@ input {
   font-weight: 300;
   margin: 0;
   -webkit-appearance: none;
+}
+input:focus {
+  outline: inset 2px black;
+  outline-offset: -2px;
 }
 @media (min-width: 721px) {
   .newsletter {
