@@ -2,12 +2,9 @@ footer {
   background: rgb(248, 222, 255);
   margin-top: 0.5rem;
   padding-top: 2rem;
-  padding-bottom: .5rem;
   text-align: center;
 }
 footer a {
-  padding: .5rem 0;
-  line-height: 1.8rem;
   text-decoration: none;
 }
 footer a:hover {
@@ -53,8 +50,12 @@ footer a:hover {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.sitemap ul li {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1.4rem;
+}
 .sitemap a {
   font-size: 0.9rem;
   font-weight: 600;
-  padding: 0.5rem;
 }
