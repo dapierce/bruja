@@ -68,6 +68,11 @@ table {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.frame_booking {
+  box-sizing: border-box;
+  column-gap: 0.5rem;
+  padding: 0 .5rem;
+}
 .button {
   border: 2px solid rgb(248, 222, 255);
   background: rgba(248, 222, 255, 0.8);
