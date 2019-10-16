@@ -55,7 +55,8 @@ table {
   margin: 0 auto;
   padding: 4rem;
 }
-.box_p, .button_p {
+.box_p,
+.button_p {
   margin: 0 auto;
   padding: 2rem 2rem 1rem;
 }
@@ -71,7 +72,7 @@ table {
 .frame_booking {
   box-sizing: border-box;
   column-gap: 0.5rem;
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
 }
 .button {
   border: 2px solid rgb(248, 222, 255);
@@ -113,9 +114,11 @@ table {
   padding-top: 1rem;
 }
 .stylist__pic {
+  box-sizing: border-box;
   border-radius: 50%;
-  width: 50%;
+  width: 100%;
   max-width: 250px;
+  padding: 0 0.5rem;
 }
 .stylist p {
   text-align: left;
