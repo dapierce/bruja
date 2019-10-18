@@ -1,6 +1,6 @@
 import React from "react"
 
-import styles from "./newsletter.module.css"
+import styles from "./styles/newsletter.module.css"
 
 const Newsletter = ({ children }) => (
   <div className={styles.newsletter}>

@@ -34,14 +34,15 @@
 }
 .button {
   border: 1px solid lightgray;
+  border-bottom: 2px solid darkgray;
   box-sizing: border-box;
-  background: rgb(255, 220, 225);
+  background: linear-gradient(#ffdce1, 75%, #ffb9c4);
   color: black;
   text-transform: uppercase;
   padding: 0.8rem 0 0.67rem;
 }
 .button:active {
-  background: rgb(226, 181, 187);
+  background: #ffb9c4;
   padding-top: 0.9rem;
   padding-bottom: 0.57rem;
 }
@@ -54,7 +55,7 @@ input {
   -webkit-appearance: none;
 }
 input:focus {
-  outline: inset 2px black;
+  outline: inset 2px var(--text-color);
   outline-offset: -2px;
 }
 @media (min-width: 721px) {

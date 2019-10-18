@@ -3,7 +3,7 @@ import React from "react"
 
 import Link from "./link"
 
-import styles from "./footer.module.css"
+import styles from "./styles/footer.module.css"
 
 const Footer = ({ menuLinks }) => (
   <footer>

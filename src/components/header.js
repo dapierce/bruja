@@ -5,7 +5,7 @@ import React from "react"
 import SlideMenu from "./slide-menu"
 import Nav from "./nav"
 
-import styles from "./header.module.css"
+import styles from "./styles/header.module.css"
 import logo from "../images/logo-black.svg"
 
 const Header = ({ siteTitle, menuLinks }) => (

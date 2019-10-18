@@ -1,3 +1,7 @@
+:root {
+  --text-color: #3a3031;
+}
+
 /* CSS Reset
 http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -135,6 +139,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
+  color: var(--text-color);
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -185,7 +190,7 @@ a {
 }
 a,
 a:visited {
-  color: black;
+  color: var(--text-color);
 }
 p,
 table {

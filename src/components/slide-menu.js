@@ -3,8 +3,8 @@ import { slide as Menu } from "react-burger-menu"
 
 import Link from "./link"
 
-import styles from "./footer.module.css"
-import "./slide-menu.css"
+import styles from "./styles/footer.module.css"
+import "./styles/slide-menu.css"
 
 const SlideMenu = ({ menuLinks }) => (
   <Menu disableAutoFocus width={`300px`}>
