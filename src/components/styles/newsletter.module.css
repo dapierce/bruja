@@ -55,7 +55,7 @@ input {
   -webkit-appearance: none;
 }
 input:focus {
-  outline: inset 2px var(--text-color);
+  outline: 2px solid var(--text-color);
   outline-offset: -2px;
 }
 @media (min-width: 721px) {
