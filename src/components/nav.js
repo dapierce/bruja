@@ -1,5 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
+
+import Link from "./link"
 
 import styles from "./styles/nav.module.css"
 
