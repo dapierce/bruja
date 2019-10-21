@@ -13,25 +13,22 @@ const Nav = ({ menuLinks }) => (
     }}
   >
     <ul className={styles.header__menu__links}>
-      <li>
-        <Link to="/stylists">Stylists</Link>
-      </li>
-      <li>
-        <Link to="/services">Services</Link>
-      </li>
-      <li>
-        <Link to="/products">Products</Link>
-      </li>
-      <li>
-        <a href="https://app.saloninteractive.com/cel/Brujasalon">Shop</a>
-      </li>
-      {/* <li>
-        <Link to="/blog">Blog</Link>
-      </li> */}
+      {menuLinks.map(link => {
+        if (link.name !== "Home" && link.name !== "Book Now") {
+          return (
+            <li key={link.name}>
+              <Link to={link.link}>{link.name}</Link>
+            </li>
+          )
+        }
+      })}
     </ul>
     <ul className={styles.header__menu__book}>
       <li>
-        <Link className="button" to="/book-now">
+        <Link
+          className="button"
+          to={menuLinks.find(({ name }) => name === "Book Now").link}
+        >
           Book Now
         </Link>
       </li>
