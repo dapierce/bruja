@@ -18,6 +18,9 @@ footer a:hover {
 .address {
   margin-bottom: 1rem;
 }
+.address a {
+  padding: 0.5rem 0;
+}
 .hours {
   margin: 1.4rem auto 0;
 }

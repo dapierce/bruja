@@ -1,14 +1,9 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Helmet from "react-helmet"
+
+import "typeface-josefin-sans"
 
 import Header from "./header"
 import Footer from "./footer"
@@ -32,10 +27,6 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Helmet>
-          <link
-            href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i,600,600i&display=swap"
-            rel="stylesheet"
-          />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <link
             href="/iphone5_splash.png"
