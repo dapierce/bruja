@@ -6,12 +6,13 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Instagram from "../components/instagram"
 import Newsletter from "../components/newsletter"
+import Map from "../components/map"
 
 import image1 from "../images/salon-exterior.jpg"
 
 const insideStyles = {
   color: "white",
-  padding: 20,
+  paddingTop: 20,
   position: "absolute",
   top: "50%",
   left: "50%",
@@ -51,6 +52,7 @@ const IndexPage = () => (
       <Instagram />
       <Newsletter />
     </div>
+    <Map />
   </Layout>
 )
 

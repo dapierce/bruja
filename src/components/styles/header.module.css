@@ -1,5 +1,6 @@
 header {
   display: grid;
+  width: 100%;
   grid-template-columns: min-content auto;
   align-items: center;
   background: white;

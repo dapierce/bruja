@@ -73,14 +73,22 @@ table {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.frame_two_columns_one_two {
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
 .frame_booking {
   box-sizing: border-box;
   column-gap: 0.5rem;
   padding: 0 0.5rem;
 }
 .button {
+  backdrop-filter: blur(8px);
   border: 2px solid rgb(248, 222, 255);
-  background: rgba(248, 222, 255, 0.8);
+  background: rgba(248, 222, 255, 0.7);
   padding: 18px 32px 16px 32px;
   text-decoration: none;
   text-transform: uppercase;
@@ -106,7 +114,7 @@ table {
   column-gap: 0.5rem;
   row-gap: 0.5rem;
   align-items: center;
-  padding: 0.5rem 0.5rem 0 0.5rem;
+  padding: 0.5rem;
 }
 .gallery__image {
   max-width: 400px;
@@ -218,6 +226,12 @@ hr {
   height: 1px;
   width: 50%;
 }
+@media (max-width: 900px) {
+  .frame_two_columns_one_two {
+    padding: 1rem 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 @media (max-width: 720px) {
   .frame_two_columns {
     grid-template-columns: 1fr;
@@ -236,6 +250,11 @@ hr {
   .centered_p {
     padding: 1.5rem;
   }
+  .frame_two_columns_one_two {
+    padding: 0.5rem 1rem;
+    grid-template-columns: 1fr;
+  }
+
   h1 {
     font-size: 3rem;
     margin-bottom: 1.5rem;

@@ -30,7 +30,12 @@ const Newsletter = ({ children }) => (
           pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
           title="Invalid email address"
         />
-        <input type="submit" className={styles.button} aria-label="Sign Up" value="Sign Up" />
+        <input
+          type="submit"
+          className={styles.button}
+          aria-label="Sign Up"
+          value="Sign Up"
+        />
       </div>
     </form>
   </div>
