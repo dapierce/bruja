@@ -8,7 +8,7 @@ const cardStyle = {
   padding: "0 0.5rem",
 }
 const cardText = {
-  padding: "16% 1rem 0",
+  padding: "8% 1rem 0",
 }
 
 const mapStyle = {
@@ -22,8 +22,8 @@ const Map = ({ children }) => (
       <div style={cardText}>
         <h2 style={{ fontSize: "2.2rem" }}>Where We Are</h2>
         <p>
-          Free parking is located on the east side of Bruja Salon, next to the
-          Pullington Apartments. Look for the signs for Bruja Salon!
+          Bruja Salon is on North 85th Street inbetween Evanston Ave and Dayton Ave. Free parking is located on the east side of Bruja Salon, next to the
+          Pullington Apartments.
         </p>
       </div>
     </div>
