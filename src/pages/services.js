@@ -129,11 +129,6 @@ const Services = () => (
           <td>Special occaison full face (excluding lashes)</td>
           <td>$50</td>
         </tr>
-        <tr>
-          <td>Extensions</td>
-          <td>Tape in, Clip in, dreadlock extensions, box braids, etc</td>
-          <td>By consult only</td>
-        </tr>
       </table>
     </div>
   </Layout>
