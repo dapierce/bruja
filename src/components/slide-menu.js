@@ -31,7 +31,7 @@ const SlideMenu = ({ menuLinks }) => (
           </tr>
           <tr style={new Date().getDay() === 2 ? { fontWeight: "bold" } : {}}>
             <td>Tuesday</td>
-            <td>12:00 PM - 7:00 PM</td>
+            <td>Closed</td>
           </tr>
           <tr style={new Date().getDay() === 3 ? { fontWeight: "bold" } : {}}>
             <td>Wednesday</td>
