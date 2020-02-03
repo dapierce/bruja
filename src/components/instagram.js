@@ -35,8 +35,8 @@ const Instagram = () => (
                 <Image
                   className="gallery__image"
                   fluid={item.node.localFile.childImageSharp.fluid}
-                  alt={item.node.caption.length > 0 ? item.node.caption
-                  : "Instagram feed photo" }
+                  alt={!item.node.caption ? "Instagram feed photo"
+                  : item.node.caption}
                 />
               </a>
             </div>
