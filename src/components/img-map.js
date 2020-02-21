@@ -18,7 +18,7 @@ const Image = () => {
     query {
       placeholderImage: file(relativePath: { eq: "map.png" }) {
         childImageSharp {
-          fluid(maxWidth: 900) {
+          fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
@@ -28,8 +28,9 @@ const Image = () => {
 
   return (
     <Img
-      style={{ outline: "2px solid var(--text-color)" }}
+      style={{ outline: "2px solid var(--text-color)", maxWidth: "600px", maxHeight: "600px" }}
       fluid={data.placeholderImage.childImageSharp.fluid}
+      alt="Directions to Bruja Salon on Google Maps"
     />
   )
 }
