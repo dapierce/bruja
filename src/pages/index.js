@@ -48,7 +48,7 @@ const IndexPage = () => (
         </p>
         <blockquote className="box_block">
           We are remaining open on our scheduled hours, and take great care to
-          wash and disinfect between every service. Thank you for your continued
+          wash and sanitize between every service. Thank you for your continued
           support in this time!
         </blockquote>
       </div>
