@@ -66,6 +66,7 @@ table {
 }
 .box_block {
   background: rgb(248, 222, 255);
+  outline: 2px solid rgba(248, 222, 255, 0.5);
   margin: 2rem auto 1rem;
   padding: 2rem;
 }
@@ -172,7 +173,7 @@ h1 {
   line-height: 4rem;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 1.5rem;
   line-height: 3.5rem;
 }

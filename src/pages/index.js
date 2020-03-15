@@ -47,6 +47,7 @@ const IndexPage = () => (
           the full range of hair services from cuts to high fashion color.
         </p>
         <blockquote className="box_block">
+          <h3>COVID-19 Update</h3>
           We are remaining open on our scheduled hours, and take great care to
           wash and sanitize between every service. Thank you for your continued
           support in this time!
