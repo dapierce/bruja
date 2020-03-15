@@ -64,6 +64,11 @@ table {
   margin: 0 auto;
   padding: 2rem 2rem 1rem;
 }
+.box_block {
+  background: rgb(248, 222, 255);
+  margin: 2rem auto 1rem;
+  padding: 2rem;
+}
 .frame_one_column {
   padding: 0 2rem;
 }
@@ -201,6 +206,7 @@ a:visited {
   color: var(--text-color);
 }
 p,
+blockquote,
 table {
   font-family: Josefin Sans, sans-serif;
   font-weight: 400;

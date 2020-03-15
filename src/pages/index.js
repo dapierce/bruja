@@ -46,6 +46,11 @@ const IndexPage = () => (
           Conjuring the best you in Seattle's Greenwood neighborhood. We offer
           the full range of hair services from cuts to high fashion color.
         </p>
+        <blockquote className="box_block">
+          We are remaining open on our scheduled hours, and take great care to
+          wash and disinfect between every service. Thank you for your continued
+          support in this time!
+        </blockquote>
       </div>
     </div>
     <div className="frame_two_columns">
