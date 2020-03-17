@@ -47,14 +47,16 @@ const IndexPage = () => (
           the full range of hair services from cuts to high fashion color.
         </p>
         <blockquote className="box_block">
-          <h3>COVID-19 Update</h3>
-          We are remaining open on our scheduled hours, and take great care to
-          wash and sanitize between every service.
+          City of Seattle closures include all businesses including barber shops
+          and hair salons. We will be contacting scheduled clients to reschedule
+          their appointments.
           <br />
-          We kindly ask that if you or anyone around you has exhibited cold or
-          flu symptoms to reschedule your appointment 2 weeks later.
+          Thank you for your continued support. If you would like to purchase a
+          gift certificate or prepay for your next appointment please contact us
+          at <a href="mailto:brujahairsalon@gmail.com">brujahairsalon@gmail.com</a>
           <br />
-          Thank you for your continued support in this time!
+          We wish everyone continued wellness, love and light during this time.
+          <h4>Bruja Salon</h4>
         </blockquote>
       </div>
     </div>
