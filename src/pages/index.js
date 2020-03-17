@@ -56,7 +56,9 @@ const IndexPage = () => (
           at <a href="mailto:brujahairsalon@gmail.com">brujahairsalon@gmail.com</a>
           <br />
           We wish everyone continued wellness, love and light during this time.
-          <h4>Bruja Salon</h4>
+          <br />
+          Be safe everyone! We appreciate you and will be back on April 1st!
+          <strong style={{ textAlign: `right` }}>Bruja Salon</strong>
         </blockquote>
       </div>
     </div>
