@@ -47,18 +47,19 @@ const IndexPage = () => (
           the full range of hair services from cuts to high fashion color.
         </p>
         <blockquote className="box_block">
-          City of Seattle closures include all businesses including barber shops
-          and hair salons. We will be contacting scheduled clients to reschedule
-          their appointments.
-          <br />
-          Thank you for your continued support. If you would like to purchase a
-          gift certificate or prepay for your next appointment please contact us
-          at <a href="mailto:brujahairsalon@gmail.com">brujahairsalon@gmail.com</a>
-          <br />
-          We wish everyone continued wellness, love and light during this time.
-          <br />
-          Be safe everyone! We appreciate you and will be back on April 1st!
-          <strong style={{ textAlign: `right` }}>Bruja Salon</strong>
+          <p>
+              City of Seattle closures include all businesses including barber shops
+              and hair salons. We will be contacting scheduled clients to reschedule
+              their appointments.
+          </p><p>
+              Thank you for your continued support. If you would like to purchase a
+              gift certificate or prepay for your next appointment please contact us
+              at <a href="mailto:brujahairsalon@gmail.com">brujahairsalon@gmail.com</a>
+          </p><p>
+              We wish everyone continued wellness, love and light during this time.
+              Be safe! We appreciate you and will be back on April 1st!
+          </p>
+          <p style={{ textAlign: `right` }}>Bruja Salon</p>
         </blockquote>
       </div>
     </div>
