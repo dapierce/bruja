@@ -48,9 +48,8 @@ const IndexPage = () => (
         </p>
         <blockquote className="box_block">
           <p>
-              City of Seattle closures include all businesses including barber shops
-              and hair salons. We will be contacting scheduled clients to reschedule
-              their appointments.
+              City of Seattle's recent business closures include all hair salons
+              and barber shops. We are currently closed until April 1, 2020.
           </p><p>
               Thank you for your continued support. If you would like to purchase a
               gift certificate or prepay for your next appointment please contact us
