@@ -62,21 +62,23 @@ const IndexPage = () => (
           </p>
           <p>
             Enquire about it at{" "}
-            <a
-              style={{ textDecoration: `none` }}
-              href="mailto:brujahairsalon@gmail.com"
-            >
-              <span role="img" aria-label="email">
-                📧
-              </span>
-            </a>
-            <a href="mailto:brujahairsalon@gmail.com">
-              brujahairsalon@gmail.com
-            </a>
+            <span style={{ whiteSpace: `nowrap` }}>
+              <a
+                style={{ textDecoration: `none` }}
+                href="mailto:brujahairsalon@gmail.com"
+              >
+                <span role="img" aria-label="email">
+                  ✉️
+                </span>
+              </a>
+              <a href="mailto:brujahairsalon@gmail.com">
+                brujahairsalon@gmail.com
+              </a>
+            </span>
           </p>
           <p>
-            <span role="img" aria-label="shooting star">
-              🌠
+            <span role="img" aria-label="star">
+              🌟
             </span>{" "}
             We wish everyone continued wellness, love and light during this
             time. Be safe! We appreciate you and will be back in due time.
@@ -84,7 +86,7 @@ const IndexPage = () => (
           <p style={{ textAlign: `right` }}>
             <span role="img" aria-label="love">
               ❤️
-            </span>
+            </span>{" "}
             Bruja Salon
           </p>
         </blockquote>
