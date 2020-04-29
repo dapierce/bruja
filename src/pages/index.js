@@ -52,6 +52,9 @@ const IndexPage = () => (
             closed for the forseeable future.
           </p>
           <p>
+            <span role="img" aria-label="thankful">
+              🥰
+            </span>{" "}
             We thank you for your continued support. Along with gift
             certificates and prepay for future services we also offer color
             services on hair extensions as well as take-home toner kits, giving
@@ -59,15 +62,31 @@ const IndexPage = () => (
           </p>
           <p>
             Enquire about it at{" "}
+            <a
+              style={{ textDecoration: `none` }}
+              href="mailto:brujahairsalon@gmail.com"
+            >
+              <span role="img" aria-label="email">
+                📧
+              </span>
+            </a>
             <a href="mailto:brujahairsalon@gmail.com">
               brujahairsalon@gmail.com
             </a>
           </p>
           <p>
+            <span role="img" aria-label="shooting star">
+              🌠
+            </span>{" "}
             We wish everyone continued wellness, love and light during this
             time. Be safe! We appreciate you and will be back in due time.
           </p>
-          <p style={{ textAlign: `right` }}>Bruja Salon</p>
+          <p style={{ textAlign: `right` }}>
+            <span role="img" aria-label="love">
+              ❤️
+            </span>
+            Bruja Salon
+          </p>
         </blockquote>
       </div>
     </div>
