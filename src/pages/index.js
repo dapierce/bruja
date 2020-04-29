@@ -48,15 +48,24 @@ const IndexPage = () => (
         </p>
         <blockquote className="box_block">
           <p>
-              Washington State's updated business closures mean we will remain
-              closed until May 4, 2020.
-          </p><p>
-              Thank you for your continued support. If you would like to purchase a
-              gift certificate or prepay for your next appointment please contact us
-              at <a href="mailto:brujahairsalon@gmail.com">brujahairsalon@gmail.com</a>
-          </p><p>
-              We wish everyone continued wellness, love and light during this time.
-              Be safe! We appreciate you and will be back May 4th!
+            Washington State's continued business closures mean we will remain
+            closed for the forseeable future.
+          </p>
+          <p>
+            We thank you for your continued support. Along with gift
+            certificates and prepay for future services we also offer color
+            services on hair extensions as well as take-home toner kits, giving
+            you a fresh new look without requiring in-person service.
+          </p>
+          <p>
+            Enquire about it at{" "}
+            <a href="mailto:brujahairsalon@gmail.com">
+              brujahairsalon@gmail.com
+            </a>
+          </p>
+          <p>
+            We wish everyone continued wellness, love and light during this
+            time. Be safe! We appreciate you and will be back in due time.
           </p>
           <p style={{ textAlign: `right` }}>Bruja Salon</p>
         </blockquote>
