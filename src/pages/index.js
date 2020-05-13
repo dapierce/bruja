@@ -49,19 +49,22 @@ const IndexPage = () => (
         <blockquote className="box_block">
           <p>
             Washington State's continued business closures mean we will remain
-            closed for the forseeable future.
+            closed until phase 2 of reopening hair salons.
           </p>
           <p>
             <span role="img" aria-label="thankful">
               🥰
             </span>{" "}
             We thank you for your continued support. Along with gift
-            certificates and prepay for future services we also offer color
-            services on hair extensions as well as take-home toner kits, giving
-            you a fresh new look without requiring in-person service.
+            certificates you can also purchase Kevin Murphy hair products from
+            our{" "}
+            <a href="https://app.saloninteractive.com/cel/Brujasalon">
+              online store
+            </a>
+            . We offer curbside pickup for any in-stock products we have.
           </p>
           <p>
-            Enquire about it at{" "}
+            Please email us to arrange pickup at{" "}
             <span style={{ whiteSpace: `nowrap` }}>
               <a
                 style={{ textDecoration: `none` }}
