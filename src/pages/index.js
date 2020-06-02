@@ -47,24 +47,28 @@ const IndexPage = () => (
           the full range of hair services from cuts to high fashion color.
         </p>
         <blockquote className="box_block">
+          <h4>COVID-19 Update</h4>
           <p>
-            Washington State's continued business closures mean we will remain
-            closed until phase 2 of reopening hair salons.
+            We will be back on <strong>June 17, 2020</strong> to take 30 minute
+            appointments. This is per the guidelines from Dow Constantine and
+            King County. We unfortunately cannot take color services at this
+            time. We understand that you are all eager to be rescheduled. We
+            have had to cancel many appointments over the past 12 weeks. We will
+            personally call each guest whose appointment was cancelled that can
+            be accommodated under the new guidelines. To be fair to all, calls
+            will be in order of original appointments. Again, we appreciate your
+            patience as we navigate through this new challenge.
           </p>
           <p>
             <span role="img" aria-label="thankful">
               🥰
             </span>{" "}
             We thank you for your continued support. Along with gift
-            certificates you can also purchase Kevin Murphy hair products from
-            our{" "}
-            <a href="https://app.saloninteractive.com/cel/Brujasalon">
-              online store
-            </a>
-            . We offer curbside pickup for any in-stock products we have.
+            certificates you can also purchase Kevin Murphy hair products. We
+            offer curbside pickup for any in-stock products we have.
           </p>
           <p>
-            Please email us to arrange pickup at{" "}
+            Please email to arrange pickup of Kevin Murphy products at{" "}
             <span style={{ whiteSpace: `nowrap` }}>
               <a
                 style={{ textDecoration: `none` }}
@@ -80,11 +84,35 @@ const IndexPage = () => (
             </span>
           </p>
           <p>
+            For Living Proof hair products, please contact Hilary at{" "}
+            <span style={{ whiteSpace: `nowrap` }}>
+              <a
+                style={{ textDecoration: `none` }}
+                href="mailto:hilarys.hair.chair@gmail.com"
+              >
+                <span role="img" aria-label="email">
+                  ✉️
+                </span>
+              </a>
+              <a href="mailto:hilarys.hair.chair@gmail.com">
+                hilarys.hair.chair@gmail.com
+              </a>
+            </span>
+          </p>
+          <p>
+            Alternatively, you can order from our{" "}
+            <a href="https://app.saloninteractive.com/cel/Brujasalon">
+              online store
+            </a>
+            , however we do not get as much sales commission from the online
+            purchase.
+          </p>
+          <p>
             <span role="img" aria-label="star">
               🌟
             </span>{" "}
             We wish everyone continued wellness, love and light during this
-            time. Be safe! We appreciate you and will be back in due time.
+            time. Be safe! We appreciate you and will be back in a couple weeks.
           </p>
           <p style={{ textAlign: `right` }}>
             <span role="img" aria-label="love">
