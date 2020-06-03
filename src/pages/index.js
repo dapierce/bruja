@@ -4,7 +4,7 @@ import { Parallax } from "react-parallax"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Instagram from "../components/instagram"
+import Instagram from "../components/instagram-single"
 import Newsletter from "../components/newsletter"
 import Map from "../components/map"
 

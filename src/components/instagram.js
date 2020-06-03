@@ -29,14 +29,15 @@ const Instagram = () => (
         {data.allInstaNode.edges.map((item, i) =>
           item.node.localFile ? (
             <div key={i}>
-              <a
-                href={"https://www.instagram.com/p/" + item.node.id}
-              >
+              <a href={"https://www.instagram.com/p/" + item.node.id}>
                 <Image
                   className="gallery__image"
                   fluid={item.node.localFile.childImageSharp.fluid}
-                  alt={!item.node.caption ? "Instagram feed photo"
-                  : item.node.caption}
+                  alt={
+                    !item.node.caption
+                      ? "Instagram feed photo"
+                      : item.node.caption
+                  }
                 />
               </a>
             </div>
