@@ -49,11 +49,8 @@ const IndexPage = () => (
         <blockquote className="box_block">
           <h4>COVID-19 Update</h4>
           <p>
-            We will be back on <strong>June 17, 2020</strong> to take 30 minute
-            appointments. This is per the guidelines from Dow Constantine and
-            King County. We unfortunately cannot take color services at this
-            time. We understand that you are all eager to be rescheduled. We
-            have had to cancel many appointments over the past 12 weeks. We will
+            We will be opening in the next couple of weeks.
+            We understand that you are all eager to be rescheduled. We will
             personally call each guest whose appointment was cancelled that can
             be accommodated under the new guidelines. To be fair to all, calls
             will be in order of original appointments. Again, we appreciate your
