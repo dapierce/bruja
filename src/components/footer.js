@@ -53,9 +53,11 @@ const Footer = ({ menuLinks }) => (
                 rowSpan={7}
                 style={{ verticalAlign: `middle`, fontWeight: 600 }}
               >
-                Closed due to state
+                Open Monday to Sunday
                 <br />
-                stay-at-home order
+                contact stylist to
+                <br />
+                make an appointment.
               </td>
               {/* <td>10:00 AM - 5:00 PM</td> */}
             </tr>
