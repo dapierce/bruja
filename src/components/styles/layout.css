@@ -78,6 +78,23 @@ table {
   line-height: 1.4rem;
   padding-bottom: 1rem;
 }
+.box_block ul {
+  list-style: inside;
+  list-style-type: disc;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.box_block .button {
+  background: rgba(255, 255, 255, 0.7);
+  border-color: white;
+  margin-top: 1rem;
+}
+.button_group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
 .frame_one_column {
   padding: 0 2rem;
 }
@@ -100,6 +117,7 @@ table {
   padding: 0 0.5rem;
 }
 .button {
+  text-align: center;
   backdrop-filter: blur(8px);
   border: 2px solid rgb(248, 222, 255);
   background: rgba(248, 222, 255, 0.7);
