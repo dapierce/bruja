@@ -32,7 +32,7 @@ const CovidPage = () => (
               </li>
               <li>
                 Blow-drying and beverage services are suspended to prevent the
-                spread of COVID-19. 
+                spread of COVID-19.
               </li>
             </ul>
           </p>

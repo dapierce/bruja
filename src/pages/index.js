@@ -46,13 +46,16 @@ const IndexPage = () => (
           Conjuring the best you in Seattle's Greenwood neighborhood. We offer
           the full range of hair services from cuts to high fashion color.
         </p>
+        <p>
+          Please read before your appointment:
+        </p>
         <p className="button_p" style={{ textAlign: `center` }}>
           <Link className="button" to="/covid19">
             COVID-19 Information
           </Link>
         </p>
         <blockquote className="box_block">
-          <h4>Before Your Appointment</h4>
+          <h4>COVID-19 Update</h4>
           <p>
             Your stylist may reach out to you in advance of your appointment to
             touch base with more specific information relevant to you and your
@@ -73,7 +76,7 @@ const IndexPage = () => (
               </li>
               <li>
                 Blow-drying and beverage services are suspended to prevent the
-                spread of COVID-19. 
+                spread of COVID-19.
               </li>
               <div className="button_group">
                 <a className="button" href="covid-liability-form.pdf">
