@@ -10,6 +10,10 @@ module.exports = {
         link: "/",
       },
       {
+        name: "COVID-19 Info",
+        link: "/covid19",
+      }
+      {
         name: "Stylists",
         link: "/stylists",
       },
