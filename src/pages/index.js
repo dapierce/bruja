@@ -71,6 +71,10 @@ const IndexPage = () => (
                 Please come to your appointment alone (no extra guests or
                 children) for the time being.
               </li>
+              <li>
+                Blow-drying and beverage services are suspended to prevent the
+                spread of COVID-19. 
+              </li>
               <div className="button_group">
                 <a className="button" href="covid-liability-form.pdf">
                   COVID-19
