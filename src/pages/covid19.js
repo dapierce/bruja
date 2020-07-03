@@ -178,15 +178,7 @@ const CovidPage = () => (
                 <a className="button" href="covid-liability-form.pdf">
                   COVID-19
                   <br />
-                  Liability Waiver
-                </a>
-                <a
-                  className="button"
-                  href="service-client-responsibilities.pdf"
-                >
-                  Service Provider and
-                  <br />
-                  Client Responsibilities
+                  Liability Form
                 </a>
               </div>
             </ul>

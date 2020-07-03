@@ -45,8 +45,8 @@ const IndexPage = () => (
         <p>
           Conjuring the best you in Seattle's Greenwood neighborhood. We offer
           the full range of hair services from cuts to high fashion color.
-          <br/>
-          <br/>
+          <br />
+          <br />
           Please read this page for your next appointment:
         </p>
         <p className="button_p" style={{ textAlign: `center` }}>
@@ -82,15 +82,7 @@ const IndexPage = () => (
                 <a className="button" href="covid-liability-form.pdf">
                   COVID-19
                   <br />
-                  Liability Waiver
-                </a>
-                <a
-                  className="button"
-                  href="service-client-responsibilities.pdf"
-                >
-                  Service Provider and
-                  <br />
-                  Client Responsibilities
+                  Liability Form
                 </a>
               </div>
             </ul>
