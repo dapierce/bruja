@@ -103,6 +103,7 @@ table {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2rem;
 }
 .frame_two_columns_one_two {
   padding: 2rem 4rem;

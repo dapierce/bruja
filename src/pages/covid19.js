@@ -176,9 +176,7 @@ const CovidPage = () => (
               </li>
               <div className="button_group">
                 <a className="button" href="covid-liability-form.pdf">
-                  COVID-19
-                  <br />
-                  Liability Form
+                  COVID-19 Liability Form
                 </a>
               </div>
             </ul>
