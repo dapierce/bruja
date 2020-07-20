@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -174,11 +173,11 @@ const CovidPage = () => (
                 sign these papers at the door, or you can download and print
                 copies to sign before coming:
               </li>
-              <div className="button_group">
+              <p className="button_p">
                 <a className="button" href="covid-liability-form.pdf">
                   COVID-19 Liability Form
                 </a>
-              </div>
+              </p>
             </ul>
           </p>
           <p>

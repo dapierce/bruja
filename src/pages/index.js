@@ -49,7 +49,7 @@ const IndexPage = () => (
           <br />
           Please read this page for your next appointment:
         </p>
-        <p className="button_p" style={{ textAlign: `center` }}>
+        <p className="button_p">
           <Link className="button" to="/covid19">
             COVID-19 Information
           </Link>
@@ -78,13 +78,11 @@ const IndexPage = () => (
                 Blow-drying and beverage services are suspended to prevent the
                 spread of COVID-19.
               </li>
-              <div className="button_group">
+              <p className="button_p">
                 <a className="button" href="covid-liability-form.pdf">
-                  COVID-19
-                  <br />
-                  Liability Form
+                  COVID-19 Liability Form
                 </a>
-              </div>
+              </p>
             </ul>
           </p>
           <p>

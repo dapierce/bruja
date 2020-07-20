@@ -90,7 +90,7 @@ const Services = () => (
         </tr>
         <th>Fashion Color</th>
         <th>Bright, neon, custom requires bleaching</th>
-        <th />
+        <th> </th>
         <tr>
           <td>Double Process</td>
           <td>One bleach process, one color process</td>
@@ -107,8 +107,8 @@ const Services = () => (
           <td>Consult</td>
         </tr>
         <th>Skin</th>
-        <th />
-        <th />
+        <th> </th>
+        <th> </th>
         <tr>
           <td>Makeup Consult</td>
           <td>Consultation for special occaison and everyday makeup</td>

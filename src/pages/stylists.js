@@ -6,8 +6,6 @@ import SEO from "../components/seo"
 import tishaPic from "../images/tisha-profile.jpg"
 import hilaryPic from "../images/hilary-profile.jpg"
 
-// TODO: Make a vertical divider when 2 col, horizontal when 1 col
-
 const Stylists = () => (
   <Layout>
     <SEO title="Stylists" />
@@ -34,7 +32,7 @@ const Stylists = () => (
             Email:{" "}
             <a href="mailto:tisha@brujasalon.com">tisha@brujasalon.com</a>
           </p>
-          <div className="box_p" style={{ textAlign: `center` }}>
+          <div className="button_p">
             <a className="button" href="https://www.instagram.com/bruja_hair/">
               Instagram
             </a>
@@ -64,7 +62,7 @@ const Stylists = () => (
             </a>
           </p>
 
-          <div className="box_p" style={{ textAlign: `center` }}>
+          <div className="button_p">
             <a
               className="button"
               href="https://www.instagram.com/hilary.does.hair/"

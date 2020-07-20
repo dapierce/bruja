@@ -64,6 +64,9 @@ table {
   margin: 0 auto;
   padding: 2rem 0 1rem;
 }
+.button_p {
+  text-align: center;
+}
 .box_block {
   background: rgb(248, 222, 255);
   outline: 0.4rem solid rgba(248, 222, 255, 0.5);
