@@ -68,6 +68,7 @@ table {
   text-align: center;
 }
 .box_block {
+  color: var(--text-color);
   background: rgb(248, 222, 255);
   outline: 0.4rem solid rgba(248, 222, 255, 0.5);
   margin: 2rem -5rem 1rem;
@@ -101,12 +102,16 @@ table {
 .frame_one_column {
   padding: 0 2rem;
 }
-.frame_two_columns,
-.frame_booking {
+.frame_two_columns {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 2rem;
+}
+.frame_booking {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .frame_two_columns_one_two {
   padding: 2rem 4rem;
@@ -119,6 +124,7 @@ table {
   box-sizing: border-box;
   column-gap: 0.5rem;
   padding: 0 0.5rem;
+  justify-content: space-evenly;
 }
 .button {
   text-align: center;
@@ -171,11 +177,15 @@ table {
 .stylist p {
   text-align: left;
 }
-.frame_booking a {
+.booking_stylist {
+  width: 100%;
+  max-width: 300px;
   border-radius: 0.5rem;
+}
+.booking_stylist a {
   text-decoration: none;
 }
-.frame_booking a:hover {
+.booking_stylist:hover {
   background: rgb(248, 222, 255);
 }
 html {
@@ -195,17 +205,18 @@ h4,
 h5,
 h6 {
   font-family: Josefin Sans, sans-serif;
-  font-weight: 300;
 }
 h1 {
   font-size: 3.5rem;
   margin-bottom: 2rem;
   line-height: 4rem;
+  font-weight: 300;
 }
 h2 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
   line-height: 3.5rem;
+  font-weight: 300;
 }
 h3 {
   font-size: 2rem;

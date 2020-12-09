@@ -29,19 +29,6 @@ const Footer = ({ menuLinks }) => (
             <a href="mailto:tisha@brujasalon.com">tisha@brujasalon.com</a>
           </p>
         </div>
-        <div className={styles.contact}>
-          <p>
-            <span className={styles.title}>Contact Hilary</span>
-            <br />
-            <span itemProp="telephone">
-              <a href="tel:+13607751182">360-775-1182</a>
-            </span>
-            <br />
-            <a href="mailto:hilarys.hair.chair@gmail.com">
-              hilarys.hair.chair@gmail.com
-            </a>
-          </p>
-        </div>
       </div>
       <div className={styles.hours}>
         <span className={styles.title}>Hours</span>
@@ -53,11 +40,9 @@ const Footer = ({ menuLinks }) => (
                 rowSpan={7}
                 style={{ verticalAlign: `middle`, fontWeight: 600 }}
               >
-                Open Monday to Sunday
+                Open Tuesday to Sunday
                 <br />
-                contact stylist to
-                <br />
-                make an appointment.
+                by appointment only.
               </td>
               {/* <td>10:00 AM - 5:00 PM</td> */}
             </tr>

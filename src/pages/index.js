@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import Link from "../components/link"
 import { Parallax } from "react-parallax"
 
 import Layout from "../components/layout"
@@ -33,9 +33,16 @@ const IndexPage = () => (
         }}
       >
         <div style={insideStyles}>
-          <Link className="button" to="/book-now">
-            Book Now
-          </Link>
+          <blockquote className="box_block">
+            <h3>We're Moving!</h3>
+            <p>
+              A great new opportunity has presented itself in Seattle's Phinney
+              Ridge neighborhood! We are preparing to move, and should be set up
+              on the last week of December.
+              <br />
+              Thank you for your continued support!
+            </p>
+          </blockquote>
         </div>
       </div>
     </Parallax>
@@ -54,42 +61,6 @@ const IndexPage = () => (
             COVID-19 Information
           </Link>
         </p>
-        <blockquote className="box_block">
-          <h4>COVID-19 Update</h4>
-          <p>
-            Your stylist may reach out to you in advance of your appointment to
-            touch base with more specific information relevant to you and your
-            upcoming service.
-            <ul>
-              <li>
-                All clients and stylists will be required to wear a mask while
-                at the salon. Your stylist may also be wearing eye protection
-                for further safety precautions.
-              </li>
-              <li>
-                Please arrive on-time for your appointment and allow an
-                additional 5-10 minutes for check-in.
-              </li>
-              <li>
-                Please come to your appointment alone (no extra guests or
-                children) for the time being.
-              </li>
-              <li>
-                Blow-drying and beverage services are suspended to prevent the
-                spread of COVID-19.
-              </li>
-              <p className="button_p">
-                <a className="button" href="covid-liability-form.pdf">
-                  COVID-19 Liability Form
-                </a>
-              </p>
-            </ul>
-          </p>
-          <p>
-            Thank you so very much for your kindness and support during this
-            difficult time in history. We look forward to seeing you soon!
-          </p>
-        </blockquote>
       </div>
     </div>
     <div className="frame_two_columns">

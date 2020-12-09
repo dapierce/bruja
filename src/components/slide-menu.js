@@ -27,11 +27,9 @@ const SlideMenu = ({ menuLinks }) => (
               rowSpan={7}
               style={{ verticalAlign: `middle`, fontWeight: 600 }}
             >
-              Open Monday to Sunday
+              Open Tuesday to Sunday
               <br />
-              contact stylist to
-              <br />
-              make an appointment.
+              by appointment only.
             </td>
             {/* <td>10:00 AM - 5:00 PM</td> */}
           </tr>
