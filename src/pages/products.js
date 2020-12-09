@@ -57,23 +57,6 @@ const Products = () => (
             free of animal testing.
           </p>
         </div>
-        <div className="box_p">
-          <h2>Living Proof</h2>
-          <p>
-            Living Proof uses science and patented technology to create
-            smoothness, fullness and overall healthy hair. Free of silicones,
-            parabens, phthalates and animal testing these products are non-toxic
-            and color safe.
-          </p>
-        </div>
-        <div className="box_p">
-          <h2>Schwarzkopf</h2>
-          <p>
-            Schwarzkopf is a hair color line that gives you true results that
-            last without comprising the health of your hair with its Fiberplex
-            Bond Enforcing System.
-          </p>
-        </div>
       </div>
     </div>
   </Layout>
