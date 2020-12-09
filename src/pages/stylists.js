@@ -10,7 +10,7 @@ const Stylists = () => (
     <SEO title="Stylists" />
     <div className="frame_one_column">
       <h1>Stylists</h1>
-      <div className="frame_one_column">
+      <div className="frame_two_columns">
         <div className="stylist">
           <h2>Tisha</h2>
           <h3>Owner, Stylist</h3>
@@ -36,6 +36,17 @@ const Stylists = () => (
               Instagram
             </a>
           </div>
+        </div>
+        <div className="stylist">
+          <h2>Hilary</h2>
+          <p className="box_p" style={{ textAlign: `center` }}>
+            Hilary has moved to Alter Hair Studio.
+            <br />
+            Contact her at{" "}
+            <a href="mailto:hilarys.hair.chair@gmail.com">
+              hilarys.hair.chair@gmail.com
+            </a>
+          </p>
         </div>
       </div>
     </div>
