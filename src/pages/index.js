@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Instagram from "../components/instagram-single"
 import Newsletter from "../components/newsletter"
-import Map from "../components/map"
+// import Map from "../components/map"
 
 import image1 from "../images/salon-exterior.jpg"
 
@@ -29,7 +29,7 @@ const IndexPage = () => (
           width: `100vw`,
           height: `50vh`,
           minHeight: `400px`,
-          maxHeight: `500px`,
+          maxHeight: `600px`,
         }}
       >
         <div style={insideStyles}>
@@ -50,8 +50,8 @@ const IndexPage = () => (
       <div className="centered_p">
         <h1 style={{ textAlign: `center` }}>Magic is in the Hair</h1>
         <p>
-          Conjuring the best you in Seattle's Greenwood neighborhood. We offer
-          the full range of hair services from cuts to high fashion color.
+          Conjuring the best you in Seattle's Phinney Ridge neighborhood. We
+          offer the full range of hair services from cuts to high fashion color.
           <br />
           <br />
           Please read this page for your next appointment:
@@ -67,7 +67,7 @@ const IndexPage = () => (
       <Instagram />
       <Newsletter />
     </div>
-    <Map />
+    {/* <Map /> */}
   </Layout>
 )
 

@@ -16,8 +16,8 @@ const Map = ({ children }) => (
       <div style={cardText}>
         <h2 style={{ fontSize: "2.2rem" }}>Where We Are</h2>
         <p>
-          Bruja Salon is on North 85th Street inbetween Evanston Ave and Dayton Ave. Free parking is located on the east side of Bruja Salon, next to the
-          Pullington Apartments.
+          Bruja Salon has moved to Phinney Ave just past N 65th St. Free parking
+          is located in the alley behind the building, covered with a sign.
         </p>
       </div>
     </div>
