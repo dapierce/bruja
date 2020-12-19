@@ -22,7 +22,7 @@ const Map = ({ children }) => (
       </div>
     </div>
     <div style={cardStyle}>
-      <a href="https://www.google.com/maps/place/Bruja+Hair+Salon/@47.6903981,-122.3542453,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xde7c422f4b3c7cfc!8m2!3d47.6903981!4d-122.3520566">
+      <a href="https://www.google.com/maps/place/6512+Phinney+Ave+N,+Seattle,+WA+98103/@47.6764556,-122.3562745,17z/data=!3m1!4b1!4m5!3m4!1s0x5490143762663817:0x27711fe9418f3b3c!8m2!3d47.6764556!4d-122.3540858">
         <ImgMap />
       </a>
     </div>
