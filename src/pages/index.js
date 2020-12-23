@@ -34,11 +34,11 @@ const IndexPage = () => (
       >
         <div style={insideStyles}>
           <blockquote className="box_block">
-            <h3>We're Moving!</h3>
+            <h3>We've Moved!</h3>
             <p>
               A great new opportunity has presented itself in Seattle's Phinney
-              Ridge neighborhood! We are preparing to move, and should be set up
-              on the last week of December.
+              Ridge neighborhood! We have moved the salon over, and are now accepting appointments at
+              <a href="https://www.google.com/maps/place/Bruja+Hair+Salon/@47.6764528,-122.356326,17z/data=!3m1!4b1!4m5!3m4!1s0x549015e3cb618539:0xde7c422f4b3c7cfc!8m2!3d47.6764528!4d-122.3541373">our new address</a>.
               <br />
               Thank you for your continued support!
             </p>
