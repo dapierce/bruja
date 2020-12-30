@@ -36,39 +36,31 @@ const Footer = ({ menuLinks }) => (
           <tbody>
             <tr style={new Date().getDay() === 0 ? { fontWeight: 600 } : {}}>
               <td>Sunday</td>
-              <td
-                rowSpan={7}
-                style={{ verticalAlign: `middle`, fontWeight: 600 }}
-              >
-                Open Tuesday to Sunday
-                <br />
-                by appointment only.
-              </td>
-              {/* <td>10:00 AM - 5:00 PM</td> */}
+              <td>10:30 AM - 6:00 PM</td>
             </tr>
             <tr style={new Date().getDay() === 1 ? { fontWeight: 600 } : {}}>
               <td>Monday</td>
-              {/* <td>Closed</td> */}
+              <td>Closed</td>
             </tr>
             <tr style={new Date().getDay() === 2 ? { fontWeight: 600 } : {}}>
               <td>Tuesday</td>
-              {/* <td>Closed</td> */}
+              <td>11:00 AM - 2:00 PM</td>
             </tr>
             <tr style={new Date().getDay() === 3 ? { fontWeight: 600 } : {}}>
               <td>Wednesday</td>
-              {/* <td>10:00 AM - 8:00 PM</td> */}
+              <td>12:30 PM - 8:00 PM</td>
             </tr>
             <tr style={new Date().getDay() === 4 ? { fontWeight: 600 } : {}}>
               <td>Thursday</td>
-              {/* <td>12:00 PM - 8:00 PM</td> */}
+              <td>Closed</td>
             </tr>
             <tr style={new Date().getDay() === 5 ? { fontWeight: 600 } : {}}>
               <td>Friday</td>
-              {/* <td>10:00 AM - 8:00 PM</td> */}
+              <td>10:30 AM - 6:00 PM</td>
             </tr>
             <tr style={new Date().getDay() === 6 ? { fontWeight: 600 } : {}}>
               <td>Saturday</td>
-              {/* <td>9:00 AM - 5:00 PM</td> */}
+              <td>10:30 AM - 6:00 PM</td>
             </tr>
           </tbody>
         </table>
