@@ -30,7 +30,9 @@ const Products = () => (
             We use Kevin Murphy color and hair products at Bruja because they
             offer exceptional care for your hair, and are environmentally
             conscious. They are committed to products that are sulphate and
-            paraben free and use no animal testing.
+            paraben free and use no animal testing. They use ocean waste plastic
+            for packaging and are conscious of leaving a small environmental
+            footprint.
           </p>
           <p>
             We have their product ready to buy at our salon, but if you would
@@ -55,6 +57,17 @@ const Products = () => (
             damaging it, and they offer No Poo conditioner, an alternative to
             shampoo that avoids removing important natural oils. They are 100%
             free of animal testing.
+          </p>
+        </div>
+        <div className="box_p">
+          <h2>Skin Authority</h2>
+          <p>
+            Their products incorporate the latest in skin care science to offer
+            the healthiest solutions for your unique skin care needs. Skin
+            Authority products have no parabens, no added dyes, no added
+            perfumes and no mirco beads for clean skin care. Their products are
+            made sustainably with no animal testing and created using renewable
+            energy.
           </p>
         </div>
       </div>
