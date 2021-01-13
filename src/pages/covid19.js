@@ -156,28 +156,12 @@ const CovidPage = () => (
               <li>
                 Rest Assured, we hope to get back to a new normal and offering
                 many of the added value services and extras you have come to
-                enjoy
+                enjoy.
               </li>
               <li>
                 These protocols will continue to be refined and adjusted as
                 needed and will keep you informed very step of the way.
               </li>
-              <li>
-                Confirming your appointment- if you do not confirm 24hrs prior
-                to your appointment you will lose your appointment and be
-                charged $25 or 25% of your total service cost. Please understand
-                we have many clients waiting to get in to see us.
-              </li>
-              <li>
-                Waiver Must be completed & submitted before Appointment. You may
-                sign these papers at the door, or you can download and print
-                copies to sign before coming:
-              </li>
-              <p className="button_p">
-                <a className="button" href="covid-liability-form.pdf">
-                  COVID-19 Liability Form
-                </a>
-              </p>
             </ul>
           </p>
           <p>
