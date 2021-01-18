@@ -23,11 +23,11 @@ const insideStyles = {
 const IndexPage = () => (
   <Layout>
     <SEO />
-    <Parallax bgImage={image1} blur={0.5} strength={400}>
+    <Parallax bgImage={image1} blur={0.5} strength={300}>
       <div
         style={{
           width: `100vw`,
-          height: `50vh`,
+          height: `60vh`,
           minHeight: `400px`,
           maxHeight: `600px`,
         }}
