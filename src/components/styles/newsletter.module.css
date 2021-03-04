@@ -1,5 +1,6 @@
 .newsletter {
   background-color: aquamarine;
+  margin: 0.5rem;
 }
 .newsletter p {
   text-align: center;
@@ -58,13 +59,9 @@ input:focus {
   outline: 2px solid var(--text-color);
   outline-offset: -2px;
 }
-@media (min-width: 721px) {
-  .newsletter {
-    margin: 0.5rem;
-  }
-}
+
 @media (max-width: 720px) {
   .newsletter {
-    margin: 0 0.5rem 0 0.5rem;
+    margin: 0 0.5rem 0.5rem 0.5rem;
   }
 }
