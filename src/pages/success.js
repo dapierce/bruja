@@ -1,11 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Parallax } from "react-parallax"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Hero from "../components/hero"
 
-import image1 from "../images/water.jpg"
+const heroImgStyle = {
+  minHeight: `400px`,
+}
+
+const heroContainerStyle = {
+  height: `25vh`,
+  minHeight: `100px`,
+  maxHeight: `300px`,
+}
 
 const Success = () => (
   <Layout>
@@ -13,16 +22,17 @@ const Success = () => (
     <div className="frame_one_column">
       <h1>Thank you!</h1>
     </div>
-    <Parallax bgImage={image1} blur={0.5} strength={400}>
-      <div
-        style={{
-          width: `100vw`,
-          height: `25vh`,
-          minHeight: `100px`,
-          maxHeight: `300px`,
-        }}
-      ></div>
-    </Parallax>
+    <Hero containerStyle={heroContainerStyle}>
+      <StaticImage
+        className="hero__img"
+        src="../images/water.jpg"
+        alt="Water"
+        layout="fullWidth"
+        placeholder="none"
+        backgroundColor="rgb(248, 222, 255)"
+        style={heroImgStyle}
+      />
+    </Hero>
     <div className="frame_one_column">
       <div className="centered_p">
         <p>
