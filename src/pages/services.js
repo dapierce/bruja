@@ -1,10 +1,19 @@
 import React from "react"
-import { Parallax } from "react-parallax"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Hero from "../components/hero"
 
-import image1 from "../images/tools.jpg"
+const heroImgStyle = {
+  minHeight: `400px`,
+}
+
+const heroContainerStyle = {
+  height: `25vh`,
+  minHeight: `100px`,
+  maxHeight: `300px`,
+}
 
 const Services = () => (
   <Layout>
@@ -12,16 +21,17 @@ const Services = () => (
     <div className="frame_one_column">
       <h1>Services</h1>
     </div>
-    <Parallax bgImage={image1} blur={0.5} strength={400}>
-      <div
-        style={{
-          width: `100vw`,
-          height: `25vh`,
-          minHeight: `100px`,
-          maxHeight: `300px`,
-        }}
-      ></div>
-    </Parallax>
+    <Hero containerStyle={heroContainerStyle}>
+      <StaticImage
+        className="hero__img"
+        src="../images/tools.jpg"
+        alt="Hair styling tools"
+        layout="fullWidth"
+        placeholder="none"
+        backgroundColor="rgb(248, 222, 255)"
+        style={heroImgStyle}
+      />
+    </Hero>
     <div className="frame_one_column">
       <table style={{ margin: `2rem auto` }}>
         <tr>

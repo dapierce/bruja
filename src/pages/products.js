@@ -1,10 +1,19 @@
 import React from "react"
-import { Parallax } from "react-parallax"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Hero from "../components/hero"
 
-import image1 from "../images/water.jpg"
+const heroImgStyle = {
+  minHeight: `400px`,
+}
+
+const heroContainerStyle = {
+  height: `25vh`,
+  minHeight: `100px`,
+  maxHeight: `300px`,
+}
 
 const Products = () => (
   <Layout>
@@ -12,16 +21,17 @@ const Products = () => (
     <div className="frame_one_column">
       <h1>Products</h1>
     </div>
-    <Parallax bgImage={image1} blur={0.5} strength={400}>
-      <div
-        style={{
-          width: `100vw`,
-          height: `25vh`,
-          minHeight: `100px`,
-          maxHeight: `300px`,
-        }}
-      ></div>
-    </Parallax>
+    <Hero containerStyle={heroContainerStyle}>
+      <StaticImage
+        className="hero__img"
+        src="../images/water.jpg"
+        alt="Water"
+        layout="fullWidth"
+        placeholder="none"
+        backgroundColor="rgb(248, 222, 255)"
+        style={heroImgStyle}
+      />
+    </Hero>
     <div className="frame_two_columns">
       <div className="box_p">
         <h2>Kevin Murphy</h2>
@@ -34,9 +44,9 @@ const Products = () => (
           footprint.
         </p>
         <p>
-          We have their product ready to buy at our salon, but if you would
-          like Kevin Murphy delivered straight to your door, you can order
-          product here:
+          We have their product ready to buy at our salon, but if you would like
+          Kevin Murphy delivered straight to your door, you can order product
+          here:
         </p>
         <p className="button_p">
           <a
@@ -52,10 +62,10 @@ const Products = () => (
         <p>
           Specializing in curly hair of all types, Deva Curl has a product for
           your curl type! These products are free of sulfates, parabens, and
-          silicones to ensure they hydrate and nurish your hair without
-          damaging it, and they offer No Poo conditioner, an alternative to
-          shampoo that avoids removing important natural oils. They are 100%
-          free of animal testing.
+          silicones to ensure they hydrate and nurish your hair without damaging
+          it, and they offer No Poo conditioner, an alternative to shampoo that
+          avoids removing important natural oils. They are 100% free of animal
+          testing.
         </p>
       </div>
       <div className="box_p">
@@ -63,10 +73,9 @@ const Products = () => (
         <p>
           Their products incorporate the latest in skin care science to offer
           the healthiest solutions for your unique skin care needs. Skin
-          Authority products have no parabens, no added dyes, no added
-          perfumes and no mirco beads for clean skin care. Their products are
-          made sustainably with no animal testing and created using renewable
-          energy.
+          Authority products have no parabens, no added dyes, no added perfumes
+          and no mirco beads for clean skin care. Their products are made
+          sustainably with no animal testing and created using renewable energy.
         </p>
       </div>
     </div>

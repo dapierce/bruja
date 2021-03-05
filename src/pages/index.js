@@ -1,53 +1,46 @@
 import React from "react"
 import Link from "../components/link"
 import { StaticImage } from "gatsby-plugin-image"
-import { ParallaxProvider, ParallaxBanner } from "react-scroll-parallax"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Hero from "../components/hero"
 import Gallery from "../components/gallery"
 import Newsletter from "../components/newsletter"
 // import Map from "../components/map"
 
-// TODO: split off Hero into component
 const heroContainerStyle = {
   height: `50vh`,
   minHeight: `400px`,
 }
+
 // TODO: make media queries for StaticImage min height
 const heroImgStyle = {
   minHeight: `900px`,
 }
 
 const heroInsideStyle = {
-  position: "relative",
-  top: "-25vh",
+  position: "absolute",
+  right: "0",
+  left: "0",
+  top: "calc( 140px + 20vh)",
   textAlign: "center",
 }
 
 const IndexPage = () => (
   <Layout>
     <SEO />
-    <ParallaxProvider>
-      <ParallaxBanner
-        layers={[
-          {
-            children: (
-              <StaticImage
-                src="../images/salon-exterior.jpg"
-                alt="Front door of Bruja Salon"
-                layout="fullWidth"
-                placeholder="none"
-                backgroundColor="rgb(248, 222, 255)"
-                style={heroImgStyle}
-              />
-            ),
-            amount: 0.4,
-          },
-        ]}
-        style={heroContainerStyle}
-      ></ParallaxBanner>
-    </ParallaxProvider>
+    <Hero containerStyle={heroContainerStyle}>
+      <StaticImage
+        className="hero__img"
+        src="../images/salon-exterior.jpg"
+        alt="Front door of Bruja Salon"
+        layout="fullWidth"
+        placeholder="none"
+        backgroundColor="#fae8ff"
+        style={heroImgStyle}
+      />
+    </Hero>
     <div style={heroInsideStyle}>
       <Link
         className="button"
