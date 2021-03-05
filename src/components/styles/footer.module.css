@@ -1,5 +1,5 @@
 footer {
-  background: rgb(248, 222, 255);
+  background: var(--color-primary);
   padding-top: 2rem;
   text-align: center;
 }

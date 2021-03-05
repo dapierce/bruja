@@ -9,7 +9,7 @@
   margin-bottom: 1rem;
 }
 .bm-item a:hover {
-  background: rgb(248, 222, 255);
+  background: var(--color-primary);
 }
 .bm-burger-button {
   position: fixed;
@@ -19,7 +19,7 @@
   top: 28px;
 }
 .bm-burger-bars {
-  background: var(--text-color);
+  background: var(--color-text);
   box-shadow: 0px 0 8px white;
   border: 1px solid rgba(255, 255, 255, 0.8);
 }

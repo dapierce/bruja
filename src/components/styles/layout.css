@@ -1,8 +1,9 @@
 :root {
-  --text-color: #3a3031;
+  --color-text: #3a3031;
+  --color-primary: rgb(248, 222, 255);
   --font-header: Josefin Sans, sans-serif;
   --font-body: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
-  sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 
 /* CSS Reset
@@ -67,15 +68,15 @@ table {
   margin: 0 auto;
   padding: 1rem 1.5rem 1rem;
 }
-main p{
+main p {
   margin-bottom: 1rem;
 }
 .button_p {
   text-align: center;
 }
 .box_block {
-  color: var(--text-color);
-  background: rgb(248, 222, 255);
+  color: var(--color-text);
+  background: var(--color-primary);
   outline: 0.4rem solid rgba(248, 222, 255, 0.5);
   margin: 2rem -5rem 1rem;
   padding: 1rem 1rem 0 1rem;
@@ -134,7 +135,7 @@ main p{
 .button {
   text-align: center;
   backdrop-filter: blur(8px);
-  border: 2px solid rgb(248, 222, 255);
+  border: 2px solid var(--color-primary);
   background: rgba(248, 222, 255, 0.7);
   padding: 18px 32px 16px 32px;
   text-decoration: none;
@@ -191,14 +192,14 @@ main p{
   text-decoration: none;
 }
 .booking_stylist:hover {
-  background: rgb(248, 222, 255);
+  background: var(--color-primary);
 }
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
-  color: var(--text-color);
+  color: var(--color-text);
   font-family: var(--font-body);
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -251,7 +252,7 @@ a {
 }
 a,
 a:visited {
-  color: var(--text-color);
+  color: var(--color-text);
 }
 p,
 blockquote,
@@ -270,7 +271,7 @@ th {
   text-align: left;
 }
 th {
-  background: rgb(248, 222, 255);
+  background: var(--color-primary);
   font-weight: 600;
 }
 .nobreak {

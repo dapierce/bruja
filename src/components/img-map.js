@@ -28,7 +28,11 @@ const Image = () => {
 
   return (
     <Img
-      style={{ outline: "2px solid var(--text-color)", maxWidth: "600px", maxHeight: "600px" }}
+      style={{
+        outline: "2px solid var(--color-text)",
+        maxWidth: "600px",
+        maxHeight: "600px",
+      }}
       fluid={data.placeholderImage.childImageSharp.fluid}
       alt="Directions to Bruja Salon on Google Maps"
     />
