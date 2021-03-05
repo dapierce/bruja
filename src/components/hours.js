@@ -1,13 +1,13 @@
 import React from "react"
 
-import styles from "./styles/footer.module.css"
+import * as footerStyles from "./styles/footer.module.css"
 
 const Hours = () => {
   const today = new Date().getDay()
 
   return (
-    <div className={styles.hours}>
-      <span className={styles.title}>Hours</span>
+    <div className={footerStyles.hours}>
+      <span className={footerStyles.title}>Hours</span>
       <table>
         <tbody>
           <tr style={today === 1 ? { fontWeight: 600 } : {}}>

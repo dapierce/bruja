@@ -1,5 +1,8 @@
 :root {
   --text-color: #3a3031;
+  --font-header: Josefin Sans, sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+  sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 
 /* CSS Reset
@@ -62,7 +65,10 @@ table {
 .box_p,
 .button_p {
   margin: 0 auto;
-  padding: 2rem 0 1rem;
+  padding: 1rem 1.5rem 1rem;
+}
+main p{
+  margin-bottom: 1rem;
 }
 .button_p {
   text-align: center;
@@ -75,9 +81,8 @@ table {
   padding: 1rem 1rem 0 1rem;
 }
 .box_block p,
-.box_block a {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
-    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+.box_block a,
+.box_block ul {
   font-size: 0.9rem;
   line-height: 1.4rem;
   padding-bottom: 1rem;
@@ -103,9 +108,10 @@ table {
   padding: 0 2rem;
 }
 .frame_two_columns {
-  width: 100%;
+  padding: 0 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
 }
 .frame_booking {
   width: 100%;
@@ -193,6 +199,7 @@ html {
 }
 body {
   color: var(--text-color);
+  font-family: var(--font-body);
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -202,8 +209,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: Josefin Sans, sans-serif;
+h6,
+a {
+  font-family: var(--font-header);
 }
 h1 {
   font-size: 3.5rem;
@@ -238,7 +246,6 @@ h6 {
   line-height: 1.2rem;
 }
 a {
-  font-family: Josefin Sans, sans-serif;
   font-weight: 300;
   font-size: 1rem;
 }
@@ -249,7 +256,6 @@ a:visited {
 p,
 blockquote,
 table {
-  font-family: Josefin Sans, sans-serif;
   font-weight: 400;
   font-size: 1.1rem;
   line-height: 1.6rem;
@@ -281,21 +287,17 @@ hr {
     padding: 1rem 2rem;
     grid-template-columns: 1fr 1fr;
   }
-}
-@media (max-width: 720px) {
   .frame_two_columns {
     grid-template-columns: 1fr;
+    padding: 2rem;
   }
-  .gallery {
-    padding-bottom: 0.5rem;
+  .box_p {
+    padding: 1rem 1.5rem 1rem;
   }
 }
 @media (max-width: 640px) {
   .box_block {
     margin: 2rem -2.4rem 1rem;
-  }
-  .box_p {
-    padding: 1rem 1.5rem 1rem;
   }
   .button_p {
     padding: 2rem 0 1rem;

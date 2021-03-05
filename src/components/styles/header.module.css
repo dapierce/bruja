@@ -42,7 +42,6 @@ header {
     height: 60px;
   }
 }
-/* TODO: at <=640 width, change nav to left side pull out menu and center logo */
 @media (max-width: 640px) {
   header {
     grid-template-columns: 1fr 1fr 1fr;

@@ -4,7 +4,6 @@ import { slide as Menu } from "react-burger-menu"
 import Link from "./link"
 import Hours from "./hours"
 
-import styles from "./styles/footer.module.css"
 import "./styles/slide-menu.css"
 
 const SlideMenu = ({ menuLinks }) => (

@@ -2,7 +2,7 @@ import React from "react"
 
 import Link from "./link"
 
-import styles from "./styles/nav.module.css"
+import * as navStyles from "./styles/nav.module.css"
 
 const Nav = ({ menuLinks }) => (
   <nav
@@ -13,7 +13,7 @@ const Nav = ({ menuLinks }) => (
       justifyItems: `center`,
     }}
   >
-    <ul className={styles.header__menu__links}>
+    <ul className={navStyles.header__menu__links}>
       {menuLinks.map(link => {
         if (link.name !== "Home" && link.name !== "Book Now") {
           return (
@@ -21,10 +21,13 @@ const Nav = ({ menuLinks }) => (
               <Link to={link.link}>{link.name}</Link>
             </li>
           )
+        } else {
+            return ("")
+          }
         }
-      })}
+      )}
     </ul>
-    <ul className={styles.header__menu__book}>
+    <ul className={navStyles.header__menu__book}>
       <li>
         <Link
           className="button"

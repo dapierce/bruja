@@ -1,9 +1,9 @@
 import React from "react"
 
-import styles from "./styles/newsletter.module.css"
+import * as newsletterStyles from "./styles/newsletter.module.css"
 
 const Newsletter = ({ children }) => (
-  <div className={styles.newsletter}>
+  <div className={newsletterStyles.newsletter}>
     <p>Subscribe for updates and loyalty rewards with Bruja!</p>
     <form
       name="newsletter"
@@ -16,9 +16,9 @@ const Newsletter = ({ children }) => (
       <input type="hidden" name="bot-field" />
       <label htmlFor="email">Email address</label>
       <br />
-      <div className={styles.newsletter__input}>
+      <div className={newsletterStyles.newsletter__input}>
         <input
-          className={styles.email}
+          className={newsletterStyles.email}
           type="email"
           id="email"
           name="email"
@@ -32,7 +32,7 @@ const Newsletter = ({ children }) => (
         />
         <input
           type="submit"
-          className={styles.button}
+          className={newsletterStyles.button}
           aria-label="Sign Up"
           value="Sign Up"
         />
