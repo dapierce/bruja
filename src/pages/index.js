@@ -19,7 +19,7 @@ const insideStyles = {
 const IndexPage = () => (
   <Layout>
     <SEO />
-    <StaticImage src="../images/salon-exterior.jpg" alt="Front door of Bruja Salon" layout="full-width" placeholder="none" backgroundColor="rgb(248, 222, 255)"
+    <StaticImage src="../images/salon-exterior.jpg" alt="Front door of Bruja Salon" layout="fullWidth" placeholder="none" backgroundColor="rgb(248, 222, 255)"
       style={{
         height: `50vh`,
         minHeight: `400px`,

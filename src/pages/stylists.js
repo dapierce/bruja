@@ -4,8 +4,6 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import tishaPic from "../images/tisha-profile.jpg"
-
 const Stylists = () => (
   <Layout>
     <SEO title="Stylists" />

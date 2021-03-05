@@ -22,9 +22,7 @@ const Footer = ({ menuLinks }) => (
           <p>
             <span className={footerStyles.title}>Contact Tisha</span>
             <br />
-            <span itemProp="telephone">
-              <a href="tel:+12063958231">206-395-8231</a>
-            </span>
+            <a href="tel:+12063958231">206-395-8231</a>
             <br />
             <a href="mailto:tisha@brujasalon.com">tisha@brujasalon.com</a>
           </p>
