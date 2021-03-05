@@ -321,4 +321,8 @@ hr {
     margin-bottom: 1rem;
     line-height: 2.5rem;
   }
+  p,
+  table {
+    font-size: 0.9rem;
+  }
 }

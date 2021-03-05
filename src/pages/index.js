@@ -12,11 +12,12 @@ import Newsletter from "../components/newsletter"
 const heroContainerStyle = {
   height: `50vh`,
   minHeight: `400px`,
+  maxHeight: `800px`,
 }
 
 // TODO: make media queries for StaticImage min height
 const heroImgStyle = {
-  minHeight: `900px`,
+  minHeight: `800px`,
 }
 
 const heroInsideStyle = {
