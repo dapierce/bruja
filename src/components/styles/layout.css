@@ -2,7 +2,7 @@
   --text-color: #3a3031;
   --font-header: Josefin Sans, sans-serif;
   --font-body: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
-  sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 
 /* CSS Reset
@@ -67,7 +67,7 @@ table {
   margin: 0 auto;
   padding: 1rem 1.5rem 1rem;
 }
-main p{
+main p {
   margin-bottom: 1rem;
 }
 .button_p {
@@ -177,7 +177,6 @@ main p{
   border-radius: 50%;
   width: 100%;
   max-width: 250px;
-  padding: 0 0.5rem;
 }
 .stylist p {
   text-align: left;
@@ -319,5 +318,11 @@ hr {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     line-height: 2.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  table {
+    font-size: 0.9rem;
   }
 }

@@ -8,7 +8,10 @@ const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Page not found" />
     <h1>Page not found</h1>
-    <p>There is nothing here, click <Link to="/">here to go back Home</Link>.</p>
+    <p>
+      There is nothing here, please click{" "}
+      <Link to="/">here to go back Home</Link>.
+    </p>
   </Layout>
 )
 
