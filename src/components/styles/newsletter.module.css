@@ -65,3 +65,17 @@ input:focus {
     margin-bottom: 0;
   }
 }
+
+@media (max-width: 400px) {
+  .newsletter form {
+    min-width: 200px;
+  }
+  .newsletter__input {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr;
+  }
+  .email {
+    border-right: 1px solid lightgray;
+    border-bottom: 0;
+  }
+}

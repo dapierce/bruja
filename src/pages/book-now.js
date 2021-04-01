@@ -1,13 +1,13 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 import tishaPic from "../images/tisha-profile.jpg"
 
 const BookNow = () => (
   <Layout>
-    <SEO title="Book Now" />
+    <Seo title="Book Now" />
     <div className="frame_one_column">
       <h1>Book an appointment</h1>
     </div>

@@ -3,7 +3,7 @@ import Link from "../components/link"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Gallery from "../components/gallery"
 import Newsletter from "../components/newsletter"
 
@@ -15,7 +15,7 @@ const insideStyles = {
 
 const IndexPage = () => (
   <Layout>
-    <SEO />
+    <Seo />
     <StaticImage
       src="../images/salon-exterior.jpg"
       alt="Front door of Bruja Salon"

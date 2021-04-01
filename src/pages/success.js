@@ -3,11 +3,11 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const Success = () => (
   <Layout>
-    <SEO title="Thank you" />
+    <Seo title="Thank you" />
     <div className="frame_one_column">
       <h1>Thank you!</h1>
     </div>

@@ -2,11 +2,11 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const Services = () => (
   <Layout>
-    <SEO title="Services" />
+    <Seo title="Services" />
     <div className="frame_one_column">
       <h1>Services</h1>
     </div>
