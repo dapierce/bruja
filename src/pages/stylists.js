@@ -2,11 +2,11 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const Stylists = () => (
   <Layout>
-    <SEO title="Stylists" />
+    <Seo title="Stylists" />
     <div className="frame_one_column">
       <h1>Stylists</h1>
     </div>
@@ -14,12 +14,16 @@ const Stylists = () => (
       <div className="stylist">
         <h2>Tisha</h2>
         <h3>Owner, Stylist</h3>
-        <StaticImage className="stylist__pic" src="../images/tisha-profile.jpg" alt="Tisha"/>
+        <StaticImage
+          className="stylist__pic"
+          src="../images/tisha-profile.jpg"
+          alt="Tisha"
+        />
         <p className="box_p">
           Tisha has been a hairstylist in Seattle for almost a decade, with
-          interests in hair, art, music, nature, fashion and tech. Tisha's
-          keen eye and attention to detail along with her extensive background
-          in color theory and continuing education means she brings with every
+          interests in hair, art, music, nature, fashion and tech. Tisha's keen
+          eye and attention to detail along with her extensive background in
+          color theory and continuing education means she brings with every
           service her passion for conjuring the best you.
           <br />
           <br />
@@ -28,8 +32,7 @@ const Stylists = () => (
         <p className="box_p" style={{ textAlign: `center` }}>
           Phone: <a href="tel:+12063958231">206-395-8231</a>
           <br />
-          Email:{" "}
-          <a href="mailto:tisha@brujasalon.com">tisha@brujasalon.com</a>
+          Email: <a href="mailto:tisha@brujasalon.com">tisha@brujasalon.com</a>
         </p>
         <div className="button_p">
           <a className="button" href="https://www.instagram.com/bruja_hair/">
