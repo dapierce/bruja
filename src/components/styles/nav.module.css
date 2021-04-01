@@ -32,9 +32,9 @@
 
 @media (max-width: 380px) {
   .header__menu__book a {
-    padding: 18px 2px 16px;
+    padding: 18px 4px 16px;
   }
-  .header__menu__book ul {
-    padding: 0 0 0 1rem;
+  .header__menu__book {
+    padding: 0 0.5rem 0;
   }
 }
