@@ -20,12 +20,21 @@
 .header__menu__book a:hover {
   text-decoration: none;
 }
-/* TODO: at <=640 width, change nav to left side pull out menu and center logo */
+
 @media (max-width: 640px) {
   .header__menu__links {
     display: none;
   }
   .header__menu__book a {
-    padding: 18px 12px 16px 12px;
+    padding: 18px 12px 16px;
+  }
+}
+
+@media (max-width: 380px) {
+  .header__menu__book a {
+    padding: 18px 2px 16px;
+  }
+  .header__menu__book ul {
+    padding: 0 0 0 1rem;
   }
 }
