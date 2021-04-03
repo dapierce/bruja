@@ -18,6 +18,7 @@ function Seo({ description, lang, meta, title }) {
           siteMetadata {
             title
             description
+            siteUrl
           }
         }
       }
@@ -52,7 +53,25 @@ function Seo({ description, lang, meta, title }) {
           content: `website`,
         },
       ].concat(meta)}
-    />
+    >
+      <script type="application/ld+json">
+        {`
+        {
+          "@context": "https://schema.org",
+          "@type": "HairSalon",
+          "url": "${site.siteMetadata.siteUrl}",
+          "name": "${site.siteMetadata.title}",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Seattle",
+            "addressRegion": "WA",
+            "postalCode": "98103",
+            "streetAddress": "6512 Phinney Ave N"
+          },
+        }
+      `}
+      </script>
+    </Helmet>
   )
 }
 

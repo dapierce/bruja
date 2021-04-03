@@ -11,15 +11,21 @@ const Stylists = () => (
       <h1>Stylists</h1>
     </div>
     <div className="frame_two_columns">
-      <div className="stylist">
-        <h2>Tisha</h2>
-        <h3>Owner, Stylist</h3>
+      <div
+        className="stylist"
+        vocab="http://schema.org/"
+        resource="#tisha"
+        typeof="Person"
+      >
+        <h2 property="name">Tisha</h2>
+        <h3 property="jobTitle">Owner, Stylist</h3>
         <StaticImage
           className="stylist__pic"
           src="../images/tisha-profile.jpg"
           alt="Tisha"
+          property="image"
         />
-        <p className="box_p">
+        <p className="box_p" property="description">
           Tisha has been a hairstylist in Seattle for almost a decade, with
           interests in hair, art, music, nature, fashion and tech. Tisha's keen
           eye and attention to detail along with her extensive background in
@@ -30,12 +36,22 @@ const Stylists = () => (
           It's not just a glamor it's a transformation!
         </p>
         <p className="box_p" style={{ textAlign: `center` }}>
-          Phone: <a href="tel:+12063958231">206-395-8231</a>
+          Phone:{" "}
+          <a href="tel:+12063958231" property="telephone">
+            206-395-8231
+          </a>
           <br />
-          Email: <a href="mailto:tisha@brujasalon.com">tisha@brujasalon.com</a>
+          Email:{" "}
+          <a href="mailto:tisha@brujasalon.com" property="email">
+            tisha@brujasalon.com
+          </a>
         </p>
         <div className="button_p">
-          <a className="button" href="https://www.instagram.com/bruja_hair/">
+          <a
+            className="button"
+            property="url"
+            href="https://www.instagram.com/bruja_hair/"
+          >
             Instagram
           </a>
         </div>
