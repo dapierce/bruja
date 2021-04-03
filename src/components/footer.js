@@ -33,7 +33,7 @@ const Footer = ({ menuLinks }) => (
     <div className="frame_one_column">
       <div className={footerStyles.sitemap}>
         <ul>
-          {menuLinks.map(link => (
+          {menuLinks.map((link) => (
             <li key={link.name}>
               <Link to={link.link}>{link.name}</Link>
             </li>
