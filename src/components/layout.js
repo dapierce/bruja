@@ -3,7 +3,9 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Helmet from "react-helmet"
 
-import "typeface-josefin-sans"
+import "@fontsource/josefin-sans/300.css"
+import "@fontsource/josefin-sans/400.css"
+import "@fontsource/josefin-sans/600.css"
 
 import Header from "./header"
 import Footer from "./footer"
@@ -24,7 +26,7 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <>
         <Helmet>
           <meta name="apple-mobile-web-app-capable" content="yes" />

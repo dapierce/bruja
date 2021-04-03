@@ -4,6 +4,7 @@
   "version": "2.0.0",
   "author": "David Pierce <davidaaronpierce@gmail.com>",
   "dependencies": {
+    "@fontsource/josefin-sans": "^4.2.2",
     "gatsby": "^3.2.1",
     "gatsby-plugin-image": "^1.2.0",
     "gatsby-plugin-manifest": "^3.2.0",
@@ -20,8 +21,7 @@
     "react": "^17.0.1",
     "react-burger-menu": "^3.0.6",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "typeface-josefin-sans": "1.1.13"
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "prettier": "^2.2.1"
