@@ -63,8 +63,8 @@ function Seo({ description, lang, meta, title }) {
           "@type": "HairSalon",
           "url": "${site.siteMetadata.siteUrl}",
           "name": "${site.siteMetadata.title}",
-          "image": "${site.siteMetadata.siteUrl}salon-exterior.jpg",
-          "logo": "${site.siteMetadata.siteUrl}icon-whitebg.svg",
+          "image": "${site.siteMetadata.siteUrl}/salon-exterior.jpg",
+          "logo": "${site.siteMetadata.siteUrl}/icon-whitebg.svg",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Seattle",
