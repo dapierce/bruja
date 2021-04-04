@@ -67,7 +67,7 @@ function Seo({ description, lang, meta, title }) {
             "addressRegion": "WA",
             "postalCode": "98103",
             "streetAddress": "6512 Phinney Ave N"
-          },
+          }
         }
       `}
       </script>
