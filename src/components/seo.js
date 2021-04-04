@@ -19,6 +19,8 @@ function Seo({ description, lang, meta, title }) {
             title
             description
             siteUrl
+            instagram
+            facebook
           }
         }
       }
@@ -61,14 +63,19 @@ function Seo({ description, lang, meta, title }) {
           "@type": "HairSalon",
           "url": "${site.siteMetadata.siteUrl}",
           "name": "${site.siteMetadata.title}",
-          "image": "${site.siteMetadata.siteUrl}/logo-black.svg",
+          "image": "${site.siteMetadata.siteUrl}salon-exterior.jpg",
+          "logo": "${site.siteMetadata.siteUrl}icon-whitebg.svg",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Seattle",
             "addressRegion": "WA",
             "postalCode": "98103",
             "streetAddress": "6512 Phinney Ave N"
-          }
+          },
+          "sameAs" : [
+            "https://www.instagram.com/${site.siteMetadata.instagram}/",
+            "https://www.facebook.com/${site.siteMetadata.facebook}/"
+          ]
         }
       `}
       </script>
