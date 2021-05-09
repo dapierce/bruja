@@ -175,8 +175,8 @@ main p {
 .stylist__pic {
   box-sizing: border-box;
   border-radius: 50%;
-  width: 100%;
-  max-width: 250px;
+  width: 220px;
+  height: 220px;
 }
 .stylist p {
   text-align: left;
