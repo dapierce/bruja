@@ -20,7 +20,15 @@ const Hours = () => {
             href="https://schema.org/Monday"
           >
             <td>Monday</td>
-            <td>Closed</td>
+            <td>
+              <time property="opens" content="12:00:00">
+                12:00 PM
+              </time>{" "}
+              -{" "}
+              <time property="closes" content="19:00:00">
+                7:00 PM
+              </time>
+            </td>
           </tr>
           <tr
             style={today === 2 ? { fontWeight: 600 } : {}}
@@ -60,7 +68,15 @@ const Hours = () => {
             href="https://schema.org/Thursday"
           >
             <td>Thursday</td>
-            <td>Closed</td>
+            <td>
+              <time property="opens" content="12:00:00">
+                12:00 PM
+              </time>{" "}
+              -{" "}
+              <time property="closes" content="19:00:00">
+                7:00 PM
+              </time>
+            </td>
           </tr>
           <tr
             style={today === 5 ? { fontWeight: 600 } : {}}
