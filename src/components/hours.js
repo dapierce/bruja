@@ -37,12 +37,12 @@ const Hours = () => {
           >
             <td>Tuesday</td>
             <td>
-              <time property="opens" content="11:00:00">
-                11:00 AM
+              <time property="opens" content="12:00:00">
+                12:00 PM
               </time>{" "}
               -{" "}
-              <time property="closes" content="14:00:00">
-                2:00 PM
+              <time property="closes" content="19:00:00">
+                7:00 PM
               </time>
             </td>
           </tr>
