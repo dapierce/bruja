@@ -43,6 +43,11 @@ const Services = () => (
           <tr>
             <td>Deva Cut</td>
             <td>Deva Cut and CURL Transformation</td>
+            <td>$125</td>
+          </tr>
+          <tr>
+            <td>Child Deva Cut</td>
+            <td>14 year olds and under CURL Transformation</td>
             <td>$95</td>
           </tr>
           <tr>
@@ -80,10 +85,22 @@ const Services = () => (
             <td>Special occaison hair</td>
             <td>$70</td>
           </tr>
+          <th>Wedding</th>
+          <th> </th>
+          <th> </th>
           <tr>
-            <td>Wedding (5 hours)</td>
+            <td>Bridal Hair</td>
             <td>
-              Hair and makeup for party of 6 or less
+              Hair for party of 6 or less
+              <br />
+              additional travel fee $100 within 75 miles
+            </td>
+            <td>$600+</td>
+          </tr>
+          <tr>
+            <td>Bridal Makeup</td>
+            <td>
+              Makeup for party of 6 or less
               <br />
               additional travel fee $100 within 75 miles
             </td>
