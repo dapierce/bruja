@@ -34,7 +34,8 @@ footer a:hover {
 .hours {
   margin: 0 auto;
 }
-.hours table {
+.hours table,
+.hours p {
   margin-top: 1rem;
   font-family: Josefin Sans, sans-serif;
   font-size: 1rem;
