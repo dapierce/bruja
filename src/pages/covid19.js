@@ -30,36 +30,18 @@ const CovidPage = () => (
               Please come to your appointment alone (no extra guests or
               children) for the time being.
             </li>
-            <li>
-              Blow-drying and beverage services are suspended to prevent the
-              spread of COVID-19.
-            </li>
           </ul>
         </blockquote>
         <blockquote className="box_block">
           <h4>When You Arrive to the Salon</h4>
           <ul>
             <li>
-              You may be asked by your stylist to have your temperature taken
-              using a no-touch digital thermometer and you will also be asked to
-              sign a liability waiver prior to your service.
-            </li>
-            <li>
               Upon arriving to the salon, we will check you in and ask that you
               wait in your car until your stylist is ready to see you.
             </li>
             <li>
-              Our reception area and beverage bar are currently closed to
-              minimize traffic within the salon.
-            </li>
-            <li>
               We will continue to practice social distancing of 6 feet in the
               salon (except between you and your stylist during your service).
-            </li>
-            <li>
-              Your stylist may ask you to keep your personal items to a minimum
-              and may ask you to disinfect your phone (or any other items
-              sitting out) with a wipe.
             </li>
             <li>
               Hugging and handshaking and anything other than the required
@@ -71,54 +53,27 @@ const CovidPage = () => (
           <h4>During Your Appointment</h4>
           <ul>
             <li>
+              Masks will be mandatory and provided if needed. Do not remove your
+              mask during your visit.
+            </li>
+            <li>
               Only customers receiving a service will be allowed in the salon.
             </li>
             <li>
               No more than 5 people will be allowed in the salon at any one time
             </li>
             <li>
-              We have set up an entry station for sanitation & communication
-              upon arrival.
-            </li>
-            <li>
-              Treating everyone, including staff, as if they could be infected.
-            </li>
-            <li>
               Each area, all tools, stations and equipment will be sanitized
               and/or disinfected between each client.
             </li>
-            <li>
-              Masks will be mandatory and provided if needed. Do not remove your
-              mask during your visit.
-            </li>
-            <li>
-              It is not mandatory to wear gloves as long as you are following
-              hand sanitizing procedures.
-            </li>
-            <li>No sample products or testers will be available.</li>
             <li>
               All stylists have updated certification on Sanitation protocols
               via Barbacide and OSHA.gov
             </li>
             <li>
-              Face/Eye protection will be worn by stylists during shampooing and
-              your face will need to be covered with a towel.
-            </li>
-            <li>
-              Temporarily suspending all complimentary services; NO scalp
-              massage, No beverages, No Blow-drying. To avoid blowing germs
-              around we will not be using a blow-dryer to finish your service.
-              This will help keep your mask in place. (This is only a temporary
-              precaution).
-            </li>
-            <li>
               Please understand if you are getting a color retouch, you may have
               an up-charge for your color because of the need to use more color
               than usual ($25).
-            </li>
-            <li>
-              All stylists and guests will be required to wear a mask while in
-              the salon and to wash/sanitize hands before your appointment.
             </li>
             <li>
               Stylists are following strict sanitation and disinfecting
@@ -131,9 +86,7 @@ const CovidPage = () => (
             <li>
               All retail purchases can be made through your stylist, please
               contact your stylist before coming to the salon. They will have
-              your purchase bagged and ready as you walk out. For the time being
-              we will not be handling cash or checks. If you pay in cash we ask
-              that you put all tender in an envelope.
+              your purchase bagged and ready as you walk out.
             </li>
             <li>
               If you have an underlying health condition we ask that you wait at
