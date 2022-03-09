@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Bruja Hair Salon`,
-    description: `Magic is in the hair! Conjuring the best you in Seattle's Phinney Ridge neighborhood. We offer the full range of hair services from cuts to high fashion color.`,
+    description: `Magic is in the hair in Seattle's Phinney Ridge neighborhood. We are curly and kinky hair specialists and we offer cuts to high fashion color using Kevin Murphy and DevaCurl product.`,
     siteUrl: `https://www.brujasalon.com`,
     facebook: `brujahairsalon`,
     instagram: `bruja_hair`,
@@ -10,10 +10,10 @@ module.exports = {
         name: "Home",
         link: "/",
       },
-      {
-        name: "COVID-19 Info",
-        link: "/covid19",
-      },
+      // {
+      //   name: "COVID-19 Info",
+      //   link: "/covid19",
+      // },
       {
         name: "Stylists",
         link: "/stylists",
@@ -32,7 +32,7 @@ module.exports = {
       },
       {
         name: "Book Now",
-        link: "https://www.vagaro.com/brujahairsalon/book-now",
+        link: "/book-now",
       },
     ],
   },

@@ -28,30 +28,19 @@ const IndexPage = () => (
       }}
     />
     <div style={insideStyles}>
-      <Link
-        className="button"
-        to="https://www.vagaro.com/brujahairsalon/book-now"
-        style={{ fontSize: "1.2rem" }}
-      >
+      <Link className="button" to="/book-now" style={{ fontSize: "1.2rem" }}>
         Book Now
       </Link>
     </div>
     <div className="frame_one_column">
       <div className="centered_p">
         <h1 style={{ textAlign: `center` }}>Magic is in the Hair</h1>
+        <p>Conjuring the best you in Seattle's Phinney Ridge neighborhood!</p>
         <p>
-          Conjuring the best you in Seattle's Phinney Ridge neighborhood. We
-          offer the full range of hair services from cuts to high fashion color.
-          We use and sell Kevin Murphy, Deva Curl and Skin Authority products to
+          <strong>We are curly and kinky hair specialists,</strong> and we offer
+          the full range of hair services from cuts to high fashion color. We
+          use and sell Kevin Murphy, Deva Curl and Skin Authority products to
           fully reveal your beautiful self.
-          <br />
-          <br />
-          Please read this page for your next appointment:
-        </p>
-        <p className="button_p">
-          <Link className="button" to="/covid19">
-            COVID-19 Information
-          </Link>
         </p>
       </div>
     </div>

@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 import tishaPic from "../images/tisha-profile.jpg"
+import jamesPic from "../images/james-profile.jpg"
 
 const BookNow = () => (
   <Layout>
@@ -20,6 +21,17 @@ const BookNow = () => (
           </div>
         </a>
       </div>
+      <div className="booking_stylist">
+        <a href="https://www.vagaro.com/jamesduckett/book-now">
+          <div className="stylist">
+            <h2>James</h2>
+            <img className="stylist__pic" src={jamesPic} alt="Tisha" />
+          </div>
+        </a>
+      </div>
+    </div>
+    <div className="frame_one_column">
+      <p></p>
     </div>
   </Layout>
 )
