@@ -28,7 +28,7 @@ const Services = () => (
           <tr>
             <td>Haircut</td>
             <td>18 and up</td>
-            <td>$55+</td>
+            <td>$73</td>
           </tr>
           <tr>
             <td>Child Haircut</td>
@@ -43,7 +43,7 @@ const Services = () => (
           <tr>
             <td>Deva Cut</td>
             <td>Deva Cut and CURL Transformation</td>
-            <td>$125</td>
+            <td>$135</td>
           </tr>
           <tr>
             <td>Child Deva Cut</td>
@@ -149,6 +149,11 @@ const Services = () => (
           </tr>
         </tbody>
       </table>
+      <div className="centered_p">
+        <p>
+          For any haircut packages purchased at a discount, your first haircut must be used within 4 weeks of purchase. If a haircut is not book within 6 weeks you forfeit the price of one full haircut ($73 for regular cut, $135 for wavy or curly hair. Our stylists work on commission and need to be able to make an hourly wage. If you are not able to start this package in the time frame, your package will be forfeited after 10 weeks. It's up to the stylist discretion to honor package after expiration date.
+        </p>
+      </div>
     </div>
   </Layout>
 )
