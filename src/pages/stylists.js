@@ -38,12 +38,12 @@ const Stylists = () => (
         <p className="box_p" style={{ textAlign: `center` }}>
           Phone:{" "}
           <a href="tel:+12063958231" property="telephone">
-            206-395-8231
+            206-510-2324
           </a>
           <br />
           Email:{" "}
-          <a href="mailto:tisha@brujasalon.com" property="email">
-            tisha@brujasalon.com
+          <a href="mailto:brujahairsalon@gmail.com" property="email">
+            brujahairsalon@gmail.com
           </a>
         </p>
         <div className="button_p">
