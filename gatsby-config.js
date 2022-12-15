@@ -26,10 +26,10 @@ module.exports = {
         name: "Products",
         link: "/products",
       },
-      {
-        name: "Shop",
-        link: "https://app.saloninteractive.com/cel/Brujasalon",
-      },
+      // {
+      //   name: "Shop",
+      //   link: "https://app.saloninteractive.com/cel/Brujasalon",
+      // },
       {
         name: "Book Now",
         link: "/book-now",
