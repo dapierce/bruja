@@ -46,17 +46,6 @@ const Footer = ({ menuLinks }) => (
             </a>
           </p>
         </div>
-        <div className={footerStyles.contact} property="member" typeof="Person">
-          <p>
-            <span className={footerStyles.title}>
-              Contact <span property="name">James</span>
-            </span>
-            <br />
-            <a href="tel:+12067024465" property="telephone">
-              206-702-4465
-            </a>
-          </p>
-        </div>
       </div>
       <Hours />
     </div>
