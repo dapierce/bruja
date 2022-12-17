@@ -9,6 +9,7 @@ const Stylists = () => (
     <Seo title="Stylists" />
     <div className="frame_one_column">
       <h1>Stylist</h1>
+      <div className="centered_p">
       <div
         className="stylist"
         vocab="http://schema.org/"
@@ -54,6 +55,7 @@ const Stylists = () => (
           </a>
         </div>
       </div>
+    </div>
     </div>
   </Layout>
 )
