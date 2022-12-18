@@ -2,7 +2,7 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Gallery = () => (
-  <a href="https://www.instagram.com/bruja_hair/">
+  <a href="https://www.instagram.com/indiepetal/">
     <StaticImage style={{
           marginBottom: "2rem",
         }}

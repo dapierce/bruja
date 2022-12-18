@@ -49,7 +49,7 @@ const Stylists = () => (
           <a
             className="button"
             property="url"
-            href="https://www.instagram.com/bruja_hair/"
+            href="https://www.instagram.com/indiepetal/"
           >
             Instagram
           </a>
