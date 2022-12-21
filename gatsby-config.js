@@ -4,7 +4,7 @@ module.exports = {
     description: `Magic is in the hair in Seattle's Phinney Ridge neighborhood. We are curly and kinky hair specialists and we offer cuts to high fashion color using Kevin Murphy and DevaCurl product.`,
     siteUrl: `https://www.brujasalon.com`,
     facebook: `brujahairsalon`,
-    instagram: `indiepetal`,
+    instagram: `bruja_hair`,
     siteMap: [
       {
         name: "Home",
