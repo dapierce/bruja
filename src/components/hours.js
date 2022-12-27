@@ -15,18 +15,44 @@ const Hours = () => {
       >
         <tbody>
           <tr
+            style={today === 1 ? { fontWeight: 600 } : {}}
+            property="dayOfWeek"
+            href="https://schema.org/Monday"
+          >
+            <td>Monday</td>
+            <td>
+              Closed
+            </td>
+          </tr>
+          <tr
+            style={today === 2 ? { fontWeight: 600 } : {}}
+            property="dayOfWeek"
+            href="https://schema.org/Tuesday"
+          >
+            <td>Tuesday</td>
+            <td>
+              <time property="opens" content="11:00:00">
+                11:00 AM
+              </time>{" "}
+              -{" "}
+              <time property="closes" content="16:00:00">
+                4:00 PM
+              </time>
+            </td>
+          </tr>
+          <tr
             style={today === 3 ? { fontWeight: 600 } : {}}
             property="dayOfWeek"
             href="https://schema.org/Wednesday"
           >
             <td>Wednesday</td>
             <td>
-              <time property="opens" content="12:30:00">
-                12:30 PM
+              <time property="opens" content="12:00:00">
+                12:00 PM
               </time>{" "}
               -{" "}
-              <time property="closes" content="19:00:00">
-                7:00 PM
+              <time property="closes" content="18:00:00">
+                6:00 PM
               </time>
             </td>
           </tr>
@@ -37,12 +63,12 @@ const Hours = () => {
           >
             <td>Thursday</td>
             <td>
-              <time property="opens" content="11:00:00">
-                11:00 AM
+              <time property="opens" content="12:00:00">
+                12:00 PM
               </time>{" "}
               -{" "}
-              <time property="closes" content="16:00:00">
-                4:00 PM
+              <time property="closes" content="20:00:00">
+                8:00 PM
               </time>
             </td>
           </tr>
@@ -57,8 +83,8 @@ const Hours = () => {
                 10:30 AM
               </time>{" "}
               -{" "}
-              <time property="closes" content="19:00:00">
-                7:00 PM
+              <time property="closes" content="20:00:00">
+                8:00 PM
               </time>
             </td>
           </tr>
@@ -73,8 +99,8 @@ const Hours = () => {
                 10:30 AM
               </time>{" "}
               -{" "}
-              <time property="closes" content="17:00:00">
-                5:00 PM
+              <time property="closes" content="18:00:00">
+                6:00 PM
               </time>
             </td>
           </tr>
@@ -85,13 +111,7 @@ const Hours = () => {
           >
             <td>Sunday</td>
             <td>
-              <time property="opens" content="10:30:00">
-                10:30 AM
-              </time>{" "}
-              -{" "}
-              <time property="closes" content="17:00:00">
-                5:00 PM
-              </time>
+              Closed
             </td>
           </tr>
         </tbody>

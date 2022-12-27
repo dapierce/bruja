@@ -32,7 +32,7 @@ module.exports = {
       // },
       {
         name: "Book Now",
-        link: "/book-now",
+        link: "https://www.vagaro.com/brujahairsalon/book-now",
       },
     ],
   },

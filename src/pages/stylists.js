@@ -35,6 +35,11 @@ const Stylists = () => (
           It's not just a glamor it's a transformation!
         </p>
         <p className="box_p" style={{ textAlign: `center` }}>
+        Phone:{" "}
+          <a href="tel:+12063063711" property="telephone">
+            206-306-3711
+          </a>
+          <br />
           Phone:{" "}
           <a href="tel:+12063958231" property="telephone">
             206-510-2324
@@ -43,6 +48,11 @@ const Stylists = () => (
           Email:{" "}
           <a href="mailto:brujahairsalon@gmail.com" property="email">
             brujahairsalon@gmail.com
+          </a>
+          <br />
+          Email:{" "}
+          <a href="mailto:tishaanneturner@gmail.com" property="email">
+            tishaanneturner@gmail.com
           </a>
         </p>
         <div className="button_p">
