@@ -37,8 +37,8 @@ const Footer = ({ menuLinks }) => (
               Contact <span property="name">Tisha</span>
             </span>
             <br />
-            <a href="tel:+12063958231" property="telephone">
-              206-395-8231
+            <a href="tel:+12063063711" property="telephone">
+              206-306-3711
             </a>
             <br />
             <a href="tel:+12065102324" property="telephone">
