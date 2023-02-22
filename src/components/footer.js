@@ -38,19 +38,19 @@ const Footer = ({ menuLinks }) => (
             </span>
             <br />
             <a href="tel:+12063063711" property="telephone">
-              206-306-3711
+              (206) 306-3711
             </a>
             <br />
-            <a href="tel:+12065102324" property="telephone">
-              206-510-2324
+            <a href="tel:+12063958231" property="telephone">
+              (206) 395-8231
             </a>
             <br />
             <a href="mailto:brujahairsalon@gmail.com" property="email">
               brujahairsalon@gmail.com
             </a>
             <br />
-            <a href="mailto:tishaaaneturner@gmail.com" property="email">
-              tishaaaneturner@gmail.com
+            <a href="mailto:tishaaanneturner@gmail.com" property="email">
+              tishaaanneturner@gmail.com
             </a>
           </p>
         </div>
