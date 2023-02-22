@@ -49,8 +49,8 @@ const Footer = ({ menuLinks }) => (
               brujahairsalon@gmail.com
             </a>
             <br />
-            <a href="mailto:tishaaanneturner@gmail.com" property="email">
-              tishaaanneturner@gmail.com
+            <a href="mailto:tishaanneturner@gmail.com" property="email">
+              tishaanneturner@gmail.com
             </a>
           </p>
         </div>
