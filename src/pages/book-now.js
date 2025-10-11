@@ -14,7 +14,7 @@ const BookNow = () => (
     </div>
     <div className="frame_booking">
       <div className="booking_stylist">
-        <a href="https://www.vagaro.com/brujahairsalon/book-now">
+        <a href="https://www.vagaro.com/brujahair">
           <div className="stylist">
             <h2>Tisha</h2>
             <img className="stylist__pic" src={tishaPic} alt="Tisha" />
